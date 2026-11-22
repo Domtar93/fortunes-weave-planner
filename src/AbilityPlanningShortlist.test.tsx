@@ -1,0 +1,233 @@
+import { resolveAbilityInformation } from './abilityInfo'
+import { openPlannerPanel, selectMain, plannerRole , withinPlanner } from './plannerTestUtils'
+import { afterEach, describe, expect, it, vi } from 'vitest'
+import { cleanup, render, screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
+import App from './App'
+import { STATS } from './growths'
+import { createPreset, PRESET_KEY } from './presets'
+
+const progression = () => plannerRole('region', { name: 'Proficiency progression browser' })
+const ranks = () => withinPlanner(progression()).getByRole('list')
+const panel = () => plannerRole('region', { name: 'Ability planning shortlist' })
+const slots = () => withinPlanner(panel()).getByRole('list')
+const filled = () => [...slots().querySelectorAll<HTMLElement>('[data-source-record-id]')]
+const charSelect = () => plannerRole('combobox', { name: 'Character' })
+async function start() {
+  const user = userEvent.setup(); const view = render(<App />)
+  await openPlannerPanel(user, 'Proficiency Progression')
+  return { user, view }
+}
+async function openPanel(user: ReturnType<typeof userEvent.setup>) {
+  await openPlannerPanel(user, 'Ability Planning Shortlist')
+  await screen.findByRole('region', { name: 'Ability planning shortlist' })
+}
+async function category(user: ReturnType<typeof userEvent.setup>, name: string) {
+  const buttons = withinPlanner(progression()).getByRole('group', { name: 'Proficiency categories' })
+  await user.click(withinPlanner(buttons).getByRole('button', { name }))
+}
+
+async function add(user: ReturnType<typeof userEvent.setup>, text: string, proficiency: string, rank: string) {
+  await user.click(withinPlanner(ranks()).getByRole('button', { name: `Add to shortlist: ${text} · ${proficiency} ${rank}` }))
+}
+const ids = () => filled().map(entry => entry.dataset.sourceRecordId)
+afterEach(() => { cleanup(); vi.restoreAllMocks(); localStorage.clear(); sessionStorage.clear() })
+
+describe('Ability Planning Shortlist', () => {
+  it('starts open with eight empty planning slots and no claims about game equip limits', async () => {
+    const { user } = await start()
+    expect(screen.getByText('Ability Planning Shortlist').closest('details')?.open).toBe(true)
+    await openPanel(user)
+    expect(withinPlanner(slots()).getAllByRole('listitem')).toHaveLength(8)
+    expect(filled()).toHaveLength(0)
+    expect(panel().textContent).toContain('0 / 8 planning slots filled')
+    expect(panel().textContent).toContain('in-game equip limits and legality are not evaluated')
+    expect(panel().textContent).toContain('Save a full loadout to keep these choices after refreshing')
+    expect((withinPlanner(panel()).getByRole('button', { name: 'Clear shortlist' }) as HTMLButtonElement).disabled).toBe(true)
+    expect(withinPlanner(panel()).queryByText('Equipped', { exact: true })).toBeNull()
+  })
+  it('adds all five Alexandra Sword records with exact ranks, source links and actual available effects', async () => {
+    const { user } = await start(); await openPanel(user)
+    const expected = [['Haze Slice', 'D', "'Sword'!B2"], ['Rend Armor', 'C', "'Sword'!C2"], ['Gale Blow', 'B', "'Sword'!D2"], ['Lunging Gale', 'A', "'Sword'!E2"], ['Swordfaire', 'S+', "'Sword'!G2"]]
+    for (const [name, rank] of expected) await add(user, name, 'Sword', rank)
+    expect(filled()).toHaveLength(5)
+    expect(panel().textContent).toContain('5 / 8 planning slots filled')
+    expected.forEach(([name, rank, source], index) => {
+      const slot = filled()[index]
+      expect(withinPlanner(slot).getByRole('heading', { name })).toBeDefined()
+      expect(slot.textContent).toContain(`Required rank ${rank}`)
+      expect(slot.textContent).toContain('Community-listed / unverified')
+      expect(slot.querySelector('.shortlist-effect')?.textContent).toBe(resolveAbilityInformation({name, proficiency: 'Sword'}).description)
+      const link = withinPlanner(slot).getByRole('link', { name: source }) as HTMLAnchorElement
+      expect(new URL(link.href).hash).toContain(`range=${source.split('!')[1]}`)
+      expect(link.target).toBe('_blank')
+    })
+    expect(new Set(ids()).size).toBe(5)
+    expect(withinPlanner(panel()).getByRole('group', { name: 'Planned proficiency ranks' }).textContent).toContain('Sword · 5 entries · ranks D, C, B, A, S+')
+    const unknown = withinPlanner(ranks()).getByText('No recorded unlock').closest('li')!
+    expect(unknown.querySelector('.rank-marker')?.textContent).toBe('S')
+    expect(withinPlanner(unknown).queryByRole('button')).toBeNull()
+    expect(withinPlanner(ranks()).queryByRole('button', { name: 'Add to shortlist: Haze Slice · Sword D' })).toBeNull()
+    expect(withinPlanner(ranks()).getByRole('button', { name: 'Remove Haze Slice · Sword D from shortlist' })).toBeDefined()
+  })
+  it('adds Flying C+ and Riding D/C+ with glossary uncertainty, keeping N/A unavailable and ranks unchanged', async () => {
+    const { user } = await start(); await openPanel(user)
+    await category(user, 'Flying')
+    expect([...ranks().querySelectorAll('.rank-marker')].map(node => node.textContent)).toEqual(['D', 'C+', 'B', 'A', 'S', 'S+'])
+    const unavailable = withinPlanner(ranks()).getByText('N/A').closest('li')!
+    expect(unavailable.querySelector('.rank-marker')?.textContent).toBe('B')
+    expect(withinPlanner(unavailable).queryByRole('button')).toBeNull()
+    await add(user, 'Flitting Flier', 'Flying', 'C+')
+    const flier = filled()[0]
+    expect(flier.textContent).toContain('Required rank C+')
+    expect(flier.textContent).toContain('grants AS+2 during combat')
+    expect(flier.textContent).toContain('Unofficial guide; unverified')
+    expect(flier.textContent).toContain('mount-bond ability')
+    await category(user, 'Riding')
+    expect(withinPlanner(ranks()).getAllByText('N/A')).toHaveLength(2)
+    for (const node of withinPlanner(ranks()).getAllByText('N/A')) expect(withinPlanner(node.closest('li')!).queryByRole('button')).toBeNull()
+    await add(user, 'Knightly Senses', 'Riding', 'D'); await add(user, 'Vanguard', 'Riding', 'C+')
+    expect(filled()).toHaveLength(3)
+    expect(filled()[1].textContent).toContain("'Riding'!B2")
+    expect(filled()[2].textContent).toContain("'Riding'!D2")
+    expect(panel().textContent).toContain('Riding · 2 entries · ranks D, C+')
+  })
+  it('blocks the ninth addition with feedback, allows removal and frees the slot for Vanguard', async () => {
+    const { user } = await start(); await openPanel(user)
+    for (const [name, rank] of [['Haze Slice', 'D'], ['Rend Armor', 'C'], ['Gale Blow', 'B'], ['Lunging Gale', 'A'], ['Swordfaire', 'S+']]) await add(user, name, 'Sword', rank)
+    await category(user, 'Flying'); await add(user, 'Read the Winds', 'Flying', 'D'); await add(user, 'Flitting Flier', 'Flying', 'C+')
+    await category(user, 'Riding'); await add(user, 'Knightly Senses', 'Riding', 'D')
+    const eight = ids()
+    await add(user, 'Vanguard', 'Riding', 'C+')
+    expect(withinPlanner(progression()).getByRole('alert').textContent).toContain('All 8 planning slots are filled')
+    expect(ids()).toEqual(eight)
+    await user.click(withinPlanner(filled()[0]).getByRole('button', { name: 'Remove Haze Slice · Sword D from shortlist' }))
+    expect(filled()).toHaveLength(7)
+    await add(user, 'Vanguard', 'Riding', 'C+')
+    expect(filled()).toHaveLength(8)
+    expect(filled()[7].textContent).toContain('Vanguard')
+    expect(withinPlanner(slots()).getAllByRole('listitem')).toHaveLength(8)
+  })
+  it('reorders stable source identities with buttons and confirms or cancels clearing', async () => {
+    const { user } = await start(); await openPanel(user)
+    await add(user, 'Haze Slice', 'Sword', 'D'); await add(user, 'Rend Armor', 'Sword', 'C'); await add(user, 'Gale Blow', 'Sword', 'B')
+    const before = ids()
+    expect((withinPlanner(filled()[0]).getByRole('button', { name: 'Move Haze Slice · Sword D up' }) as HTMLButtonElement).disabled).toBe(true)
+    await user.click(withinPlanner(filled()[2]).getByRole('button', { name: 'Move Gale Blow · Sword B up' }))
+    expect(ids()).toEqual([before[0], before[2], before[1]])
+    await user.click(withinPlanner(filled()[0]).getByRole('button', { name: 'Move Haze Slice · Sword D down' }))
+    expect(ids()).toEqual([before[2], before[0], before[1]])
+    await user.click(withinPlanner(panel()).getByRole('button', { name: 'Clear shortlist' }))
+    const confirmation = withinPlanner(panel()).getByRole('group', { name: 'Clear Alexandra ability shortlist' })
+    expect(filled()).toHaveLength(3)
+    expect(document.activeElement).toBe(withinPlanner(confirmation).getByRole('button', { name: 'Cancel' }))
+    await user.click(withinPlanner(confirmation).getByRole('button', { name: 'Cancel' }))
+    expect(filled()).toHaveLength(3)
+    await user.click(withinPlanner(panel()).getByRole('button', { name: 'Clear shortlist' }))
+    await user.click(withinPlanner(panel()).getByRole('button', { name: 'Confirm clear shortlist' }))
+    expect(filled()).toHaveLength(0)
+    expect(withinPlanner(slots()).getAllByRole('listitem')).toHaveLength(8)
+  })
+  it('keeps Alexandra and Sofia independent, cancels stale confirmation, and retains plans on class changes', async () => {
+    const { user } = await start(); await openPanel(user)
+    const selector = charSelect()
+    await add(user, 'Haze Slice', 'Sword', 'D'); const alex = ids()
+    await user.click(withinPlanner(panel()).getByRole('button', { name: 'Clear shortlist' }))
+    await user.selectOptions(selector, 'Sofia')
+    expect(filled()).toHaveLength(0)
+    expect(withinPlanner(panel()).queryByRole('button', { name: 'Confirm clear shortlist' })).toBeNull()
+    await add(user, 'Sunder', 'Sword', 'D'); const sofia = ids()
+    await user.selectOptions(selector, 'Alexandra')
+    expect(ids()).toEqual(alex)
+    await selectMain(user, 'Class', 'Dancer')
+    expect(ids()).toEqual(alex)
+    expect(panel().textContent).toContain('class allowed types do not establish equip legality')
+    await user.selectOptions(selector, 'Sofia')
+    expect(ids()).toEqual(sofia)
+    expect(panel().textContent).not.toContain('Haze Slice')
+  })
+  it('keeps separate Mu shortlists even for the same mapped source cell', async () => {
+    const { user } = await start(); await openPanel(user)
+    const selector = charSelect()
+    await user.selectOptions(selector, 'Mu'); await add(user, 'Wrath Strike', 'Sword', 'D')
+    const mu = ids(), growth = screen.getByTestId('combined-HP').textContent
+    await user.selectOptions(selector, 'Mu (with growth)')
+    expect(filled()).toHaveLength(0)
+    expect(screen.getByTestId('combined-HP').textContent).not.toBe(growth)
+    expect(panel().textContent).toContain('existing explicit mapping')
+    await add(user, 'Wrath Strike', 'Sword', 'D')
+    expect(ids()[0]).not.toBe(mu[0])
+    expect(filled()[0].textContent).toContain("'Sword'!B39")
+    await user.click(withinPlanner(filled()[0]).getByRole('button', { name: 'Remove Wrath Strike · Sword D from shortlist' }))
+    expect(filled()).toHaveLength(0)
+    await user.selectOptions(selector, 'Mu')
+    expect(ids()).toEqual(mu)
+  })
+  it('leaves compounds, bare placeholders and Airfighter? visible and unshortlistable', async () => {
+    const { user } = await start(); await openPanel(user)
+    const selector = charSelect()
+    await user.selectOptions(selector, 'Eshmel'); await category(user, 'Spear')
+    const raw = 'Graceful Blow\n(A+), Frozen Spear\n(A+)'
+    const button = withinPlanner(ranks()).getAllByRole('button').find(node => node.textContent === raw)!
+    const compound = button.closest('li')!
+    expect(compound.classList.contains('compound')).toBe(true)
+    expect(withinPlanner(compound).queryByRole('button', { name: /^Add to shortlist:/ })).toBeNull()
+    await user.click(button)
+    expect(screen.getByRole('complementary', { name: 'Ability information' }).textContent).toContain('This entry lists multiple unlocks or conditions.')
+    await user.selectOptions(selector, 'Halvin'); await category(user, 'Sword')
+    expect(withinPlanner(ranks()).getByText('?').closest('li')?.classList.contains('placeholder')).toBe(true)
+    expect(withinPlanner(withinPlanner(ranks()).getByText('?').closest('li')!).queryByRole('button')).toBeNull()
+    await user.selectOptions(selector, 'Dietrich'); await category(user, 'Flying')
+    const uncertain = withinPlanner(ranks()).getByText('Airfighter?').closest('li')!
+    expect(uncertain.classList.contains('placeholder')).toBe(true)
+    expect(withinPlanner(uncertain).queryByRole('button')).toBeNull()
+    expect(filled()).toHaveLength(0)
+  })
+  it('resets on a fresh App mount without writing to storage or changing existing saved presets', async () => {
+    const preset = createPreset('Existing Sofia', { characterName: 'Sofia', className: 'Gladiator' }, [])
+    const payload = JSON.stringify({ schemaVersion: 1, presets: [preset] })
+    localStorage.setItem(PRESET_KEY, payload); sessionStorage.setItem('existing-session-marker', 'keep')
+    const write = vi.spyOn(Storage.prototype, 'setItem'), remove = vi.spyOn(Storage.prototype, 'removeItem'), clear = vi.spyOn(Storage.prototype, 'clear')
+    const { user, view } = await start(); await openPanel(user)
+    await add(user, 'Haze Slice', 'Sword', 'D')
+    expect(filled()).toHaveLength(1)
+    await add(user, 'Rend Armor', 'Sword', 'C')
+    await user.click(withinPlanner(filled()[1]).getByRole('button', { name: 'Move Rend Armor · Sword C up' }))
+    await user.click(withinPlanner(filled()[0]).getByRole('button', { name: 'Remove Rend Armor · Sword C from shortlist' }))
+    await user.click(withinPlanner(panel()).getByRole('button', { name: 'Clear shortlist' }))
+    await user.click(withinPlanner(panel()).getByRole('button', { name: 'Confirm clear shortlist' }))
+    await add(user, 'Haze Slice', 'Sword', 'D')
+    await user.click(withinPlanner(filled()[0]).getByText('Source details · Sword D', { exact: true }))
+    expect(write).not.toHaveBeenCalled(); expect(remove).not.toHaveBeenCalled(); expect(clear).not.toHaveBeenCalled()
+    view.unmount(); render(<App />)
+    await openPanel(user)
+    expect(filled()).toHaveLength(0)
+    expect(localStorage.getItem(PRESET_KEY)).toBe(payload)
+    expect(sessionStorage.getItem('existing-session-marker')).toBe('keep')
+    await openPlannerPanel(user, 'My Character Builds')
+    await user.click(withinPlanner(plannerRole('group', { name: 'Load Existing Sofia' })).getByRole('button', { name: 'Load into Main planner' }))
+    expect((charSelect() as HTMLSelectElement).value).toBe('Sofia')
+    expect(filled()).toHaveLength(0)
+    expect(screen.getByTestId('combined-Mag').textContent).toBe('45%')
+    expect(write).not.toHaveBeenCalled(); expect(remove).not.toHaveBeenCalled(); expect(clear).not.toHaveBeenCalled()
+    expect(localStorage.getItem(PRESET_KEY)).toBe(payload)
+  })
+  it('preserves planner/comparison growths and shortlist identities through existing catalog navigation', async () => {
+    const { user } = await start(); await openPanel(user)
+    await openPlannerPanel(user, 'Build Comparison')
+    const values = () => STATS.map(stat => `${screen.getByTestId(`combined-${stat}`).textContent}/${screen.getByTestId(`comparison-A-${stat}`).textContent}/${screen.getByTestId(`comparison-B-${stat}`).textContent}`)
+    const before = values()
+    await add(user, 'Haze Slice', 'Sword', 'D'); const selectedIds = ids()
+    await user.click(plannerRole('button', { name: 'Swap builds' }))
+    await user.click(plannerRole('button', { name: 'Swap builds' }))
+    await openPlannerPanel(user, 'Weapons & Forging')
+    await screen.findByRole('list', { name: 'Main weapon catalog' })
+    await user.click(plannerRole('button', { name: 'Inspect weapon Muen' }))
+    await user.click(plannerRole('button', { name: 'View dungeon: Cougar Woodlands · Chest 1 · Part I' }))
+    await user.click(await screen.findByRole('button', { name: 'View weapon: Muen · Chest 1 · Part I' }))
+    // Check exact destination focus before ids() deliberately reopens Abilities.
+    expect(withinPlanner(plannerRole('region', { name: 'Muen weapon details' })).getByRole('heading', { name: 'Muen' })).toBe(document.activeElement)
+    expect(ids()).toEqual(selectedIds)
+    expect(values()).toEqual(before)
+  })
+})

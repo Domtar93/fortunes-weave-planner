@@ -1,0 +1,52 @@
+name: Data correction
+description: Report a wrong, missing or disputed value (growth rate, base stat, ability, class, item).
+title: "Data correction: "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping! Corrections need a source so they can be checked. The planner never guesses values,
+        and disagreements between sources are shown rather than hidden.
+  - type: input
+    id: character
+    attributes:
+      label: Character
+      description: Leave blank if the value isn't about a character.
+      placeholder: Alexandra
+  - type: input
+    id: class
+    attributes:
+      label: Class
+      placeholder: Gladiator
+  - type: input
+    id: what
+    attributes:
+      label: Which value?
+      description: For example "Speed growth", "level-1 Strength", "Sword B ability".
+    validations:
+      required: true
+  - type: input
+    id: planner-value
+    attributes:
+      label: What the planner shows
+    validations:
+      required: true
+  - type: input
+    id: correct-value
+    attributes:
+      label: What you believe is correct
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A link, screenshot or how you measured it in-game (game version, route, chapter).
+    validations:
+      required: true
+  - type: input
+    id: share-link
+    attributes:
+      label: Build link (optional)
+      description: Use "Copy share link" on the Build tab so the exact build opens.

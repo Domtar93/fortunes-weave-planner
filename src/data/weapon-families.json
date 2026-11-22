@@ -1,0 +1,1197 @@
+{
+  "sourceSha256": "4983c89549294cc309423486e48811e4df8b90d4feb34caed6a3eef43e6a4254",
+  "schemaVersion": 1,
+  "basis": "Provisional interpretation of source row sections supplied for Increment 17. Forging has no explicit weapon-family column; names and effects are not used to infer family.",
+  "counts": {
+    "Sword": 20,
+    "Spear": 22,
+    "Axe": 19,
+    "Bow": 15,
+    "Gauntlets": 15
+  },
+  "records": [
+    {
+      "weaponId": "forging-main-8e3a648b9b9e1231b548",
+      "name": "Wooden Sword",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 19,
+        "cell": "Forging!A19",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-c66e244ea17eb85074bf",
+      "name": "Bronze Sword",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 20,
+        "cell": "Forging!A20",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-2ca8837b7a3dea59afb7",
+      "name": "Iron Sword",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 21,
+        "cell": "Forging!A21",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-f291baaca7b85fbaf7ea",
+      "name": "Da Mina Sword",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 22,
+        "cell": "Forging!A22",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-de46aeb7239be39ea590",
+      "name": "Silver Sword",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 23,
+        "cell": "Forging!A23",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-f6079d0c2ef705147da3",
+      "name": "Venin Edge",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 24,
+        "cell": "Forging!A24",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-a8c88d1428aaf1ce52de",
+      "name": "Zanbato",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 25,
+        "cell": "Forging!A25",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-4702899de98b843c82ce",
+      "name": "Killing Edge",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 26,
+        "cell": "Forging!A26",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-0f3b963700c4f156631a",
+      "name": "Flyssa",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 27,
+        "cell": "Forging!A27",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-3cb34cfc6868e5ed3ae4",
+      "name": "Levin Sword",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 28,
+        "cell": "Forging!A28",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-bf2ee6a522e38a5c8889",
+      "name": "Whirlwind Blade",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 29,
+        "cell": "Forging!A29",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-7caa0fa619e382ef655d",
+      "name": "Greatsword",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 30,
+        "cell": "Forging!A30",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-c2cafcd3290c327d287b",
+      "name": "Cleansing Blade",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 31,
+        "cell": "Forging!A31",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-7d79723653ebf983c2ea",
+      "name": "Angela",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 32,
+        "cell": "Forging!A32",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-7304f93b8c252fa4b212",
+      "name": "Veroquine",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 33,
+        "cell": "Forging!A33",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-f3cedfbc8aa2e5cc6874",
+      "name": "Lakshashi's Iron Fan",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 34,
+        "cell": "Forging!A34",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-2c9e405fffd5262db680",
+      "name": "Long-Night Katara",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 35,
+        "cell": "Forging!A35",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-855fa96db02be7ca34dd",
+      "name": "Answerer",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 36,
+        "cell": "Forging!A36",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-b595e2212a1cfa4a59b1",
+      "name": "Chosen Sword",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 37,
+        "cell": "Forging!A37",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-d064957587df532176ac",
+      "name": "Royal Sword",
+      "family": "Sword",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 38,
+        "cell": "Forging!A38",
+        "section": "Forging!A19:J38"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-9447003534c0f1d871e4",
+      "name": "Wooden Spear",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 39,
+        "cell": "Forging!A39",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-718334d05eddfafab318",
+      "name": "Bronze Spear",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 40,
+        "cell": "Forging!A40",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-b61cf25704b48d85a0e9",
+      "name": "Iron Spear",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 41,
+        "cell": "Forging!A41",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-27f7c336a0ae04cf7905",
+      "name": "Da Mina Spear",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 42,
+        "cell": "Forging!A42",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-892e100174ba912531ad",
+      "name": "Silver Spear",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 43,
+        "cell": "Forging!A43",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-3331d5456d2d5b84ac4b",
+      "name": "Javelin",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 44,
+        "cell": "Forging!A44",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-23b26084ab1eb3604151",
+      "name": "Short Spear",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 45,
+        "cell": "Forging!A45",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-3e890284f240a2e68aff",
+      "name": "Pilum",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 46,
+        "cell": "Forging!A46",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-60c397046c19b1d1cd19",
+      "name": "Halberd",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 47,
+        "cell": "Forging!A47",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-d6e635844a97d6a5dd2e",
+      "name": "Ji",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 48,
+        "cell": "Forging!A48",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-b68beafc96edb7646557",
+      "name": "Glaive",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 49,
+        "cell": "Forging!A49",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-e0acde398bba489d9f11",
+      "name": "Guandao",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 50,
+        "cell": "Forging!A50",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-8605fd8a9ec1226effa0",
+      "name": "Ridersbane",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 51,
+        "cell": "Forging!A51",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-91f4b2d2a1011edf3c9f",
+      "name": "Star Spear",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 52,
+        "cell": "Forging!A52",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-c7627c58398bc70774e5",
+      "name": "Shining Spear",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 53,
+        "cell": "Forging!A53",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-0f74f748610aaff2da19",
+      "name": "Sinza's Trident",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 54,
+        "cell": "Forging!A54",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-aa21c6fbbe0985edb9a1",
+      "name": "Grasitha",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 55,
+        "cell": "Forging!A55",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-3d4543d1e89e3c533a9d",
+      "name": "Muen",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 56,
+        "cell": "Forging!A56",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-53bd3eeaba82a32e167f",
+      "name": "Onoa",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 57,
+        "cell": "Forging!A57",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-0c3bee332e1cd4e77f54",
+      "name": "Assal",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 58,
+        "cell": "Forging!A58",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-7bcdf89248d9fdcd063f",
+      "name": "Vendetta",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 59,
+        "cell": "Forging!A59",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-9f9fdbc8dd4b40040694",
+      "name": "Chosen Lance",
+      "family": "Spear",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 60,
+        "cell": "Forging!A60",
+        "section": "Forging!A39:J60"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-53f7171950759c4eae03",
+      "name": "Wooden Axe",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 61,
+        "cell": "Forging!A61",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-0785d5ed151c6d050fc1",
+      "name": "Bronze Axe",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 62,
+        "cell": "Forging!A62",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-ac4a0986227688456383",
+      "name": "Iron Axe",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 63,
+        "cell": "Forging!A63",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-c76b0844ee0fc91b4524",
+      "name": "Da Mina Axe",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 64,
+        "cell": "Forging!A64",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-1098b1f0c66ff7b3bbe4",
+      "name": "Silver Axe",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 65,
+        "cell": "Forging!A65",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-c600613067cb9953be49",
+      "name": "Hand Axe",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 66,
+        "cell": "Forging!A66",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-0391720ddcb34833cc82",
+      "name": "Short Axe",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 67,
+        "cell": "Forging!A67",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-29a539389d450b59fa7c",
+      "name": "Sagaris",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 68,
+        "cell": "Forging!A68",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-6e9546f6b83075f540cb",
+      "name": "Smashing Axe",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 69,
+        "cell": "Forging!A69",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-c6ee5c63a544662df3c2",
+      "name": "Shielding Axe",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 70,
+        "cell": "Forging!A70",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-73247c1b32e686c9970d",
+      "name": "You Sou Fu",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 71,
+        "cell": "Forging!A71",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-2d204a36cbd7ec8a5dac",
+      "name": "Bardiche",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 72,
+        "cell": "Forging!A72",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-c157cbf647f56e730a08",
+      "name": "Hammer",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 73,
+        "cell": "Forging!A73",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-6659c4ca642045f49ac2",
+      "name": "Mace",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 74,
+        "cell": "Forging!A74",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-4e32b84d44c612e49d8d",
+      "name": "Velheit",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 75,
+        "cell": "Forging!A75",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-dc9e494e5f63724d72eb",
+      "name": "Gundogya",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 76,
+        "cell": "Forging!A76",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-be4e02e59b0009320740",
+      "name": "Zalmoxis",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 77,
+        "cell": "Forging!A77",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-48becfc45815a2a40ca0",
+      "name": "Dagda's Club",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 78,
+        "cell": "Forging!A78",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-323832cbe49e9adc2127",
+      "name": "Credna's Mallet",
+      "family": "Axe",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 79,
+        "cell": "Forging!A79",
+        "section": "Forging!A61:J79"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-9d13f55f72111b0d4b80",
+      "name": "Wooden Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 80,
+        "cell": "Forging!A80",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-79669b9f6fb73616f0a8",
+      "name": "Bronze Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 81,
+        "cell": "Forging!A81",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-ce94b8844077b5f4fdff",
+      "name": "Iron Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 82,
+        "cell": "Forging!A82",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-9781ae50c63d5dd58c9d",
+      "name": "Da Mina Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 83,
+        "cell": "Forging!A83",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-4dc1763b2fe1ae16c21e",
+      "name": "Silver Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 84,
+        "cell": "Forging!A84",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-1ba4f459397c380c998a",
+      "name": "Hunter's Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 85,
+        "cell": "Forging!A85",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-31b2fb624d3698dffd5b",
+      "name": "Longbow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 86,
+        "cell": "Forging!A86",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-84c3864c40e1655a2c71",
+      "name": "Mini Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 87,
+        "cell": "Forging!A87",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-158a8394dc2e4c2b4c70",
+      "name": "Horsekiller Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 88,
+        "cell": "Forging!A88",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-00353bceedad6e4fa235",
+      "name": "War Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 89,
+        "cell": "Forging!A89",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-92cac322eafc59b44b1b",
+      "name": "Tempest Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 90,
+        "cell": "Forging!A90",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-5c544d27c5a3da31d346",
+      "name": "Venin Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 91,
+        "cell": "Forging!A91",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-3eb1b83bb3d819dfb3fa",
+      "name": "Azaga's Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 92,
+        "cell": "Forging!A92",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-22272548a20b79880c0c",
+      "name": "Idah's Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 93,
+        "cell": "Forging!A93",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-9ec62242864ca63bd94e",
+      "name": "Kalla's Bow",
+      "family": "Bow",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 94,
+        "cell": "Forging!A94",
+        "section": "Forging!A80:J94"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-065ff2ac9d5f4db0c2e9",
+      "name": "Wooden Gauntlets",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 95,
+        "cell": "Forging!A95",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-64083498824d4202b956",
+      "name": "Bronze Gauntlets",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 96,
+        "cell": "Forging!A96",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-b1a01ddf3ffbe9f2b9c3",
+      "name": "Iron Gauntlets",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 97,
+        "cell": "Forging!A97",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-3284fc6b807e6f911ac1",
+      "name": "Da Mina Gauntlets",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 98,
+        "cell": "Forging!A98",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-574f98d8c0d3ca4e43fa",
+      "name": "Silver Gauntlets",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 99,
+        "cell": "Forging!A99",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-97ef943307bc39450d18",
+      "name": "Dodge Gauntlets",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 100,
+        "cell": "Forging!A100",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-124bd2719bd10407fd83",
+      "name": "Resistant Gauntlets",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 101,
+        "cell": "Forging!A101",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-d80267f4b0dee9d65a6a",
+      "name": "Counter Gauntlets",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 102,
+        "cell": "Forging!A102",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-dabe1260818feac6435d",
+      "name": "Jamadhars",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 103,
+        "cell": "Forging!A103",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-e3764592114113e6c03c",
+      "name": "Qiankun Circles",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 104,
+        "cell": "Forging!A104",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-24d34fea26de6ef8b2cf",
+      "name": "Ursa's Right Claw",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 105,
+        "cell": "Forging!A105",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-5ad72ec18d1b66fc0896",
+      "name": "Smyrnos's Channels",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 106,
+        "cell": "Forging!A106",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-26751e470e3fa570852f",
+      "name": "Salamander",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 107,
+        "cell": "Forging!A107",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-a03090b3176ce6e2e8c2",
+      "name": "Zerberus",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 108,
+        "cell": "Forging!A108",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    },
+    {
+      "weaponId": "forging-main-be03b131b4c3080adf01",
+      "name": "Breidablik",
+      "family": "Gauntlets",
+      "status": "provisional",
+      "source": {
+        "sheet": "Forging",
+        "row": 109,
+        "cell": "Forging!A109",
+        "section": "Forging!A95:J109"
+      },
+      "ambiguityWarning": null
+    }
+  ]
+}

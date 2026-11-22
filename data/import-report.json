@@ -1,0 +1,859 @@
+{
+  "sourceFile": "source.xlsx",
+  "sourceSha256": "4983c89549294cc309423486e48811e4df8b90d4feb34caed6a3eef43e6a4254",
+  "expectedCounts": {
+    "characters": 64,
+    "classes": 59
+  },
+  "issues": [
+    {
+      "severity": "info",
+      "code": "repeated_header",
+      "location": "Characters!A42",
+      "message": "Excluded repeated Name/stat header."
+    },
+    {
+      "severity": "info",
+      "code": "documented_zero",
+      "location": "Classes!Y3:AG3",
+      "message": "No class modifiers: blank source cells are treated as zero by the workbook’s existing SUMIF growth formulas."
+    },
+    {
+      "severity": "warning",
+      "code": "research_uncertainty",
+      "location": "Classes!AB17:AC17",
+      "message": "DATA-12: Armored Ornius Rider's Spd and Dex bonuses differ between community sources (+10/+5 vs +15/+10); original values retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D988",
+      "message": "Matrix trims surrounding whitespace from 'Faith'!D16; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D1259",
+      "message": "Matrix trims surrounding whitespace from 'Faith'!C20; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D1270",
+      "message": "Matrix trims surrounding whitespace from 'Infantry'!C20; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D1870",
+      "message": "Matrix trims surrounding whitespace from 'Faith'!B29; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D1873",
+      "message": "Matrix trims surrounding whitespace from 'Faith'!E29; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D2099",
+      "message": "Matrix trims surrounding whitespace from 'Armor'!C32; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D2278",
+      "message": "Matrix trims surrounding whitespace from 'Faith'!B35; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D2691",
+      "message": "Matrix trims surrounding whitespace from 'Authority'!B41; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D2755",
+      "message": "Matrix trims surrounding whitespace from 'Faith'!C42; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D2893",
+      "message": "Matrix trims surrounding whitespace from 'Faith'!E44; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D3123",
+      "message": "Matrix trims surrounding whitespace from 'Armor'!G47; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D3163",
+      "message": "Matrix trims surrounding whitespace from 'Faith'!C48; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D3435",
+      "message": "Matrix trims surrounding whitespace from 'Faith'!C52; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D3707",
+      "message": "Matrix trims surrounding whitespace from 'Faith'!C56; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D3760",
+      "message": "Matrix trims surrounding whitespace from 'Bow'!C57; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D3775",
+      "message": "Matrix trims surrounding whitespace from 'Faith'!C57; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D3895",
+      "message": "Matrix trims surrounding whitespace from 'Bow'!B59; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D3896",
+      "message": "Matrix trims surrounding whitespace from 'Bow'!C59; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D4110",
+      "message": "Matrix trims surrounding whitespace from 'Reason'!C62; both exact texts retained."
+    },
+    {
+      "severity": "info",
+      "code": "matrix_whitespace",
+      "location": "Proficiency Matrix!D4139",
+      "message": "Matrix trims surrounding whitespace from 'Armor'!C62; both exact texts retained."
+    },
+    {
+      "severity": "warning",
+      "code": "mount_growth_conflict",
+      "location": "Mounts!E4:P4",
+      "message": "Meganius: written and numeric growth entries differ for Dex, Def, Res. A missing entry is an omission, not zero; neither version is selected for calculations."
+    },
+    {
+      "severity": "info",
+      "code": "trimmed_mount_name",
+      "location": "Mounts!A16",
+      "message": "Display name trimmed; original name text retained separately."
+    },
+    {
+      "severity": "warning",
+      "code": "ambiguous_mount_acquisition",
+      "location": "Mounts!F23",
+      "message": "Acquisition text contains an uncertainty qualifier; preserve it as unverified."
+    },
+    {
+      "severity": "warning",
+      "code": "unresolved_scroll_acquisition",
+      "location": "Magic Scrolls!L5",
+      "message": "Acquisition is unknown; no availability or route inferred."
+    },
+    {
+      "severity": "warning",
+      "code": "unresolved_scroll_acquisition",
+      "location": "Magic Scrolls!L6",
+      "message": "Acquisition is unknown; no availability or route inferred."
+    },
+    {
+      "severity": "warning",
+      "code": "unresolved_scroll_acquisition",
+      "location": "Magic Scrolls!L7",
+      "message": "Acquisition is unknown; no availability or route inferred."
+    },
+    {
+      "severity": "warning",
+      "code": "unresolved_scroll_acquisition",
+      "location": "Magic Scrolls!L8",
+      "message": "Acquisition is unknown; no availability or route inferred."
+    },
+    {
+      "severity": "warning",
+      "code": "dungeon_phase_placeholder",
+      "location": "Dungeon Chests!A30:F30",
+      "message": "Part I contains dash placeholders. A dash is not an obtainable item or proof that the chest does not exist."
+    },
+    {
+      "severity": "info",
+      "code": "forging_literal_formula",
+      "location": "Forging!I2",
+      "message": "Literal Excel constant retained as raw formula; only its explicit number/text is displayed. No formula or gameplay progression is evaluated."
+    },
+    {
+      "severity": "info",
+      "code": "forging_literal_formula",
+      "location": "Forging!I9",
+      "message": "Literal Excel constant retained as raw formula; only its explicit number/text is displayed. No formula or gameplay progression is evaluated."
+    },
+    {
+      "severity": "info",
+      "code": "forging_literal_formula",
+      "location": "Forging!I15",
+      "message": "Literal Excel constant retained as raw formula; only its explicit number/text is displayed. No formula or gameplay progression is evaluated."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D28",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "incomplete_weapon_record",
+      "location": "Forging!A29:J29",
+      "message": "Not documented/unresolved reference properties: hit, might, attackRange, weight, critical, durability. No zeros or mechanics supplied."
+    },
+    {
+      "severity": "warning",
+      "code": "incomplete_weapon_record",
+      "location": "Forging!A43:J43",
+      "message": "Not documented/unresolved reference properties: durability. No zeros or mechanics supplied."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D44",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D45",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D46",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "incomplete_weapon_record",
+      "location": "Forging!A53:J53",
+      "message": "Not documented/unresolved reference properties: hit, might, attackRange, weight, critical, durability. No zeros or mechanics supplied."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D54",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D55",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D59",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D66",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D67",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D68",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D71",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D87",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "info",
+      "code": "forging_literal_formula",
+      "location": "Forging!H99",
+      "message": "Literal Excel constant retained as raw formula; only its explicit number/text is displayed. No formula or gameplay progression is evaluated."
+    },
+    {
+      "severity": "info",
+      "code": "forging_literal_formula",
+      "location": "Forging!H100",
+      "message": "Literal Excel constant retained as raw formula; only its explicit number/text is displayed. No formula or gameplay progression is evaluated."
+    },
+    {
+      "severity": "warning",
+      "code": "incomplete_weapon_record",
+      "location": "Forging!A100:J100",
+      "message": "Not documented/unresolved reference properties: hit, might, attackRange, weight, critical, durability. No zeros or mechanics supplied."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D104",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D107",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "incomplete_weapon_record",
+      "location": "Forging!A108:J108",
+      "message": "Not documented/unresolved reference properties: hit, might, attackRange, weight, critical, durability. No zeros or mechanics supplied."
+    },
+    {
+      "severity": "warning",
+      "code": "date_encoded_weapon_range",
+      "location": "Forging!D109",
+      "message": "Excel date encoding retained; original d-m format displays 1-2. This source display is used as range text, without calendar or combat inference."
+    },
+    {
+      "severity": "warning",
+      "code": "weapon_source_difference",
+      "location": "Forging!A2:J2 / A19:J19",
+      "message": "Exact-name preliminary evidence for Wooden Sword; differing fields: effects. Main values are never overwritten."
+    },
+    {
+      "severity": "warning",
+      "code": "weapon_source_difference",
+      "location": "Forging!A4:J4 / A25:J25",
+      "message": "Exact-name preliminary evidence for Zanbato; differing fields: might, effects. Main values are never overwritten."
+    },
+    {
+      "severity": "warning",
+      "code": "possible_weapon_spelling",
+      "location": "Forging!A6:J6 / A33:J33",
+      "message": "Possible Veronique/Veroquine spelling variant; manual confirmation required. Records remain separate."
+    },
+    {
+      "severity": "warning",
+      "code": "weapon_source_difference",
+      "location": "Forging!A9:J9 / A43:J43",
+      "message": "Exact-name preliminary evidence for Silver Spear; differing fields: durability, effects. Main values are never overwritten."
+    },
+    {
+      "severity": "warning",
+      "code": "weapon_source_difference",
+      "location": "Forging!A15:J15 / A98:J98",
+      "message": "Exact-name preliminary evidence for Da Mina Gauntlets; differing fields: effects. Main values are never overwritten."
+    }
+  ],
+  "researchQueue": [
+    {
+      "id": "QA-01",
+      "priority": "High",
+      "area": "Characters",
+      "location": "Character Learnsets!D2",
+      "finding": "Alexandra absent from previous dropdown; repeated Name header included.",
+      "confidence": "Verified: workbook",
+      "status": "Resolved",
+      "nextStep": "Use filtered Reference Lists; keep Mu growth variation.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1EhEYXHu14M0c4eVpzEpo7xiJ4qHdd4EH-jP6akHIv_o/edit"
+    },
+    {
+      "id": "QA-02",
+      "priority": "High",
+      "area": "Classes",
+      "location": "Character Learnsets!D4,D34,D5,D35",
+      "finding": "The Avatar omitted from both class dropdowns and mounted-type lookup.",
+      "confidence": "Verified: workbook",
+      "status": "Resolved",
+      "nextStep": "Retest The Avatar in both selectors.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1EhEYXHu14M0c4eVpzEpo7xiJ4qHdd4EH-jP6akHIv_o/edit"
+    },
+    {
+      "id": "QA-03",
+      "priority": "High",
+      "area": "Boon / bane",
+      "location": "Character Learnsets!O11:O22",
+      "finding": "Lookup matched headings against Characters row 3, producing #N/A errors; O18 missing; O19 used C18.",
+      "confidence": "Verified: workbook",
+      "status": "Resolved",
+      "nextStep": "Test Boon, Bane and blank cases for multiple units.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1EhEYXHu14M0c4eVpzEpo7xiJ4qHdd4EH-jP6akHIv_o/edit"
+    },
+    {
+      "id": "QA-04",
+      "priority": "High",
+      "area": "Infantry",
+      "location": "Character Learnsets!D19",
+      "finding": "Infantry learnset looked up rank headings on Riding tab.",
+      "confidence": "Verified: workbook",
+      "status": "Resolved",
+      "nextStep": "Compare Infantry rank unlocks using two characters.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1EhEYXHu14M0c4eVpzEpo7xiJ4qHdd4EH-jP6akHIv_o/edit"
+    },
+    {
+      "id": "QA-05",
+      "priority": "Medium",
+      "area": "Magic Scrolls",
+      "location": "Magic Scrolls!E2:E8",
+      "finding": "Text ranges were encoded as dates despite displaying 1-2/1-3.",
+      "confidence": "Verified: workbook",
+      "status": "Resolved",
+      "nextStep": "Keep attack ranges as literal text or min/max integers.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1EhEYXHu14M0c4eVpzEpo7xiJ4qHdd4EH-jP6akHIv_o/edit"
+    },
+    {
+      "id": "QA-06",
+      "priority": "Low",
+      "area": "Data entry",
+      "location": "Gauntlet!B6,E50; Flying!C6",
+      "finding": "Correct inconsistent spellings (Mighty Fist; Spirit Blow; Flitting Flier).",
+      "confidence": "Verified: local consistency",
+      "status": "Resolved",
+      "nextStep": "Check future imported sources for naming variants.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1EhEYXHu14M0c4eVpzEpo7xiJ4qHdd4EH-jP6akHIv_o/edit"
+    },
+    {
+      "id": "DATA-01",
+      "priority": "Critical",
+      "area": "Riding / Flying",
+      "location": "Riding!B2:H64; Flying!B2:G64",
+      "finding": "Riding: 76 populated, 14 N/A, 351 blank. Flying: 73 populated, 6 N/A, 299 blank. All 63 characters have rows.",
+      "confidence": "Community matrix audited; in-game unverified",
+      "status": "Open",
+      "nextStep": "Prioritize Riding/Flying at A, S, S+. Test universal unlock assumptions; record actual rank display.",
+      "sourceUrl": "https://serenesforest.net/fortunes-weave/"
+    },
+    {
+      "id": "DATA-02",
+      "priority": "High",
+      "area": "Character growths",
+      "location": "Characters!B3:J67",
+      "finding": "64 personal-growth profiles × 9 stats cross-checked; Sofia Magic 35→45 corrected.",
+      "confidence": "Cross-checked: 2 sources",
+      "status": "Resolved",
+      "nextStep": "Recheck only if a game update or new in-game screenshot contradicts the published table.",
+      "sourceUrl": "https://serenesforest.net/fortunes-weave/characters/growth-rates/ | https://fire-emblem-fortunes-weave.turam.dev/en/entry/sofia/"
+    },
+    {
+      "id": "DATA-03",
+      "priority": "High",
+      "area": "Class growths",
+      "location": "Classes!Y3:AG62",
+      "finding": "59 named class growth profiles × 9 modifiers cross-checked; three cells corrected. Dancer and Cataphract compared against another guide.",
+      "confidence": "Cross-checked: references",
+      "status": "Resolved, with one dispute logged separately",
+      "nextStep": "Recheck only if in-game growth display contradicts sources; unresolved Spd/Dex conflict logged in DATA-12.",
+      "sourceUrl": "https://serenesforest.net/fortunes-weave/classes/growth-rates/ | https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-growth-rates-for-all-characters-and-classes/"
+    },
+    {
+      "id": "DATA-04",
+      "priority": "High",
+      "area": "Combat arts",
+      "location": "Sword / Spear / Axe / Bow / Gauntlet",
+      "finding": "Weapon proficiencies transcribed into 4,284-row searchable matrix. 2,357 populated entries across all 12 proficiencies.",
+      "confidence": "Inventory completed; effects unverified",
+      "status": "Open",
+      "nextStep": "Validate compound cells, '?' placeholders, S/S+ unlocks and effect descriptions before recommendations.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1EhEYXHu14M0c4eVpzEpo7xiJ4qHdd4EH-jP6akHIv_o/edit"
+    },
+    {
+      "id": "DATA-05",
+      "priority": "High",
+      "area": "Mounts",
+      "location": "Mounts!A2:AG23",
+      "finding": "Validate acquisition path, mount type, bond rank, ability alternatives and growth multipliers.",
+      "confidence": "Cross-check needed",
+      "status": "Open",
+      "nextStep": "Confirm mounted growth math, Charioteer exception and mount restrictions.",
+      "sourceUrl": "https://www.reddit.com/r/fireemblem/comments/1wwwrx4/fortunes_weave_total_growth_rate_calculator/"
+    },
+    {
+      "id": "DATA-06",
+      "priority": "High",
+      "area": "Forging",
+      "location": "Forging!A2:I",
+      "finding": "Weapon-forge list is partial. Current Might columns mix ranges and values.",
+      "confidence": "Incomplete in workbook",
+      "status": "Open",
+      "nextStep": "Document each forge tier, range, weight, special effect and source.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1EhEYXHu14M0c4eVpzEpo7xiJ4qHdd4EH-jP6akHIv_o/edit"
+    },
+    {
+      "id": "DATA-07",
+      "priority": "Medium",
+      "area": "Class rules",
+      "location": "Classes!A3:BA62",
+      "finding": "Review license requirements, route gates, level and renown, allowed weapons and abilities.",
+      "confidence": "Cross-check needed",
+      "status": "Open",
+      "nextStep": "Verify against class exam/menu screens and reference guide.",
+      "sourceUrl": "https://serenesforest.net/fortunes-weave/"
+    },
+    {
+      "id": "DATA-08",
+      "priority": "Medium",
+      "area": "Armor",
+      "location": "Armor!B53:G53",
+      "finding": "Community reports extra Sirocco rank unlocks, including B/A/S. Existing entries not independently confirmed.",
+      "confidence": "Unverified community report",
+      "status": "Needs confirmation",
+      "nextStep": "Compare reported Armored Leap+, Build+5 and Luck Fend against in-game rank screen.",
+      "sourceUrl": "https://www.reddit.com/r/fireemblem/comments/1wwepxg/community_fortune_weave_skillspell_list/"
+    },
+    {
+      "id": "DATA-09",
+      "priority": "Medium",
+      "area": "Skill glossary",
+      "location": "All 12 proficiency tabs",
+      "finding": "Ability Glossary added: 322 unique raw entry strings, 23 unofficial-guide effect definitions, rest pending sourced effects.",
+      "confidence": "Index created; verification pending",
+      "status": "Open",
+      "nextStep": "Distinguish proficiency rank unlocks, personal abilities, class abilities, and mount-bond abilities. Add mechanics and numerical effects as verified.",
+      "sourceUrl": "https://fortunesweave.co.uk/wiki"
+    },
+    {
+      "id": "DATA-10",
+      "priority": "Medium",
+      "area": "Battalions",
+      "location": "Battalions",
+      "finding": "Confirm gambit effects, rank limits, availability, route restrictions and whether mounted units can equip.",
+      "confidence": "Cross-check needed",
+      "status": "Open",
+      "nextStep": "Review route-specific battalion acquisition and equipment constraints.",
+      "sourceUrl": "https://fortunesweave.co.uk/wiki"
+    },
+    {
+      "id": "DATA-11",
+      "priority": "Medium",
+      "area": "Magic Scrolls",
+      "location": "Magic Scrolls!A2:K",
+      "finding": "Seven documented entries; confirm other scrolls, their locations and game restrictions.",
+      "confidence": "Incomplete in workbook",
+      "status": "Open",
+      "nextStep": "Review shops, dungeon rewards and in-game scroll descriptions.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1EhEYXHu14M0c4eVpzEpo7xiJ4qHdd4EH-jP6akHIv_o/edit"
+    },
+    {
+      "id": "QA-07",
+      "priority": "High",
+      "area": "Classes",
+      "location": "Classes!AE17,AG17,AA58",
+      "finding": "Armored Ornius Rider Res 5→0 and Cha 0→5; The Calamity Mag '.'→15.",
+      "confidence": "Two matching independent references",
+      "status": "Resolved",
+      "nextStep": "Review if in-game evidence contradicts.",
+      "sourceUrl": "https://serenesforest.net/fortunes-weave/classes/growth-rates/ | https://fortunesweave.co.uk/classes/the-calamity"
+    },
+    {
+      "id": "DATA-12",
+      "priority": "Medium",
+      "area": "Class growth conflict",
+      "location": "Classes!AB17:AC17",
+      "finding": "Armored Ornius Rider's Spd and Dex bonuses differ between community sources (+10/+5 vs +15/+10); original values retained.",
+      "confidence": "Conflicting sources",
+      "status": "Needs confirmation",
+      "nextStep": "Use the in-game growth screen to determine correct Spd and Dex bonuses.",
+      "sourceUrl": "https://fortunesweave.co.uk/classes/armored-ornius-rider | https://fire-emblem-fortunes-weave.turam.dev/en/entry/class-armored-ornius-rider/"
+    }
+  ],
+  "zeroModifierEvidence": [
+    {
+      "location": "Character Learnsets!D27",
+      "formula": "=sumif(Classes!$A:$A,$D$4,Classes!Y:Y)"
+    },
+    {
+      "location": "Character Learnsets!E27",
+      "formula": "=sumif(Classes!$A:$A,$D$4,Classes!Z:Z)"
+    },
+    {
+      "location": "Character Learnsets!F27",
+      "formula": "=sumif(Classes!$A:$A,$D$4,Classes!AA:AA)"
+    },
+    {
+      "location": "Character Learnsets!G27",
+      "formula": "=sumif(Classes!$A:$A,$D$4,Classes!AB:AB)"
+    },
+    {
+      "location": "Character Learnsets!H27",
+      "formula": "=sumif(Classes!$A:$A,$D$4,Classes!AC:AC)"
+    },
+    {
+      "location": "Character Learnsets!I27",
+      "formula": "=sumif(Classes!$A:$A,$D$4,Classes!AD:AD)"
+    },
+    {
+      "location": "Character Learnsets!J27",
+      "formula": "=sumif(Classes!$A:$A,$D$4,Classes!AE:AE)"
+    },
+    {
+      "location": "Character Learnsets!K27",
+      "formula": "=sumif(Classes!$A:$A,$D$4,Classes!AF:AF)"
+    },
+    {
+      "location": "Character Learnsets!L27",
+      "formula": "=sumif(Classes!$A:$A,$D$4,Classes!AG:AG)"
+    }
+  ],
+  "characters": {
+    "namedRows": 64,
+    "repeatedHeaders": 1,
+    "blankRows": 50434,
+    "rejectedRows": 0
+  },
+  "classes": {
+    "namedRows": 59,
+    "repeatedHeaders": 0,
+    "blankRows": 0,
+    "rejectedRows": 0,
+    "lastNamedRow": 61,
+    "lastPopulatedRow": 69,
+    "annotationRows": [
+      67,
+      68,
+      69
+    ],
+    "sheetNotes": [
+      {
+        "text": "Add equippable weapons aswell ",
+        "status": "unverified",
+        "source": "Classes!F67"
+      },
+      {
+        "text": "Costs and other features of master combat arts are lacking",
+        "status": "unverified",
+        "source": "Classes!F68"
+      },
+      {
+        "text": "Can divine skills like divine might be equipped in different classes?, can divine skills be equipped by more than one unit?",
+        "status": "unverified",
+        "source": "Classes!F69"
+      }
+    ]
+  },
+  "proficiencyCounts": {
+    "categories": 12,
+    "originalCharacters": 63,
+    "rankCells": 4284,
+    "states": {
+      "documented": 2321,
+      "unknown": 1871,
+      "placeholder": 9,
+      "compound": 27,
+      "unavailable": 56
+    },
+    "matrixEvidence": {
+      "Community-listed / unverified": 2341,
+      "Unrecorded / unknown": 1871,
+      "Compound / needs parsing": 16,
+      "Explicitly marked N/A": 56
+    },
+    "glossaryEntries": 322,
+    "glossaryDescriptions": 8,
+    "profileMapping": {
+      "Mu (with growth)": "Mu"
+    }
+  },
+  "mountCounts": {
+    "expected": 22,
+    "imported": 22,
+    "species": {
+      "Ornius": 6,
+      "Horse": 6,
+      "Pegasus": 6,
+      "Bau": 3,
+      "Elephant": 1
+    },
+    "numericGrowths": {
+      "recorded": 71,
+      "unknown": 127,
+      "explicitZero": 0
+    },
+    "growthConflicts": [
+      {
+        "name": "Meganius",
+        "stats": [
+          "Dex",
+          "Def",
+          "Res"
+        ]
+      }
+    ],
+    "ambiguousAcquisitions": 1,
+    "missingAcquisitions": 0
+  },
+  "battalionCounts": {
+    "expected": 69,
+    "imported": 69,
+    "categories": {
+      "Defense": 18,
+      "Magical": 16,
+      "Physical": 18,
+      "Support": 17
+    },
+    "authorityRanks": {
+      "E": 10,
+      "D": 13,
+      "C": 15,
+      "B": 16,
+      "A": 15
+    },
+    "gatherLimits": {
+      "8": 10,
+      "10": 13,
+      "14": 15,
+      "18": 16,
+      "22": 15
+    },
+    "parsedStats": {
+      "parsed": 69
+    },
+    "generalReferenceCells": 25,
+    "classSupport": {
+      "listedUnmounted": 39,
+      "notListedMounted": 20,
+      "otherOrUnknown": 0
+    }
+  },
+  "magicScrollCounts": {
+    "expected": 7,
+    "imported": 7,
+    "generalReferenceCells": 8,
+    "numericFields": {
+      "parsed": 42
+    },
+    "ranges": {
+      "parsed": 7
+    },
+    "acquisition": {
+      "part1": {
+        "documented": 4,
+        "unavailable": 3,
+        "unknown": 0,
+        "empty": 0,
+        "unresolved": 0
+      },
+      "part3": {
+        "documented": 3,
+        "unavailable": 0,
+        "unknown": 4,
+        "empty": 0,
+        "unresolved": 0
+      }
+    }
+  },
+  "dungeonCounts": {
+    "expectedLocations": 31,
+    "expectedChests": 90,
+    "expectedPartIPlaceholders": 4,
+    "locations": 31,
+    "chests": 90,
+    "phaseFields": 180,
+    "phases": {
+      "part1": {
+        "documented": 86,
+        "placeholder": 4,
+        "empty": 0,
+        "unresolved": 0
+      },
+      "part3": {
+        "documented": 90,
+        "placeholder": 0,
+        "empty": 0,
+        "unresolved": 0
+      }
+    },
+    "locationNotes": 7,
+    "generalReferenceCells": 29
+  },
+  "forgingCounts": {
+    "expectedMain": 91,
+    "expectedPreliminary": 5,
+    "main": 91,
+    "preliminary": 5,
+    "exactRelationships": 4,
+    "possibleSpellingRelationships": 1,
+    "completeness": {
+      "complete": 86,
+      "incomplete": 5
+    },
+    "primaryCompleteness": {
+      "complete": 87,
+      "incomplete": 4
+    },
+    "primaryIncompleteNames": [
+      "Whirlwind Blade",
+      "Shining Spear",
+      "Dodge Gauntlets",
+      "Zerberus"
+    ],
+    "mainMightKinds": {
+      "span": 86,
+      "missing": 4,
+      "single": 1
+    },
+    "mainRangeStates": {
+      "documented": 72,
+      "source-display": 15,
+      "missing": 4
+    },
+    "numericalDifferences": 1,
+    "generalReferenceCells": 5
+  },
+  "importedCounts": {
+    "characters": 64,
+    "classes": 59
+  },
+  "characterTextCounts": {
+    "confirmed": 0,
+    "unverified": 345,
+    "unknown": 6,
+    "unavailable": 33
+  },
+  "classDetailCounts": {
+    "proficiencyExperience": {
+      "unlisted": 455,
+      "zero": 66,
+      "positive": 187
+    },
+    "flatStatBonuses": {
+      "recorded": 531,
+      "unknown": 0
+    },
+    "text": {
+      "confirmed": 0,
+      "unverified": 618,
+      "unknown": 89,
+      "unavailable": 1
+    },
+    "baseStats": "AQ:AY excluded: source work in progress"
+  },
+  "status": "passed"
+}

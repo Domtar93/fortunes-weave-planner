@@ -1,0 +1,1524 @@
+{
+  "schemaVersion": 1,
+  "game": "Fire Emblem: Fortune's Weave",
+  "reviewedAt": "2026-11-01",
+  "sourceSnapshotSha256": "7272dbdf868673bf01c8ee7de9e42ba4fca212722c22ba3c4f7386d1c074c6cc",
+  "definitions": [
+    {
+      "name": "Counter Fliers",
+      "proficiency": "Authority",
+      "description": "Flying foes within 2 spaces have Hit and Avo reduced by 5.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Anna's Notebook — Counter Fliers",
+          "url": "https://annasnotebook.net/en/skills/counter-fliers/"
+        }
+      ]
+    },
+    {
+      "name": "Counter Fliers+",
+      "proficiency": "Authority",
+      "description": "Flying foes within 3 spaces have Hit and Avo reduced by 5.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Anna's Notebook — Counter Fliers+",
+          "url": "https://www.annasnotebook.net/en/skills/counter-fliers-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Killer Spike",
+      "proficiency": "Axe",
+      "description": "A powerful axe combat art with a high critical rate.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Anna's Notebook — skills and combat arts",
+          "url": "https://annasnotebook.net/en/skills/"
+        },
+        {
+          "label": "Yu Pha's Temple — axe arts",
+          "url": "https://yuphastemple.com/axe-arts/"
+        }
+      ]
+    },
+    {
+      "name": "Mind's-Eye Blow",
+      "proficiency": "Gauntlet",
+      "description": "A highly accurate gauntlet combat art.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Anna's Notebook — skills and combat arts",
+          "url": "https://annasnotebook.net/en/skills/"
+        }
+      ]
+    },
+    {
+      "name": "Excalibur",
+      "proficiency": "Reason",
+      "description": "Wind magic that strikes with large wind blades. Effective against flying foes.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Yu Pha's Temple — weapons and magic",
+          "url": "https://yuphastemple.com/weapons/"
+        }
+      ]
+    },
+    {
+      "name": "Sagittae",
+      "proficiency": "Reason",
+      "description": "Attacks a foe with magical arrows.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Yu Pha's Temple — weapons and magic",
+          "url": "https://yuphastemple.com/weapons/"
+        }
+      ]
+    },
+    {
+      "name": "Aura",
+      "proficiency": "Faith",
+      "description": "Sacred light magic that strikes the target from below.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Yu Pha's Temple — weapons and magic",
+          "url": "https://yuphastemple.com/weapons/"
+        }
+      ]
+    },
+    {
+      "name": "Agnea's Arrow",
+      "proficiency": "Reason",
+      "description": "High-tier fire magic that strikes with blazing flames.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Yu Pha's Temple — weapons and magic",
+          "url": "https://yuphastemple.com/weapons/"
+        }
+      ]
+    },
+    {
+      "name": "Defense Formation+",
+      "proficiency": "Authority",
+      "description": "Grants Shld+2 to adjacent allies.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Anna's Notebook — Defense Formation+ / Defensive Formation+",
+          "url": "https://annasnotebook.net/en/skills/sk-421/"
+        }
+      ]
+    },
+    {
+      "name": "Defensive Formation+",
+      "proficiency": "Authority",
+      "description": "Grants Shld+2 to adjacent allies.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Anna's Notebook — Defense Formation+ / Defensive Formation+",
+          "url": "https://annasnotebook.net/en/skills/sk-421/"
+        }
+      ]
+    },
+    {
+      "name": "Blaze Blow+",
+      "proficiency": "Sword",
+      "description": "When attacking: (Strength ÷ 2)% chance of Attack +5.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Chop+",
+      "proficiency": "Sword",
+      "description": "High Might, low Hit.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Crosswise Cut+",
+      "proficiency": "Sword",
+      "description": "After combat, Dexterity +2 (maximum +10) until map ends.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Dark Ray+",
+      "proficiency": "Sword",
+      "description": "Combat penalty to foe: Hit/Avoid/Critical −20.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Finesse Blade+",
+      "proficiency": "Sword",
+      "description": "Inflicts at least 10 damage.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Flash Blow+",
+      "proficiency": "Sword",
+      "description": "When attacking: (Dexterity ÷ 2)% chance of Attack +5.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Furious Strike+",
+      "proficiency": "Sword",
+      "description": "High Might and Hit.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Gale Blow+",
+      "proficiency": "Sword",
+      "description": "When attacking: (Speed ÷ 2)% chance of Attack +5.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Grounder+",
+      "proficiency": "Sword",
+      "description": "Effective against fliers.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Heat Haze+",
+      "proficiency": "Sword",
+      "description": "After a kill: Avoid +20 until the unit's next phase.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Hexblade+",
+      "proficiency": "Sword",
+      "description": "Deals magical damage.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Mist Reaper+",
+      "proficiency": "Sword",
+      "description": "During combat: Avoid +10; follow-up Critical +10.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Rend Armor+",
+      "proficiency": "Sword",
+      "description": "Effective against armor.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Shadow Gambit+",
+      "proficiency": "Sword",
+      "description": "Ignores advantageous enemy terrain.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Single Sunder+",
+      "proficiency": "Sword",
+      "description": "Strong, inaccurate, low durability cost.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Skysplit+",
+      "proficiency": "Sword",
+      "description": "Combat Attack Speed +5.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Subdue+",
+      "proficiency": "Sword",
+      "description": "Leaves 1 HP when foe has ≥2; cannot follow up.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Sunder+",
+      "proficiency": "Sword",
+      "description": "High Critical.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Tiger Slash+",
+      "proficiency": "Sword",
+      "description": "Effective against cavalry.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Twin Blades+",
+      "proficiency": "Sword",
+      "description": "Two consecutive strikes, each dealing 80% damage.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Windsweep+",
+      "proficiency": "Sword",
+      "description": "On hit: 20% chance to prevent counters.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Wrath Strike+",
+      "proficiency": "Sword",
+      "description": "High Hit.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Bloodletting+",
+      "proficiency": "Sword",
+      "description": "Dragon-effective, with very high Critical.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Astra+",
+      "proficiency": "Sword",
+      "description": "Five consecutive strikes, each dealing 50% damage.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Dropshadow Blade+",
+      "proficiency": "Sword",
+      "description": "Ignores advantageous enemy terrain.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Birdbane+",
+      "proficiency": "Sword",
+      "description": "On hitting a flier: Movement −3 until the unit's next phase.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Bladerule+",
+      "proficiency": "Sword",
+      "description": "Hit fixed at 10%; extreme Critical; cannot follow up.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Flowform+",
+      "proficiency": "Sword",
+      "description": "Combat Avoid +20; follow-up regardless of AS; deals half damage throughout combat.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Giantsbane+",
+      "proficiency": "Sword",
+      "description": "Against large foes, halves combat damage received.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune's Weave Encyclopedia — combat arts (Sword)",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/"
+        }
+      ]
+    },
+    {
+      "name": "Armored Blow+",
+      "proficiency": "Spear",
+      "description": "On kill: Protection+3 until your next phase; cannot follow up.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Armored Blow+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-armored-blow-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Brilliant Strike+",
+      "proficiency": "Spear",
+      "description": "On kill: Resilience+7 until your next phase.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Brilliant Strike+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-brilliant-strike-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Defending Spear+",
+      "proficiency": "Spear",
+      "description": "Defensive power+3 during combat.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Defending Spear+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-defending-spear-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Double Throw+",
+      "proficiency": "Spear",
+      "description": "Two consecutive attacks; requires a range 1–2 spear.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Double Throw+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-double-throw-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Focused Throw+",
+      "proficiency": "Spear",
+      "description": "High accuracy; requires a range 1–2 spear.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Focused Throw+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-focused-throw-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Frozen Spear+",
+      "proficiency": "Spear",
+      "description": "Inflicts magical damage.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Frozen Spear+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-frozen-spear-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Gale Spear+",
+      "proficiency": "Spear",
+      "description": "High critical rate.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Gale Spear+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-gale-spear-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Graceful Blow+",
+      "proficiency": "Spear",
+      "description": "When attacking: (Dex ÷ 2)% chance to spend no durability.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Graceful Blow+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-graceful-blow-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Jab+",
+      "proficiency": "Spear",
+      "description": "Modest Might increase.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Jab+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-jab-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Protective Storm+",
+      "proficiency": "Spear",
+      "description": "Protection+7 during combat.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Protective Storm+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-protective-storm-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Quick Thrust+",
+      "proficiency": "Spear",
+      "description": "AS+3 during combat.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Quick Thrust+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-quick-thrust-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Raging Tempest+",
+      "proficiency": "Spear",
+      "description": "High Might and accuracy.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Raging Tempest+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-raging-tempest-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Stinger+",
+      "proficiency": "Spear",
+      "description": "High Might; low accuracy.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Stinger+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-stinger-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Tempest Spear+",
+      "proficiency": "Spear",
+      "description": "High accuracy.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Tempest Spear+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-tempest-spear-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Vanguard Spear+",
+      "proficiency": "Spear",
+      "description": "When attacking: (Str ÷ 2)% chance of Atk+5.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Vanguard Spear+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-vanguard-spear-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Yawning Throw+",
+      "proficiency": "Spear",
+      "description": "High Might/Hit; requires a range 1–2 spear.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Yawning Throw+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-yawning-throw-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Fierce Spear+",
+      "proficiency": "Spear",
+      "description": "Prevents the foe's follow-up during combat.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Fierce Spear+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-fierce-spear-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Windpierce+",
+      "proficiency": "Spear",
+      "description": "Hit+20 if foe's AS is at least 4 higher; requires a range 1–2 spear.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Spear upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=spear"
+        },
+        {
+          "label": "Hidden Windpierce+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-hidden-windpierce-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Battleblade Strike+",
+      "proficiency": "Axe",
+      "description": "After combat: Dex+2, stacking to+10 until map ends.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Battleblade Strike+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-battleblade-strike-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Discerning Blow+",
+      "proficiency": "Axe",
+      "description": "Very high accuracy, but damage is halved.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Discerning Blow+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-discerning-blow-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Double Attack+",
+      "proficiency": "Axe",
+      "description": "Two consecutive strikes, each at 90% damage.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Double Attack+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-double-attack-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Enrage+",
+      "proficiency": "Axe",
+      "description": "After combat: Str+1, stacking to+5 until map ends.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Enrage+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-enrage-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Focused Strike+",
+      "proficiency": "Axe",
+      "description": "Very high accuracy.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Focused Strike+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-focused-strike-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Guard Spike+",
+      "proficiency": "Axe",
+      "description": "Protection+10 during combat.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Guard Spike+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-guard-spike-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Helm Splitter+",
+      "proficiency": "Axe",
+      "description": "Effective against armored foes.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Helm Splitter+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-helm-splitter-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Hurl+",
+      "proficiency": "Axe",
+      "description": "High accuracy; requires a range 1–2 axe.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Hurl+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-hurl-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Magic Throw+",
+      "proficiency": "Axe",
+      "description": "Magical damage; requires a range 1–2 axe.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Magic Throw+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-magic-throw-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Power Spike+",
+      "proficiency": "Axe",
+      "description": "High Might and accuracy.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Power Spike+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-power-spike-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Power Throw+",
+      "proficiency": "Axe",
+      "description": "High Might/Hit; requires a range 1–2 axe.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Power Throw+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-power-throw-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Smash+",
+      "proficiency": "Axe",
+      "description": "High critical rate.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Smash+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-smash-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Spike+",
+      "proficiency": "Axe",
+      "description": "High accuracy.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Spike+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-spike-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Triple Spike+",
+      "proficiency": "Axe",
+      "description": "Three consecutive strikes; Hit+10 whenever a strike is evaded.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Triple Spike+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-triple-spike-plus/"
+        }
+      ]
+    },
+    {
+      "name": "War Master's Strike+",
+      "proficiency": "Axe",
+      "description": "Multiplies inflicted damage by 1.5.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "War Master's Strike+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-war-masters-strike-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Soulrend+",
+      "proficiency": "Axe",
+      "description": "Heals HP equal to half of damage inflicted.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Axe upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=axe"
+        },
+        {
+          "label": "Hidden Soulrend+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-hidden-soulrend-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Arrowcrack+",
+      "proficiency": "Bow",
+      "description": "When attacking: 50% chance of Atk+15.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Bow upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=bow"
+        },
+        {
+          "label": "Arrowcrack+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-arrowcrack-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Breakaway Shot+",
+      "proficiency": "Bow",
+      "description": "After combat, move up to 1 space.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Bow upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=bow"
+        },
+        {
+          "label": "Breakaway Shot+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-breakaway-shot-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Curved Shot+",
+      "proficiency": "Bow",
+      "description": "High accuracy.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Bow upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=bow"
+        },
+        {
+          "label": "Curved Shot+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-curved-shot-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Encloser+",
+      "proficiency": "Bow",
+      "description": "On hit: foe Mov−3 until your next phase.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Bow upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=bow"
+        },
+        {
+          "label": "Encloser+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-encloser-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Haphazard+",
+      "proficiency": "Bow",
+      "description": "Four consecutive strikes; each deals 90% damage.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Anna's Notebook — Haphazard+",
+          "url": "https://annasnotebook.net/en/skills/haphazard/"
+        }
+      ]
+    },
+    {
+      "name": "Leaden Draw+",
+      "proficiency": "Bow",
+      "description": "High Might and accuracy.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Bow upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=bow"
+        },
+        {
+          "label": "Leaden Draw+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-leaden-draw-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Leg Shot+",
+      "proficiency": "Bow",
+      "description": "On hit: foe Avo−20 through their next combat; cannot follow up.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Bow upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=bow"
+        },
+        {
+          "label": "Leg Shot+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-leg-shot-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Mighty Shot+",
+      "proficiency": "Bow",
+      "description": "Very high Might; low accuracy.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Bow upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=bow"
+        },
+        {
+          "label": "Mighty Shot+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-mighty-shot-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Spiral Shot+",
+      "proficiency": "Bow",
+      "description": "When attacking: (Dex ÷ 2)% chance of Atk+5.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Bow upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=bow"
+        },
+        {
+          "label": "Spiral Shot+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-spiral-shot-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Vital Shot+",
+      "proficiency": "Bow",
+      "description": "High critical rate.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Bow upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=bow"
+        },
+        {
+          "label": "Vital Shot+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-vital-shot-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Hunter's Cross+",
+      "proficiency": "Bow",
+      "description": "High accuracy and critical rate.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Bow upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=bow"
+        },
+        {
+          "label": "Hunter's Cross+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-hunters-cross-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Truesnipe+",
+      "proficiency": "Bow",
+      "description": "Long range; very high durability cost; cannot follow up.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Bow upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=bow"
+        },
+        {
+          "label": "Hidden Truesnipe+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-hidden-truesnipe-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Battle Blow+",
+      "proficiency": "Gauntlet",
+      "description": "At full HP: Atk+3.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "Battle Blow+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-battle-blow-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Battle Rush+",
+      "proficiency": "Gauntlet",
+      "description": "Follow-up happens before the counterattack.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "Battle Rush+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-battle-rush-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Curtail Magic+",
+      "proficiency": "Gauntlet",
+      "description": "Resilience+5 during combat.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "Curtail Magic+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-curtail-magic-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Deal Death+",
+      "proficiency": "Gauntlet",
+      "description": "High critical rate.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "Deal Death+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-deal-death-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Fading Blow+",
+      "proficiency": "Gauntlet",
+      "description": "After combat, move up to 1 space.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "Fading Blow+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-fading-blow-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Feint+",
+      "proficiency": "Gauntlet",
+      "description": "After combat: foe Avo−20 through their next combat.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "Feint+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-feint-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Mighty Fist+",
+      "proficiency": "Gauntlet",
+      "description": "High accuracy.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "Mighty Fist+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-mighty-fist-plus/"
+        }
+      ]
+    },
+    {
+      "name": "One-on-One+",
+      "proficiency": "Gauntlet",
+      "description": "Immobilizes the foe on hit.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "One-on-One+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-one-on-one-plus/"
+        }
+      ]
+    },
+    {
+      "name": "One-Two Punch+",
+      "proficiency": "Gauntlet",
+      "description": "User attacks second; Avo+20 during combat.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "One-Two Punch+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-one-two-punch-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Saving Fist+",
+      "proficiency": "Gauntlet",
+      "description": "Foes with 2+ HP survive at 1 HP; cannot follow up.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "Saving Fist+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-saving-fist-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Strike and Heal+",
+      "proficiency": "Gauntlet",
+      "description": "Allows assist magic after combat.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "Strike and Heal+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-strike-and-heal-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Hidden Evilbreak+",
+      "proficiency": "Gauntlet",
+      "description": "On hit: disables foe's Underworld Boon through their next combat.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Fortune’s Weave Encyclopedia — Gauntlet upgrade table",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/category/combat-art/?group=gauntlet"
+        },
+        {
+          "label": "Hidden Evilbreak+",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/combat-art-hidden-evilbreak-plus/"
+        }
+      ]
+    },
+    {
+      "name": "Lend Resistance",
+      "proficiency": "Authority",
+      "description": "Grants Res+2 to an ally until unit's next phase.",
+      "reliability": "community",
+      "sources": [
+        {
+          "label": "Yu Pha's Temple — Lend Resistance (reviewed November 1, 2026)",
+          "url": "https://yuphastemple.com/?item=lend-resistance"
+        }
+      ]
+    }
+  ],
+  "reconciliations": [
+    {
+      "recordedName": "Lancefaire",
+      "characterName": "Ninae",
+      "proficiency": "Spear",
+      "rank": "S+",
+      "source": "'Spear'!G42",
+      "currentName": "Spearfaire",
+      "description": "When equipped with a spear, grants Hit/Avo+10 and Atk+3.",
+      "sources": [
+        {
+          "label": "Anna's Notebook — Spearfaire",
+          "url": "https://annasnotebook.net/en/skills/spearfaire/"
+        },
+        {
+          "label": "Current supplied Spear!H42",
+          "url": "https://docs.google.com/spreadsheets/d/1toaw286JE2caHAnf_5zy-_4m-3PM-ysS9ihmd2SBjtE/edit#gid=1229617060&range=H42"
+        }
+      ],
+      "rationale": "The current supplied learnset and game-specific public reference agree on the current name at this exact older source path. Presentation only; recorded identity is unchanged."
+    },
+    {
+      "recordedName": "Lancefaire",
+      "characterName": "Seteth",
+      "proficiency": "Spear",
+      "rank": "S+",
+      "source": "'Spear'!G50",
+      "currentName": "Spearfaire",
+      "description": "When equipped with a spear, grants Hit/Avo+10 and Atk+3.",
+      "sources": [
+        {
+          "label": "Anna's Notebook — Spearfaire",
+          "url": "https://annasnotebook.net/en/skills/spearfaire/"
+        },
+        {
+          "label": "Current supplied Spear!H50",
+          "url": "https://docs.google.com/spreadsheets/d/1toaw286JE2caHAnf_5zy-_4m-3PM-ysS9ihmd2SBjtE/edit#gid=1229617060&range=H50"
+        }
+      ],
+      "rationale": "The current supplied learnset and game-specific public reference agree on the current name at this exact older source path. Presentation only; recorded identity is unchanged."
+    },
+    {
+      "recordedName": "Brilliant Blow",
+      "characterName": "Orchel",
+      "proficiency": "Spear",
+      "rank": "A",
+      "source": "'Spear'!E47",
+      "currentName": "Brilliant Strike",
+      "description": "After defeating a foe, grants Rsl+7 until unit's next phase.",
+      "sources": [
+        {
+          "label": "Anna's Notebook — Brilliant Strike",
+          "url": "https://annasnotebook.net/en/skills/brilliant-strike/"
+        },
+        {
+          "label": "Current supplied Spear!E47",
+          "url": "https://docs.google.com/spreadsheets/d/1toaw286JE2caHAnf_5zy-_4m-3PM-ysS9ihmd2SBjtE/edit#gid=1229617060&range=E47"
+        }
+      ],
+      "rationale": "The current supplied learnset and game-specific public reference agree on the current name at this exact older source path. Presentation only; recorded identity is unchanged."
+    },
+    {
+      "recordedName": "Superior Bowblock",
+      "characterName": "Anatolia",
+      "proficiency": "Armor",
+      "rank": "S",
+      "source": "'Armor'!F3",
+      "currentName": "Bowblock+",
+      "description": "[Armored] If the foe uses a bow, grants Shld+10 during combat.",
+      "sources": [
+        {
+          "label": "Anna's Notebook — Bowblock+",
+          "url": "https://annasnotebook.net/en/skills/bowblock-plus/"
+        },
+        {
+          "label": "Current supplied Armor!G3",
+          "url": "https://docs.google.com/spreadsheets/d/1toaw286JE2caHAnf_5zy-_4m-3PM-ysS9ihmd2SBjtE/edit#gid=439416638&range=G3"
+        }
+      ],
+      "rationale": "The current supplied learnset and game-specific public reference agree on the current name at this exact older source path. Presentation only; recorded identity is unchanged."
+    }
+  ],
+  "unresolved": [
+    {
+      "recordedName": "Lend Resistance",
+      "characterName": "Ninae",
+      "proficiency": "Authority",
+      "rank": "S",
+      "source": "'Authority'!F42",
+      "currentName": "Lend Strength++",
+      "notice": "This older unlock conflicts with Ninae's current Authority S record, Lend Strength++. The Lend Resistance effect below describes the named ability; it does not confirm that Ninae learns it.",
+      "sources": [
+        {
+          "label": "Yu Pha's Temple — ability catalog",
+          "url": "https://yuphastemple.com/abilities/"
+        },
+        {
+          "label": "Anna's Notebook — Ninae",
+          "url": "https://annasnotebook.net/en/characters/ninae/"
+        },
+        {
+          "label": "Current supplied Authority!H42",
+          "url": "https://docs.google.com/spreadsheets/d/1toaw286JE2caHAnf_5zy-_4m-3PM-ysS9ihmd2SBjtE/edit#gid=1411071706&range=H42"
+        }
+      ],
+      "rationale": "A current public definition establishes the named ability effect independently. Its availability to Ninae at this older source path is still disputed; the path and saved identity are not remapped."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "fortunes-weave-build-planner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/pack_runtime_data.mjs --check && node scripts/pack_community_data.mjs --check && node scripts/pack_ability_info.mjs --check && tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "import:data": "python scripts/import_data.py",
+    "import:community": "python scripts/import_community_reference.py",
+    "check:community": "python scripts/import_community_reference.py --check && node scripts/pack_community_data.mjs --check && node scripts/pack_ability_info.mjs --check",
+    "pack:community": "node scripts/pack_community_data.mjs && node scripts/pack_ability_info.mjs",
+    "test:import": "python -m unittest discover -s tests -v",
+    "test": "vitest run",
+    "pack:data": "node scripts/pack_runtime_data.mjs",
+    "check:data": "node scripts/pack_runtime_data.mjs --check",
+    "test:data": "node --test scripts/runtime_artifact.test.mjs scripts/community_artifact.test.mjs"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "@vitejs/plugin-react": "4.3.4",
+    "typescript": "5.7.3",
+    "vite": "6.1.0",
+    "vitest": "3.0.6",
+    "@testing-library/react": "16.2.0",
+    "@testing-library/user-event": "14.6.1",
+    "jsdom": "26.0.0"
+  }
+}

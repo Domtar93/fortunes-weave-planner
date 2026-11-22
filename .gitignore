@@ -1,0 +1,9 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+*.tsbuildinfo
+work/
+# Local editor and agent settings (machine-specific paths)
+.claude/

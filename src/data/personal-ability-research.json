@@ -1,0 +1,2300 @@
+{
+  "schemaVersion": 1,
+  "game": "Fire Emblem: Fortune's Weave",
+  "reviewedAt": "2026-11-01",
+  "sourceSnapshotSha256": "7272dbdf868673bf01c8ee7de9e42ba4fca212722c22ba3c4f7386d1c074c6cc",
+  "originalSourceSha256": "4983c89549294cc309423486e48811e4df8b90d4feb34caed6a3eef43e6a4254",
+  "records": [
+    {
+      "characterName": "Anatolia",
+      "personalKind": "inherent",
+      "recordedName": "Celestial Flow",
+      "originalSource": "Characters!W4",
+      "companionName": "Celestial Flow\nMeridian Rotation",
+      "companionDescription": "Grants Avo+3.\nGratns Avo+5. Allows use of the Shining Dragon Strike Blaze Art",
+      "companionSource": "Characters!AI66",
+      "variants": [
+        {
+          "name": "Celestial Flow",
+          "description": "Avoid +3.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/anatolia/"
+            },
+            {
+              "label": "Corroborating community reference",
+              "url": "https://annasnotebook.net/en/characters/anatolia/"
+            }
+          ],
+          "reliability": "community"
+        }
+      ],
+      "notes": [
+        "Only the Celestial Flow first line is corroborated. Do not treat the second raw inherent line as Celestial Flow+ or assign its Avoid/Blaze Art effect to Meridian Rotation. Public pages identify Meridian Rotation as a separate equippable ability with a different effect."
+      ]
+    },
+    {
+      "characterName": "Anatolia",
+      "personalKind": "equippable",
+      "recordedName": "Continuum",
+      "originalSource": "Characters!X4",
+      "companionName": "Continuum",
+      "companionDescription": "When unit avoids an attack, restores 5 HP to unit.\nWhen unit avoids an attack, restores 10 HP to unit.",
+      "companionSource": "Characters!AK66",
+      "variants": [
+        {
+          "name": "Continuum",
+          "description": "After avoiding an attack, restores 5 HP to the unit.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://annasnotebook.net/en/characters/anatolia/"
+            }
+          ],
+          "reliability": "community"
+        },
+        {
+          "name": "Continuum+",
+          "description": "After avoiding an attack, restores 10 HP to the unit.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=continuum-plus"
+            }
+          ],
+          "reliability": "community"
+        }
+      ],
+      "notes": [
+        "Variant effects independently corroborated. Do not infer the unlock level: Yupha indexed personal table places Continuum at Lv5 while Anna skills catalog says Lv35 and Continuum+ Lv50. No level included here."
+      ]
+    },
+    {
+      "characterName": "Nuzzuo",
+      "personalKind": "inherent",
+      "recordedName": "Har Hali Wisdom",
+      "originalSource": "Characters!W47",
+      "companionName": "Har Hali Wisdom",
+      "companionDescription": "Har Hali Wisdom",
+      "companionSource": "Characters!AI12",
+      "variants": [
+        {
+          "name": "Har Hali Wisdom",
+          "description": "Attack +3 in combat when the unit is effective against the foe.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/nuzzuo/"
+            },
+            {
+              "label": "Corroborating community reference",
+              "url": "https://annasnotebook.net/en/characters/nuzzuo/"
+            }
+          ],
+          "reliability": "community"
+        }
+      ],
+      "notes": [
+        "Companion description repeats its own skill name and is not a mechanical description."
+      ]
+    },
+    {
+      "characterName": "Nuzzuo",
+      "personalKind": "equippable",
+      "recordedName": "Precision Strike",
+      "originalSource": "Characters!X47",
+      "companionName": "Precision Strike",
+      "companionDescription": "If unit is effective against foe, grants Hit+10 during combat.\nIf unit is effective against foe, grants Hit+20 during combat.",
+      "companionSource": "Characters!AK12",
+      "variants": [
+        {
+          "name": "Precision Strike",
+          "description": "Hit +10 in combat when effective against the foe.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://annasnotebook.net/en/characters/nuzzuo/"
+            }
+          ],
+          "reliability": "community",
+          "level": 20
+        },
+        {
+          "name": "Precision Strike+",
+          "description": "Hit +20 in combat when effective against the foe.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://annasnotebook.net/en/characters/nuzzuo/"
+            }
+          ],
+          "reliability": "community",
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Talimun",
+      "personalKind": "inherent",
+      "recordedName": "Swashbuckler’s Luck",
+      "originalSource": "Characters!W59",
+      "companionName": "Swashbuckler’s Luck",
+      "companionDescription": "Grants Lck+3.\nGrants Lck+5 to unit and all allies.",
+      "companionSource": "Characters!AI70",
+      "variants": [
+        {
+          "name": "Swashbuckler’s Luck",
+          "description": "Luck +3.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/talimun/"
+            }
+          ],
+          "reliability": "community"
+        },
+        {
+          "name": "Swashbuckler’s Luck+",
+          "description": "Luck +5 to the unit and all allies.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://annasnotebook.net/en/skills/swashbucklers-luck-plus/"
+            }
+          ],
+          "reliability": "community"
+        }
+      ],
+      "notes": [
+        "The upgraded +5 replaces base +3; do not stack to +8. Upgrade acquisition level is not established here."
+      ]
+    },
+    {
+      "characterName": "Talimun",
+      "personalKind": "equippable",
+      "recordedName": "Cannoning Flair\nWinds of Victory",
+      "originalSource": "Characters!X59",
+      "companionName": "Cannoning Flair\nWinds of Victory",
+      "companionDescription": "When using artillery, grants Hit+30 during combat.\nGrants Lck+3.\nGrants Lck+5 to unit and all allies.",
+      "companionSource": "Characters!AK70",
+      "variants": [
+        {
+          "name": "Cannoning Flair",
+          "description": "Hit +30 in combat while using artillery.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=cannoning-flair"
+            }
+          ],
+          "reliability": "community"
+        },
+        {
+          "name": "Winds of Victory",
+          "description": "Luck% chance: Hit +15 when attacking, or Avoid +15 when attacked.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=winds-of-victory"
+            },
+            {
+              "label": "Corroborating community reference",
+              "url": "https://annasnotebook.net/en/skills/winds-of-victory/"
+            }
+          ],
+          "reliability": "community"
+        }
+      ],
+      "notes": [
+        "Raw companion description mistakenly appends Swashbuckler Luck effect lines under the two equippable names. Do not line-pair this field. No constant Hit+15/Avoid+15 is asserted: each is conditional and chance-based."
+      ]
+    },
+    {
+      "characterName": "Bertrand",
+      "personalKind": "inherent",
+      "recordedName": "Requiem Style",
+      "originalSource": "Characters!W7",
+      "companionName": "Requiem Style",
+      "companionDescription": "Unit makes a follow-up regardless of AS during combat. Trigger % = 5.",
+      "companionSource": "Characters!AI53",
+      "variants": [
+        {
+          "name": "Requiem Style",
+          "description": "5% chance to make a follow-up regardless of Attack Speed during combat.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/bertrand/"
+            }
+          ],
+          "reliability": "community"
+        },
+        {
+          "name": "Requiem Style+",
+          "description": "10% chance to make a follow-up regardless of Attack Speed during combat.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/bertrand/"
+            }
+          ],
+          "reliability": "community"
+        }
+      ],
+      "notes": [
+        "The base original name/source remain intact. Additional personal upgrade effect is public evidence; its acquisition timing is not established here."
+      ]
+    },
+    {
+      "characterName": "Bertrand",
+      "personalKind": "equippable",
+      "recordedName": "Go No Sen\nSen No Sen",
+      "originalSource": "Characters!X7",
+      "companionName": "Go No Sen\nSen No Sen",
+      "companionDescription": "In enemy's phase, unit attacks first during combat. Trigger % = 25.\nIf unit attacks first, unit's follow-up occurs before foe's counter during combat. Trigger % = 25.",
+      "companionSource": "Characters!AK53",
+      "variants": [
+        {
+          "name": "Go No Sen",
+          "description": "During enemy phase, a 25% chance to attack first in combat.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=go-no-sen"
+            }
+          ],
+          "reliability": "community",
+          "level": 5
+        },
+        {
+          "name": "Sen No Sen",
+          "description": "When attacking first, a 25% chance for the unit’s follow-up to occur before the foe’s counterattack.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=sen-no-sen"
+            }
+          ],
+          "reliability": "community"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Orchel",
+      "personalKind": "inherent",
+      "recordedName": "Solid and Sturdy",
+      "originalSource": "Characters!W50",
+      "companionName": "Solid and Sturdy",
+      "companionDescription": "Grants Def+5. Unit is armored. Cannot change class to cavalry or flying.",
+      "companionSource": "Characters!AI59",
+      "variants": [
+        {
+          "name": "Solid and Sturdy",
+          "description": "Defense +5; armored unit. Cannot change to cavalry or flying classes.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/orchel/"
+            }
+          ],
+          "reliability": "community"
+        },
+        {
+          "name": "Solid and Sturdy+",
+          "description": "Defense +5 and Dexterity +10; armored unit. Cannot change to cavalry or flying classes.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/orchel/"
+            }
+          ],
+          "reliability": "community"
+        }
+      ],
+      "notes": [
+        "Do not enforce these restrictions through new equip legality rules. Display source-established text only."
+      ]
+    },
+    {
+      "characterName": "Orchel",
+      "personalKind": "equippable",
+      "recordedName": "Predictive Sense\nHarmonic Soul\nSelf-Repair",
+      "originalSource": "Characters!X50",
+      "companionName": "Predictive Sense\nHarmonic Soul\nSelf-Repair",
+      "companionDescription": "If unit attacks first, grants Hit+20 to magic during combat.\nWhen healing an ally with magic, restores a little (some) HP to unit.\nAt start of unit's phase during Overblaze, restores a lot of HP to unit",
+      "companionSource": "Characters!AK59",
+      "variants": [
+        {
+          "name": "Predictive Sense",
+          "description": "Magic Hit +20 in combat when attacking first.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=predictive-sense"
+            }
+          ],
+          "reliability": "community"
+        },
+        {
+          "name": "Harmonic Soul",
+          "description": "Healing an ally with magic restores some HP to the unit.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=harmonic-soul"
+            }
+          ],
+          "reliability": "community"
+        },
+        {
+          "name": "Self-Repair",
+          "description": "During Overblaze, restores a large amount of HP at the start of the unit’s phase.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=self-repair"
+            }
+          ],
+          "reliability": "community"
+        }
+      ],
+      "notes": [
+        "Harmonic Soul and Self-Repair source amounts remain qualitative. No numerical amount or healing formula is inferred."
+      ]
+    },
+    {
+      "characterName": "Theodora",
+      "personalKind": "inherent",
+      "recordedName": "Royal Resolve",
+      "originalSource": "Characters!W60",
+      "companionName": "Royal Resolve",
+      "companionDescription": "Unit takes half damage when attacked. Trigger % = 30.",
+      "companionSource": "Characters!AI65",
+      "variants": [
+        {
+          "name": "Royal Resolve",
+          "description": "30% chance to halve damage when attacked.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/theodora/"
+            }
+          ],
+          "reliability": "community"
+        },
+        {
+          "name": "Royal Resolve+",
+          "description": "50% chance to halve damage when attacked.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/theodora/"
+            }
+          ],
+          "reliability": "community"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Theodora",
+      "personalKind": "equippable",
+      "recordedName": "Unstoppable Force\nDirect Hit",
+      "originalSource": "Characters!X60",
+      "companionName": "Unstoppable Force\nDirect Hit",
+      "companionDescription": "Multiplies damage by 3 when attacking obstacles.\nDeals +10 damage when attacking with Blaze Arts. Trigger % = 30.",
+      "companionSource": "Characters!AK65",
+      "variants": [
+        {
+          "name": "Unstoppable Force",
+          "description": "Deals triple damage when attacking obstacles.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=unstoppable-force"
+            }
+          ],
+          "reliability": "community"
+        },
+        {
+          "name": "Direct Hit",
+          "description": "30% chance to deal 10 extra damage when attacking with Blaze Arts.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=direct-hit"
+            }
+          ],
+          "reliability": "community",
+          "level": 5
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Alexandra",
+      "personalKind": "equippable",
+      "recordedName": "Soar",
+      "originalSource": "Characters!X3",
+      "companionName": "Soar",
+      "companionDescription": "If unit is on inaccessible terrain, grants AS+3.\nIf unit is on inaccessible terrain, grants AS+5.",
+      "companionSource": "Characters!AK60",
+      "variants": [
+        {
+          "name": "Soar",
+          "description": "Attack Speed +3 on terrain impassable on foot.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://annasnotebook.net/en/skills/soar/"
+            }
+          ],
+          "reliability": "community",
+          "level": 20
+        },
+        {
+          "name": "Soar+",
+          "description": "Attack Speed +5 on terrain impassable on foot.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=soar-plus"
+            }
+          ],
+          "reliability": "community",
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Sofia",
+      "personalKind": "equippable",
+      "recordedName": "Distant Healing",
+      "originalSource": "Characters!X57",
+      "companionName": "Distant Healing",
+      "companionDescription": "Grants Rng+1 to healing magic.\nGrants Rng+2 to healing magic.",
+      "companionSource": "Characters!AK16",
+      "variants": [
+        {
+          "name": "Distant Healing",
+          "description": "Healing magic range +1.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=distant-healing"
+            }
+          ],
+          "reliability": "community",
+          "level": 20
+        },
+        {
+          "name": "Distant Healing+",
+          "description": "Healing magic range +2.",
+          "sources": [
+            {
+              "label": "Reviewed community reference",
+              "url": "https://yuphastemple.com/?item=distant-healing-plus"
+            }
+          ],
+          "reliability": "community",
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Benditz",
+      "personalKind": "equippable",
+      "recordedName": "Chariot Stagger",
+      "originalSource": "Characters!X6",
+      "companionName": "Chariot Stagger",
+      "companionDescription": "If unit is charioteer, grants +1 uses to staggering blows.\nIf unit is charioteer, grants +2 uses to staggering blows.",
+      "companionSource": "Characters!AK13",
+      "variants": [
+        {
+          "name": "Chariot Stagger",
+          "description": "If unit is charioteer, grants +1 uses to staggering blows.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Benditz innate skills",
+              "url": "https://annasnotebook.net/en/characters/benditz/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Chariot Stagger+",
+          "description": "If unit is charioteer, grants +2 uses to staggering blows.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Benditz innate skills",
+              "url": "https://annasnotebook.net/en/characters/benditz/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Bonaventure",
+      "personalKind": "equippable",
+      "recordedName": "Additional Intel",
+      "originalSource": "Characters!X8",
+      "companionName": "Additional Intel",
+      "companionDescription": "Grants Hit+10 to adjacent allies during their combats. Trigger % = 30.\nGrants Hit+20 to adjacent allies during their combats. Trigger % = 30.",
+      "companionSource": "Characters!AK51",
+      "variants": [
+        {
+          "name": "Additional Intel",
+          "description": "Grants Hit+10 to adjacent allies during their combats. Trigger % = 30.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Bonaventure innate skills",
+              "url": "https://annasnotebook.net/en/characters/bonaventure/"
+            },
+            {
+              "label": "Yu Pha’s Temple — Additional Intel",
+              "url": "https://yuphastemple.com/?item=additional-intel"
+            },
+            {
+              "label": "Yu Pha’s Temple — Additional Intel+",
+              "url": "https://yuphastemple.com/?item=additional-intel-plus"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Additional Intel+",
+          "description": "Grants Hit+20 to adjacent allies during their combats. Trigger % = 30.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Bonaventure innate skills",
+              "url": "https://annasnotebook.net/en/characters/bonaventure/"
+            },
+            {
+              "label": "Yu Pha’s Temple — Additional Intel",
+              "url": "https://yuphastemple.com/?item=additional-intel"
+            },
+            {
+              "label": "Yu Pha’s Temple — Additional Intel+",
+              "url": "https://yuphastemple.com/?item=additional-intel-plus"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": [
+        "Translated base-link text More details reconciled against explicit Additional Intel item page. Base20/upgrade35 and Hit10/20 effects match supplied descriptions.",
+        "Unrelated inherent Sage Advice differs: public page Dex+3, supplied sheet Def+3."
+      ]
+    },
+    {
+      "characterName": "Buccar",
+      "personalKind": "equippable",
+      "recordedName": "Retaliatory Blow",
+      "originalSource": "Characters!X9",
+      "companionName": "Retaliatory Blow",
+      "companionDescription": "If foe attacks first, multiplies unit's damage by 1.3 when attacking. Trigger % = 5.\nIf foe attacks first, multiplies unit's damage by 1.3 when attacking. Trigger % = 10.",
+      "companionSource": "Characters!AK14",
+      "variants": [
+        {
+          "name": "Retaliatory Blow",
+          "description": "If foe attacks first, multiplies unit's damage by 1.3 when attacking. Trigger % = 5.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Buccar innate skills",
+              "url": "https://annasnotebook.net/en/characters/buccar/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Retaliatory Blow+",
+          "description": "If foe attacks first, multiplies unit's damage by 1.3 when attacking. Trigger % = 10.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Buccar innate skills",
+              "url": "https://annasnotebook.net/en/characters/buccar/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Catania",
+      "personalKind": "equippable",
+      "recordedName": "Wind My Friend",
+      "originalSource": "Characters!X11",
+      "companionName": "Wind My Friend",
+      "companionDescription": "If AS ≥ foe's AS+5, grants Atk+3 during combat.\nIf AS ≥ foe's AS+5, grants Atk+3, and if AS ≥ foe's AS+8, grants Avo+20 during combat.",
+      "companionSource": "Characters!AK54",
+      "variants": [
+        {
+          "name": "Wind My Friend",
+          "description": "If AS ≥ foe's AS+5, grants Atk+3 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Catania innate skills",
+              "url": "https://annasnotebook.net/en/characters/catania/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Wind My Friend+",
+          "description": "If AS ≥ foe's AS+5, grants Atk+3, and if AS ≥ foe's AS+8, grants Avo+20 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Catania innate skills",
+              "url": "https://annasnotebook.net/en/characters/catania/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Dadao",
+      "personalKind": "equippable",
+      "recordedName": "Full Strength",
+      "originalSource": "Characters!X14",
+      "companionName": "Full Strength",
+      "companionDescription": "Multiplies damage by 1.3 when attacking. Trigger % = Str ÷ 2.\nMultiplies damage by 1.5 when attacking. Trigger % = Str ÷ 2.",
+      "companionSource": "Characters!AK11",
+      "variants": [
+        {
+          "name": "Full Strength",
+          "description": "Multiplies damage by 1.3 when attacking. Trigger % = Str ÷ 2.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Dadao innate skills",
+              "url": "https://annasnotebook.net/en/characters/dadao/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Full Strength+",
+          "description": "Multiplies damage by 1.5 when attacking. Trigger % = Str ÷ 2.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Dadao innate skills",
+              "url": "https://annasnotebook.net/en/characters/dadao/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Dante",
+      "personalKind": "equippable",
+      "recordedName": "Dramatic Effect",
+      "originalSource": "Characters!X15",
+      "companionName": "Dramatic Effect",
+      "companionDescription": "When Stage Direction triggers, grants Hit+10 to target allies.\nWhen Stage Direction triggers, grants Hit/Crit+10 to target allies.",
+      "companionSource": "Characters!AK17",
+      "variants": [
+        {
+          "name": "Dramatic Effect",
+          "description": "When Stage Direction triggers, grants Hit+10 to target allies.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Dante innate skills",
+              "url": "https://annasnotebook.net/en/characters/dante/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Dramatic Effect+",
+          "description": "When Stage Direction triggers, grants Hit/Crit+10 to target allies.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Dante innate skills",
+              "url": "https://annasnotebook.net/en/characters/dante/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Diego",
+      "personalKind": "equippable",
+      "recordedName": "No Mercy",
+      "originalSource": "Characters!X16",
+      "companionName": "No Mercy",
+      "companionDescription": "Grants Hit/Crit+5 when making a follow-up.\nGrants Hit/Crit+10 when making a follow-up.",
+      "companionSource": "Characters!AK30",
+      "variants": [
+        {
+          "name": "No Mercy",
+          "description": "Grants Hit/Crit+5 when making a follow-up.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Diego innate skills",
+              "url": "https://annasnotebook.net/en/characters/diego/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "No Mercy+",
+          "description": "Grants Hit/Crit+10 when making a follow-up.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Diego innate skills",
+              "url": "https://annasnotebook.net/en/characters/diego/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Eshmel",
+      "personalKind": "equippable",
+      "recordedName": "Scorching Sun",
+      "originalSource": "Characters!X18",
+      "companionName": "Scorching Sun",
+      "companionDescription": "Reduces damage done by undead foes to 0. Trigger % = 5.\nReduces damage done by undead foes to 0. Trigger % = 10.",
+      "companionSource": "Characters!AK68",
+      "variants": [
+        {
+          "name": "Scorching Sun",
+          "description": "Reduces damage done by undead foes to 0. Trigger % = 5.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Eshmel innate skills",
+              "url": "https://annasnotebook.net/en/characters/eshmel/"
+            }
+          ],
+          "level": 45
+        },
+        {
+          "name": "Scorching Sun+",
+          "description": "Reduces damage done by undead foes to 0. Trigger % = 10.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Eshmel innate skills",
+              "url": "https://annasnotebook.net/en/characters/eshmel/"
+            }
+          ],
+          "level": 60
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Esmeralda",
+      "personalKind": "equippable",
+      "recordedName": "Throwing Arm",
+      "originalSource": "Characters!X19",
+      "companionName": "Throwing Arm",
+      "companionDescription": "If throwing a spear, grants Hit+10, Atk+2 during combat.\nIf throwing a spear, grants Hit+20, Atk+4 during combat.",
+      "companionSource": "Characters!AK35",
+      "variants": [
+        {
+          "name": "Throwing Arm",
+          "description": "If throwing a spear, grants Hit+10, Atk+2 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Esmeralda innate skills",
+              "url": "https://annasnotebook.net/en/characters/esmeralda/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Throwing Arm+",
+          "description": "If throwing a spear, grants Hit+20, Atk+4 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Esmeralda innate skills",
+              "url": "https://annasnotebook.net/en/characters/esmeralda/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Fabio",
+      "personalKind": "equippable",
+      "recordedName": "Dark Secrets",
+      "originalSource": "Characters!X20",
+      "companionName": "Dark Secrets",
+      "companionDescription": "Extends range of Dark Calling to 2 spaces.\nExtends range of Dark Calling to 3 spaces.",
+      "companionSource": "Characters!AK31",
+      "variants": [
+        {
+          "name": "Dark Secrets",
+          "description": "Extends range of Dark Calling to 2 spaces.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Fabio innate skills",
+              "url": "https://annasnotebook.net/en/characters/fabio/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Dark Secrets+",
+          "description": "Extends range of Dark Calling to 3 spaces.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Fabio innate skills",
+              "url": "https://annasnotebook.net/en/characters/fabio/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Fianna",
+      "personalKind": "equippable",
+      "recordedName": "Gift of Faith",
+      "originalSource": "Characters!X21",
+      "companionName": "Gift of Faith",
+      "companionDescription": "When healing an ally with magic, restores +20 HP. Trigger % = Lck.\nWhen healing an ally with magic, restores +30 HP. Trigger % = Lck.",
+      "companionSource": "Characters!AK18",
+      "variants": [
+        {
+          "name": "Gift of Faith",
+          "description": "When healing an ally with magic, restores +20 HP. Trigger % = Lck.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Fianna innate skills",
+              "url": "https://annasnotebook.net/en/characters/fianna/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Gift of Faith+",
+          "description": "When healing an ally with magic, restores +30 HP. Trigger % = Lck.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Fianna innate skills",
+              "url": "https://annasnotebook.net/en/characters/fianna/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Gaitz",
+      "personalKind": "equippable",
+      "recordedName": "Flashing Fang",
+      "originalSource": "Characters!X22",
+      "companionName": "Flashing Fang",
+      "companionDescription": "Grants Atk+4, Hit+50 when attacking. Trigger % = 20.\nGrants Atk+7, Hit+100 when attacking. Trigger % = 20.",
+      "companionSource": "Characters!AK55",
+      "variants": [
+        {
+          "name": "Flashing Fang",
+          "description": "Grants Atk+4, Hit+50 when attacking. Trigger % = 20.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Gaitz innate skills",
+              "url": "https://annasnotebook.net/en/characters/gaitz/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Flashing Fang+",
+          "description": "Grants Atk+7, Hit+100 when attacking. Trigger % = 20.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Gaitz innate skills",
+              "url": "https://annasnotebook.net/en/characters/gaitz/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Goliath",
+      "personalKind": "equippable",
+      "recordedName": "Pin Down",
+      "originalSource": "Characters!X23",
+      "companionName": "Pin Down",
+      "companionDescription": "Inflicts Mov-3 on adjacent foes.\nInflicts Mov-5 on adjacent foes.",
+      "companionSource": "Characters!AK8",
+      "variants": [
+        {
+          "name": "Pin Down",
+          "description": "Inflicts Mov-3 on adjacent foes.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Goliath innate skills",
+              "url": "https://annasnotebook.net/en/characters/goliath/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Pin Down+",
+          "description": "Inflicts Mov-5 on adjacent foes.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Goliath innate skills",
+              "url": "https://annasnotebook.net/en/characters/goliath/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Guzran",
+      "personalKind": "equippable",
+      "recordedName": "Top Form",
+      "originalSource": "Characters!X24",
+      "companionName": "Top Form",
+      "companionDescription": "Changes the effect of Hot-Headed to grant +15.\nChanges the effect of Hot-Headed to grant +20.",
+      "companionSource": "Characters!AK36",
+      "variants": [
+        {
+          "name": "Top Form",
+          "description": "Changes the effect of Hot-Headed to grant +15.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Guzran innate skills",
+              "url": "https://annasnotebook.net/en/characters/guzran/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Top Form+",
+          "description": "Changes the effect of Hot-Headed to grant +20.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Guzran innate skills",
+              "url": "https://annasnotebook.net/en/characters/guzran/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Halvin",
+      "personalKind": "equippable",
+      "recordedName": "Halt Advance",
+      "originalSource": "Characters!X25",
+      "companionName": "Halt Advance",
+      "companionDescription": "After combat, if unit attacked first, inflicts Spd-2 on foe throughout their next combat.\nAfter combat, if unit attacked first, inflicts Spd-3 on foe throughout their next combat.",
+      "companionSource": "Characters!AK37",
+      "variants": [
+        {
+          "name": "Halt Advance",
+          "description": "After combat, if unit attacked first, inflicts Spd-2 on foe throughout their next combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Halvin innate skills",
+              "url": "https://annasnotebook.net/en/characters/halvin/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Halt Advance+",
+          "description": "After combat, if unit attacked first, inflicts Spd-3 on foe throughout their next combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Halvin innate skills",
+              "url": "https://annasnotebook.net/en/characters/halvin/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Hong Hua",
+      "personalKind": "equippable",
+      "recordedName": "Amplify Magic",
+      "originalSource": "Characters!X26",
+      "companionName": "Amplify Magic",
+      "companionDescription": "After combat, grants Atk+4 through unit's next combat. Trigger % = Mag ÷ 2\nAfter combat, grants Atk+7 through unit's next combat. Trigger % = Mag ÷ 2",
+      "companionSource": "Characters!AK52",
+      "variants": [
+        {
+          "name": "Amplify Magic",
+          "description": "After combat, grants Atk+4 through unit's next combat. Trigger % = Mag ÷ 2",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Hong Hua innate skills",
+              "url": "https://annasnotebook.net/en/characters/hong-hua/"
+            }
+          ],
+          "level": 50
+        },
+        {
+          "name": "Amplify Magic+",
+          "description": "After combat, grants Atk+7 through unit's next combat. Trigger % = Mag ÷ 2",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Hong Hua innate skills",
+              "url": "https://annasnotebook.net/en/characters/hong-hua/"
+            }
+          ],
+          "level": 60
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Inyoni",
+      "personalKind": "equippable",
+      "recordedName": "Pierce",
+      "originalSource": "Characters!X27",
+      "companionName": "Pierce",
+      "companionDescription": "Grants Atk+2, Crit+5 when attacking with a bow combat art.\nGrants Atk+4, Crit+10 when attacking with a bow combat art.",
+      "companionSource": "Characters!AK22",
+      "variants": [
+        {
+          "name": "Pierce",
+          "description": "Grants Atk+2, Crit+5 when attacking with a bow combat art.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Inyoni innate skills",
+              "url": "https://annasnotebook.net/en/characters/inyoni/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Pierce+",
+          "description": "Grants Atk+4, Crit+10 when attacking with a bow combat art.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Inyoni innate skills",
+              "url": "https://annasnotebook.net/en/characters/inyoni/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Io",
+      "personalKind": "equippable",
+      "recordedName": "Mounted Push",
+      "originalSource": "Characters!X28",
+      "companionName": "Mounted Push",
+      "companionDescription": "[Cavalry] If unit attacks first, grants Hit+10 during combat.\n[Cavalry] If unit attacks first, grants Hit+10, Atk+3 during combat.",
+      "companionSource": "Characters!AK23",
+      "variants": [
+        {
+          "name": "Mounted Push",
+          "description": "[Cavalry] If unit attacks first, grants Hit+10 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Io innate skills",
+              "url": "https://annasnotebook.net/en/characters/io/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Mounted Push+",
+          "description": "[Cavalry] If unit attacks first, grants Hit+10, Atk+3 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Io innate skills",
+              "url": "https://annasnotebook.net/en/characters/io/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Jasmine",
+      "personalKind": "equippable",
+      "recordedName": "Raging Counter",
+      "originalSource": "Characters!X29",
+      "companionName": "Raging Counter",
+      "companionDescription": "If foe attacks first, grants Atk+3 to unit during combat.\nIf foe attacks first, grants Atk+3, Crit+10 to unit during combat.",
+      "companionSource": "Characters!AK44",
+      "variants": [
+        {
+          "name": "Raging Counter",
+          "description": "If foe attacks first, grants Atk+3 to unit during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Jasmine innate skills",
+              "url": "https://annasnotebook.net/en/characters/jasmine/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Raging Counter+",
+          "description": "If foe attacks first, grants Atk+3, Crit+10 to unit during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Jasmine innate skills",
+              "url": "https://annasnotebook.net/en/characters/jasmine/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Jester",
+      "personalKind": "equippable",
+      "recordedName": "Flickering Edge",
+      "originalSource": "Characters!X30",
+      "companionName": "Flickering Edge",
+      "companionDescription": "When unit evades an attack, grants Atk+3 during combat.\nWhen unit evades an attack, grants Atk+5 during combat.",
+      "companionSource": "Characters!AK38",
+      "variants": [
+        {
+          "name": "Flickering Edge",
+          "description": "When unit evades an attack, grants Atk+3 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Jester innate skills",
+              "url": "https://annasnotebook.net/en/characters/jester/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Flickering Edge+",
+          "description": "When unit evades an attack, grants Atk+5 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Jester innate skills",
+              "url": "https://annasnotebook.net/en/characters/jester/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Kiroc",
+      "personalKind": "equippable",
+      "recordedName": "Menace",
+      "originalSource": "Characters!X31",
+      "companionName": "Menace",
+      "companionDescription": "Halves foe's Ddg during combat. Trigger % = 10.\nHalves foe's Ddg during combat. Trigger % = 20.",
+      "companionSource": "Characters!AK15",
+      "variants": [
+        {
+          "name": "Menace",
+          "description": "Halves foe's Ddg during combat. Trigger % = 10.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Kiroc innate skills",
+              "url": "https://annasnotebook.net/en/characters/kiroc/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Menace+",
+          "description": "Halves foe's Ddg during combat. Trigger % = 20.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Kiroc innate skills",
+              "url": "https://annasnotebook.net/en/characters/kiroc/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Lilian",
+      "personalKind": "equippable",
+      "recordedName": "Upper Hand",
+      "originalSource": "Characters!X34",
+      "companionName": "Upper Hand",
+      "companionDescription": "If unit's hit % = 100, grants Atk +3 when attacking.\nIf unit's hit % = 100, grants Atk +5 when attacking.",
+      "companionSource": "Characters!AK39",
+      "variants": [
+        {
+          "name": "Upper Hand",
+          "description": "If unit's hit % = 100, grants Atk +3 when attacking.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Lilian innate skills",
+              "url": "https://annasnotebook.net/en/characters/lilian/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Upper Hand+",
+          "description": "If unit's hit % = 100, grants Atk +5 when attacking.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Lilian innate skills",
+              "url": "https://annasnotebook.net/en/characters/lilian/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Loretta",
+      "personalKind": "equippable",
+      "recordedName": "Peak Form",
+      "originalSource": "Characters!X35",
+      "companionName": "Peak Form",
+      "companionDescription": "If unit's HP = 100%, grants Atk+3 during combat.\nIf unit's HP = 100%, grants Atk+3, Avo+10 during combat.",
+      "companionSource": "Characters!AK32",
+      "variants": [
+        {
+          "name": "Peak Form",
+          "description": "If unit's HP = 100%, grants Atk+3 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Loretta innate skills",
+              "url": "https://annasnotebook.net/en/characters/loretta/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Peak Form+",
+          "description": "If unit's HP = 100%, grants Atk+3, Avo+10 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Loretta innate skills",
+              "url": "https://annasnotebook.net/en/characters/loretta/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Ludia",
+      "personalKind": "equippable",
+      "recordedName": "Perception",
+      "originalSource": "Characters!X36",
+      "companionName": "Perception",
+      "companionDescription": "If unit can make a follow-up, grants Avo+10 during combat.\nIf unit can make a follow-up, grants Avo+20 during combat.",
+      "companionSource": "Characters!AK9",
+      "variants": [
+        {
+          "name": "Perception",
+          "description": "If unit can make a follow-up, grants Avo+10 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Ludia innate skills",
+              "url": "https://annasnotebook.net/en/characters/ludia/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Perception+",
+          "description": "If unit can make a follow-up, grants Avo+20 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Ludia innate skills",
+              "url": "https://annasnotebook.net/en/characters/ludia/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Lysander",
+      "personalKind": "equippable",
+      "recordedName": "Accelerate",
+      "originalSource": "Characters!X37",
+      "companionName": "Accelerate",
+      "companionDescription": "After defeating a foe, grants Spd+1 until the end of the map. (Max +10)\nAfter defeating a foe, grants Spd+2 until the end of the map. (Max +10)",
+      "companionSource": "Characters!AK19",
+      "variants": [
+        {
+          "name": "Accelerate",
+          "description": "After defeating a foe, grants Spd+1 until the end of the map. (Max +10)",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Lysander innate skills",
+              "url": "https://annasnotebook.net/en/characters/lysander/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Accelerate+",
+          "description": "After defeating a foe, grants Spd+2 until the end of the map. (Max +10)",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Lysander innate skills",
+              "url": "https://annasnotebook.net/en/characters/lysander/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Majide",
+      "personalKind": "equippable",
+      "recordedName": "Fear Nothing",
+      "originalSource": "Characters!X38",
+      "companionName": "Fear Nothing",
+      "companionDescription": "If unit attacks first, grants Atk+3 at cost of Avo-30 to unit during combat.\nIf unit attacks first, grants Atk+6 at cost of Avo-30 to unit during combat.",
+      "companionSource": "Characters!AK4",
+      "variants": [
+        {
+          "name": "Fear Nothing",
+          "description": "If unit attacks first, grants Atk+3 at cost of Avo-30 to unit during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Majide innate skills",
+              "url": "https://annasnotebook.net/en/characters/majide/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Fear Nothing+",
+          "description": "If unit attacks first, grants Atk+6 at cost of Avo-30 to unit during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Majide innate skills",
+              "url": "https://annasnotebook.net/en/characters/majide/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Mu",
+      "personalKind": "equippable",
+      "recordedName": "Warrior’s Blood",
+      "originalSource": "Characters!X40",
+      "companionName": "Warrior’s Blood",
+      "companionDescription": "Grants stat increase based on equipped weapon type.\nGrants a large stat increase based on equipped weapon type.",
+      "companionSource": "Characters!AK3",
+      "variants": [
+        {
+          "name": "Warrior’s Blood",
+          "description": "Grants stat increase based on equipped weapon type.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Mu innate skills",
+              "url": "https://annasnotebook.net/en/characters/mu/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Warrior’s Blood+",
+          "description": "Grants a large stat increase based on equipped weapon type.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Mu innate skills",
+              "url": "https://annasnotebook.net/en/characters/mu/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Mu (with growth)",
+      "personalKind": "equippable",
+      "recordedName": "Warrior’s Blood",
+      "originalSource": "Characters!X41",
+      "companionName": "Warrior’s Blood",
+      "companionDescription": "Grants stat increase based on equipped weapon type.\nGrants a large stat increase based on equipped weapon type.",
+      "companionSource": "Characters!AK58",
+      "variants": [
+        {
+          "name": "Warrior’s Blood",
+          "description": "Grants stat increase based on equipped weapon type.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Mu (with growth) innate skills",
+              "url": "https://annasnotebook.net/en/characters/mu/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Warrior’s Blood+",
+          "description": "Grants a large stat increase based on equipped weapon type.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Mu (with growth) innate skills",
+              "url": "https://annasnotebook.net/en/characters/mu/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": [
+        "Same public Mu base/upgrade names and levels apply to the unchanged identical supplied personal-name/description fields. Alternate growth profile remains independently selectable; no growth/learnset mechanics inferred."
+      ]
+    },
+    {
+      "characterName": "Nezha",
+      "personalKind": "equippable",
+      "recordedName": "Never Stop",
+      "originalSource": "Characters!X44",
+      "companionName": "Never Stop",
+      "companionDescription": "Grants Atk+5 when attacking after Quick Draw. Trigger % = 30.\nGrants Atk+5 when attacking after Quick Draw. Trigger % = 50.",
+      "companionSource": "Characters!AK24",
+      "variants": [
+        {
+          "name": "Never Stop",
+          "description": "Grants Atk+5 when attacking after Quick Draw. Trigger % = 30.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Nezha innate skills",
+              "url": "https://annasnotebook.net/en/characters/nezha/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Never Stop+",
+          "description": "Grants Atk+5 when attacking after Quick Draw. Trigger % = 50.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Nezha innate skills",
+              "url": "https://annasnotebook.net/en/characters/nezha/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Ninae",
+      "personalKind": "equippable",
+      "recordedName": "Spirits’ Guidance",
+      "originalSource": "Characters!X45",
+      "companionName": "Spirits’ Guidance",
+      "companionDescription": "Grants Spirits' Voice to adjacent allies.\nGrants Spirits' Voice to allies within 2 spaces.",
+      "companionSource": "Characters!AK63",
+      "variants": [
+        {
+          "name": "Spirits’ Guidance",
+          "description": "Grants Spirits' Voice to adjacent allies.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Ninae innate skills",
+              "url": "https://annasnotebook.net/en/characters/ninae/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Spirits’ Guidance+",
+          "description": "Grants Spirits' Voice to allies within 2 spaces.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Ninae innate skills",
+              "url": "https://annasnotebook.net/en/characters/ninae/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Noctula",
+      "personalKind": "equippable",
+      "recordedName": "Attuned",
+      "originalSource": "Characters!X46",
+      "companionName": "Attuned",
+      "companionDescription": "When Warrior's Clarity triggers, grants Avo+10 until unit's next phase. Trigger % = 10.\nWhen Warrior's Clarity triggers, grants Avo+10 until unit's next phase. Trigger % = 20.",
+      "companionSource": "Characters!AK25",
+      "variants": [
+        {
+          "name": "Attuned",
+          "description": "When Warrior's Clarity triggers, grants Avo+10 until unit's next phase. Trigger % = 10.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Noctula innate skills",
+              "url": "https://annasnotebook.net/en/characters/noctula/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Attuned+",
+          "description": "When Warrior's Clarity triggers, grants Avo+10 until unit's next phase. Trigger % = 20.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Noctula innate skills",
+              "url": "https://annasnotebook.net/en/characters/noctula/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Olympia",
+      "personalKind": "equippable",
+      "recordedName": "Ardent Nosferatu",
+      "originalSource": "Characters!X49",
+      "companionName": "Ardent Nosferatu",
+      "companionDescription": "When using Nosferatu, grants Atk+3, Crit+5 during combat.\nWhen using Nosferatu, grants Atk+5, Crit+10 during combat.",
+      "companionSource": "Characters!AK45",
+      "variants": [
+        {
+          "name": "Ardent Nosferatu",
+          "description": "When using Nosferatu, grants Atk+3, Crit+5 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Olympia innate skills",
+              "url": "https://annasnotebook.net/en/characters/olympia/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Ardent Nosferatu+",
+          "description": "When using Nosferatu, grants Atk+5, Crit+10 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Olympia innate skills",
+              "url": "https://annasnotebook.net/en/characters/olympia/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Peppe",
+      "personalKind": "equippable",
+      "recordedName": "King’s Majesty",
+      "originalSource": "Characters!X51",
+      "companionName": "King’s Majesty",
+      "companionDescription": "If foe is damaged, grants Atk +2, Crit+5 during combat.\nIf foe is damaged, grants Atk +4, Crit+10 during combat.",
+      "companionSource": "Characters!AK27",
+      "variants": [
+        {
+          "name": "King’s Majesty",
+          "description": "If foe is damaged, grants Atk +2, Crit+5 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Peppe innate skills",
+              "url": "https://annasnotebook.net/en/characters/peppe/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "King’s Majesty+",
+          "description": "If foe is damaged, grants Atk +4, Crit+10 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Peppe innate skills",
+              "url": "https://annasnotebook.net/en/characters/peppe/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Peter",
+      "personalKind": "equippable",
+      "recordedName": "Correct for Drift",
+      "originalSource": "Characters!X52",
+      "companionName": "Correct for Drift",
+      "companionDescription": "If unit's hit % ≥ 90, grants Hit+10 during combat.\nIf unit's hit % ≥ 75, grants Hit+20 during combat.",
+      "companionSource": "Characters!AK20",
+      "variants": [
+        {
+          "name": "Correct for Drift",
+          "description": "If unit's hit % ≥ 90, grants Hit+10 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Peter innate skills",
+              "url": "https://annasnotebook.net/en/characters/peter/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Correct for Drift+",
+          "description": "If unit's hit % ≥ 75, grants Hit+20 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Peter innate skills",
+              "url": "https://annasnotebook.net/en/characters/peter/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Seteth",
+      "personalKind": "equippable",
+      "recordedName": "Pass Judgement",
+      "originalSource": "Characters!X53",
+      "companionName": "Pass Judgement",
+      "companionDescription": "When Diadem of Balance triggers, grants Atk+4.\nWhen Diadem of Balance triggers, grants Atk+7.",
+      "companionSource": "Characters!AK56",
+      "variants": [
+        {
+          "name": "Pass Judgement",
+          "description": "When Diadem of Balance triggers, grants Atk+4.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Seteth innate skills",
+              "url": "https://annasnotebook.net/en/characters/seteth/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Pass Judgement+",
+          "description": "When Diadem of Balance triggers, grants Atk+7.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Seteth innate skills",
+              "url": "https://annasnotebook.net/en/characters/seteth/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Sha Lan",
+      "personalKind": "equippable",
+      "recordedName": "Watchfulness",
+      "originalSource": "Characters!X54",
+      "companionName": "Watchfulness",
+      "companionDescription": "Grants Spd+2 to adjacent allies.\nGrants Spd+4 to adjacent allies.",
+      "companionSource": "Characters!AK49",
+      "variants": [
+        {
+          "name": "Watchfulness",
+          "description": "Grants Spd+2 to adjacent allies.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Sha Lan innate skills",
+              "url": "https://annasnotebook.net/en/characters/sha-lan/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Watchfulness+",
+          "description": "Grants Spd+4 to adjacent allies.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Sha Lan innate skills",
+              "url": "https://annasnotebook.net/en/characters/sha-lan/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Simon",
+      "personalKind": "equippable",
+      "recordedName": "Devil’s Luck",
+      "originalSource": "Characters!X55",
+      "companionName": "Devil’s Luck",
+      "companionDescription": "After defeating a foe, grants Lck+1 until the end of the map. (Max +10)\nAfter defeating a foe, grants Lck+2 until the end of the map. (Max +10)",
+      "companionSource": "Characters!AK50",
+      "variants": [
+        {
+          "name": "Devil’s Luck",
+          "description": "After defeating a foe, grants Lck+1 until the end of the map. (Max +10)",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Simon innate skills",
+              "url": "https://annasnotebook.net/en/characters/simon/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Devil’s Luck+",
+          "description": "After defeating a foe, grants Lck+2 until the end of the map. (Max +10)",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Simon innate skills",
+              "url": "https://annasnotebook.net/en/characters/simon/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Sirocco",
+      "personalKind": "equippable",
+      "recordedName": "Wind’s Caprice",
+      "originalSource": "Characters!X56",
+      "companionName": "Wind’s Caprice",
+      "companionDescription": "Grants one of Avo+1, Avo+5, or Avo+20 during combat.\nGrants one of Avo+1, Avo+5, Avo+20, or Avo+30 during combat.",
+      "companionSource": "Characters!AK64",
+      "variants": [
+        {
+          "name": "Wind’s Caprice",
+          "description": "Grants one of Avo+1, Avo+5, or Avo+20 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Sirocco innate skills",
+              "url": "https://annasnotebook.net/en/characters/sirocco/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Wind’s Caprice+",
+          "description": "Grants one of Avo+1, Avo+5, Avo+20, or Avo+30 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Sirocco innate skills",
+              "url": "https://annasnotebook.net/en/characters/sirocco/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Tialla",
+      "personalKind": "equippable",
+      "recordedName": "Tactician’s Insight",
+      "originalSource": "Characters!X61",
+      "companionName": "Tactician’s Insight",
+      "companionDescription": "After combat, if unit attacked first, inflicts Avo-5 on foe throughout their next combat.\nAfter combat, if unit attacked first, inflicts Avo-10 on foe throughout their next combat.",
+      "companionSource": "Characters!AK34",
+      "variants": [
+        {
+          "name": "Tactician’s Insight",
+          "description": "After combat, if unit attacked first, inflicts Avo-5 on foe throughout their next combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Tialla innate skills",
+              "url": "https://annasnotebook.net/en/characters/tialla/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Tactician’s Insight+",
+          "description": "After combat, if unit attacked first, inflicts Avo-10 on foe throughout their next combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Tialla innate skills",
+              "url": "https://annasnotebook.net/en/characters/tialla/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": [
+        "Upgraded public wording says through unit next combat, while supplied sheet says foe next combat. Variant identity and numeric amount match; preserve supplied duration without silently resolving this wording conflict."
+      ],
+      "notice": "The references disagree on which unit’s next combat ends the upgraded effect; the spreadsheet wording is shown."
+    },
+    {
+      "characterName": "Tobias",
+      "personalKind": "equippable",
+      "recordedName": "All-Out Attack",
+      "originalSource": "Characters!X62",
+      "companionName": "All-Out Attack",
+      "companionDescription": "Multiplies damage by 1.3 when attacking with a combat art. Trigger % = 30.\nMultiplies damage by 1.5 when attacking with a combat art. Trigger % = 30.",
+      "companionSource": "Characters!AK28",
+      "variants": [
+        {
+          "name": "All-Out Attack",
+          "description": "Multiplies damage by 1.3 when attacking with a combat art. Trigger % = 30.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Tobias innate skills",
+              "url": "https://annasnotebook.net/en/characters/tobias/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "All-Out Attack+",
+          "description": "Multiplies damage by 1.5 when attacking with a combat art. Trigger % = 30.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Tobias innate skills",
+              "url": "https://annasnotebook.net/en/characters/tobias/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Troy",
+      "personalKind": "equippable",
+      "recordedName": "Modified Weapon",
+      "originalSource": "Characters!X63",
+      "companionName": "Modified Weapon",
+      "companionDescription": "When equipped with Zerberus, attacks are effective vs. flying.\nWhen equipped with Zerberus, attacks are effective+ vs. flying.",
+      "companionSource": "Characters!AK46",
+      "variants": [
+        {
+          "name": "Modified Weapon",
+          "description": "When equipped with Zerberus, attacks are effective vs. flying.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Troy innate skills",
+              "url": "https://annasnotebook.net/en/characters/troy/"
+            }
+          ],
+          "level": 50
+        },
+        {
+          "name": "Modified Weapon+",
+          "description": "When equipped with Zerberus, attacks are effective+ vs. flying.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Troy innate skills",
+              "url": "https://annasnotebook.net/en/characters/troy/"
+            }
+          ],
+          "level": 60
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Ultand",
+      "personalKind": "equippable",
+      "recordedName": "Pray for Safety",
+      "originalSource": "Characters!X64",
+      "companionName": "Pray for Safety",
+      "companionDescription": "Grants Ddg+10 to adjacent allies.\nGrants Ddg+20 to adjacent allies.",
+      "companionSource": "Characters!AK67",
+      "variants": [
+        {
+          "name": "Pray for Safety",
+          "description": "Grants Ddg+10 to adjacent allies.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Ultand innate skills",
+              "url": "https://annasnotebook.net/en/characters/ultand/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Pray for Safety+",
+          "description": "Grants Ddg+20 to adjacent allies.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Ultand innate skills",
+              "url": "https://annasnotebook.net/en/characters/ultand/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Ursula",
+      "personalKind": "equippable",
+      "recordedName": "Seize the Chance",
+      "originalSource": "Characters!X65",
+      "companionName": "Seize the Chance",
+      "companionDescription": "Multiplies damage by 1.3 when attacking. Trigger % = Lck ÷ 2.\nMultiplies damage by 1.5 when attacking. Trigger % = Lck ÷ 2.",
+      "companionSource": "Characters!AK57",
+      "variants": [
+        {
+          "name": "Seize the Chance",
+          "description": "Multiplies damage by 1.3 when attacking. Trigger % = Lck ÷ 2.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Ursula innate skills",
+              "url": "https://annasnotebook.net/en/characters/ursula/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Seize the Chance+",
+          "description": "Multiplies damage by 1.5 when attacking. Trigger % = Lck ÷ 2.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Ursula innate skills",
+              "url": "https://annasnotebook.net/en/characters/ursula/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Yang Jie",
+      "personalKind": "equippable",
+      "recordedName": "Robust Health",
+      "originalSource": "Characters!X66",
+      "companionName": "Robust Health",
+      "companionDescription": "Grants Shld+3 when attacked. Trigger % = unit's remaining HP.\nGrants Shld+5 when attacked. Trigger % = unit's remaining HP.",
+      "companionSource": "Characters!AK29",
+      "variants": [
+        {
+          "name": "Robust Health",
+          "description": "Grants Shld+3 when attacked. Trigger % = unit's remaining HP.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Yang Jie innate skills",
+              "url": "https://annasnotebook.net/en/characters/yang-jie/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Robust Health+",
+          "description": "Grants Shld+5 when attacked. Trigger % = unit's remaining HP.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Yang Jie innate skills",
+              "url": "https://annasnotebook.net/en/characters/yang-jie/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Zarcone",
+      "personalKind": "equippable",
+      "recordedName": "Vulgar Conduct",
+      "originalSource": "Characters!X67",
+      "companionName": "Vulgar Conduct",
+      "companionDescription": "If foe's HP ≤ 50%, grants Hit+20 during combat.\nIf foe's HP ≤ 50%, grants Hit+20, Atk+3 during combat.",
+      "companionSource": "Characters!AK7",
+      "variants": [
+        {
+          "name": "Vulgar Conduct",
+          "description": "If foe's HP ≤ 50%, grants Hit+20 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Zarcone innate skills",
+              "url": "https://annasnotebook.net/en/characters/zarcone/"
+            },
+            {
+              "label": "Yu Pha’s Temple — Zarcone equippable names",
+              "url": "https://yuphastemple.com/zarcone/"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "Vulgar Conduct+",
+          "description": "If foe's HP ≤ 50%, grants Hit+20, Atk+3 during combat.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Anna’s Notebook — Zarcone innate skills",
+              "url": "https://annasnotebook.net/en/characters/zarcone/"
+            },
+            {
+              "label": "Yu Pha’s Temple — Zarcone equippable names",
+              "url": "https://yuphastemple.com/zarcone/"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": [
+        "Stray public base-link prefix Dex rejected; second public character page explicitly lists Vulgar Conduct and Vulgar Conduct+. Names/effects and level20/35 otherwise match."
+      ]
+    },
+    {
+      "characterName": "Nydine",
+      "personalKind": "equippable",
+      "recordedName": "At a Gallop",
+      "originalSource": "Characters!X48",
+      "companionName": "At a Gallop",
+      "companionDescription": "[Cavalry] Applies -1 to movement cost for terrain (cannot be reduced below 1).\n[Cavalry] Applies -2 to movement cost for terrain (cannot be reduced below 1).",
+      "companionSource": "Characters!AK26",
+      "variants": [
+        {
+          "name": "At a Gallop",
+          "description": "[Cavalry] Applies -1 to movement cost for terrain (cannot be reduced below 1).",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Yu Pha’s Temple — At a Gallop",
+              "url": "https://yuphastemple.com/?item=at-a-gallop"
+            },
+            {
+              "label": "Yu Pha’s Temple — At a Gallop+",
+              "url": "https://yuphastemple.com/?item=at-a-gallop-plus"
+            }
+          ],
+          "level": 20
+        },
+        {
+          "name": "At a Gallop+",
+          "description": "[Cavalry] Applies -2 to movement cost for terrain (cannot be reduced below 1).",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Yu Pha’s Temple — At a Gallop",
+              "url": "https://yuphastemple.com/?item=at-a-gallop"
+            },
+            {
+              "label": "Yu Pha’s Temple — At a Gallop+",
+              "url": "https://yuphastemple.com/?item=at-a-gallop-plus"
+            }
+          ],
+          "level": 35
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Mikaela",
+      "personalKind": "equippable",
+      "recordedName": "Redblade’s Will",
+      "originalSource": "Characters!X39",
+      "companionName": "Redblade’s Will",
+      "companionDescription": "Grants Atk+3 during combat against an adjacent foe.\nGrants Atk+3 during combat against an adjacent foe. Also grants Atk+3 when attacking an adjacent foe (trigger % =30).",
+      "companionSource": "Characters!AK40",
+      "variants": [
+        {
+          "name": "Redblade’s Will",
+          "description": "Grants Atk+3 during combat against an adjacent foe.",
+          "level": 20,
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Yu Pha’s Temple — Redblade’s Will (live page checked November 1, 2026)",
+              "url": "https://yuphastemple.com/?item=redblades-will"
+            }
+          ]
+        },
+        {
+          "name": "Redblade’s Will+",
+          "description": "Grants Atk+3 during combat against an adjacent foe. Also grants Atk+3 when attacking an adjacent foe (trigger % =30).",
+          "level": 35,
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Yu Pha’s Temple — Redblade’s Will+",
+              "url": "https://yuphastemple.com/?item=redblades-will-plus"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Both effects and levels verified in the actual rendered base-ability panel, which explicitly links its upgraded version. Earlier server-rendered fetch missed the base entry."
+      ]
+    },
+    {
+      "characterName": "Cai",
+      "personalKind": "equippable",
+      "recordedName": "Flamekeeper",
+      "originalSource": "Characters!X10",
+      "companionName": "Flamekeeper",
+      "companionDescription": "Unit and allies are unaffected by Underworld Flames and take half damage from attacks while in Underworld Flames.",
+      "companionSource": "Characters!AK61",
+      "variants": [
+        {
+          "name": "Flamekeeper",
+          "description": "Unit and allies are unaffected by Underworld Flames and take half damage from attacks while in Underworld Flames.",
+          "level": 35,
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Yu Pha’s Temple — Cai personal abilities",
+              "url": "https://yuphastemple.com/cai/"
+            }
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "characterName": "Bonaventure",
+      "personalKind": "inherent",
+      "recordedName": "Sage Advice",
+      "originalSource": "Characters!W8",
+      "companionName": "Sage Advice",
+      "companionDescription": "Grants Def+3 to adjacent allies.",
+      "companionSource": "Characters!AI51",
+      "variants": [
+        {
+          "name": "Sage Advice",
+          "description": "Grants Def+3 to adjacent allies.",
+          "reliability": "community",
+          "sources": [
+            {
+              "label": "Yu Pha’s Temple — Bonaventure",
+              "url": "https://yuphastemple.com/bonaventure/"
+            },
+            {
+              "label": "Anna’s Notebook — Bonaventure (conflicting Dexterity effect)",
+              "url": "https://annasnotebook.net/en/characters/bonaventure/"
+            }
+          ]
+        }
+      ],
+      "notice": "The spreadsheet lists Defense +3; another reference lists Dexterity +3.",
+      "notes": [
+        "The original Defense effect is retained. The current public references disagree about the affected stat; no outside value is substituted into calculations."
+      ]
+    }
+  ]
+}

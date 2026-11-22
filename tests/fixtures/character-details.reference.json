@@ -1,0 +1,902 @@
+{
+  "referenceFile": "Fortunes_Weave_Build_Planner/data/fortunes-weave.json",
+  "referenceSha256": "a85be45461905b04c21deb3d1d6a00f792f656035eb2024127cfa79d8f9cec63",
+  "characters": [
+    {
+      "name": "Alexandra",
+      "personal": {
+        "inherent": "Silver Maiden",
+        "equippable": "Soar"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 7\n・Support Lv 2\n・7 Renown",
+        "Dietrich": "・Part I Chapter 7\n・Support Lv 3\n・8 Renown",
+        "Theodora": "・Part I Chapter 8\n・Support Lv 1\n・6 Renown",
+        "Leda": "・Part I Chapter 7\n・Support Lv 3\n・10 Renown"
+      },
+      "source": "Characters!A3:AB3"
+    },
+    {
+      "name": "Anatolia",
+      "personal": {
+        "inherent": "Celestial Flow",
+        "equippable": "Continuum"
+      },
+      "recruitment": {
+        "Cai": "- Part 3 First Section\n- Anatolia's paralogue",
+        "Dietrich": "- Part 3 First Section\n- Anatolia's paralogue",
+        "Theodora": "- Part 3 First Section\n- Anatolia's paralogue",
+        "Leda": "- Part 3 First Section\n- Anatolia's paralogue"
+      },
+      "source": "Characters!A4:AB4"
+    },
+    {
+      "name": "Aswan",
+      "personal": {
+        "inherent": "Princess of Arrows",
+        "equippable": ""
+      },
+      "recruitment": {
+        "Cai": "- Part 3 Fifth Section\n- Joins automatically if survived in Part 2.",
+        "Dietrich": "- Part 3 Fifth Section\n- Joins automatically if survived in Part 2.",
+        "Theodora": "- Part 3 Fifth Section\n- Joins automatically if survived in Part 2.",
+        "Leda": "- Part 3 Fifth Section\n- Joins automatically if survived in Part 2."
+      },
+      "source": "Characters!A5:AB5"
+    },
+    {
+      "name": "Benditz",
+      "personal": {
+        "inherent": "Wheeled Warrior",
+        "equippable": "Chariot Stagger"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 6\n・Support Lv 3\n・9 Renown",
+        "Dietrich": "・Part I Chapter 5\n・Support Lv 2\n・7 Renown",
+        "Theodora": "・Part I Chapter 6\n・Support Lv 1\n・8 Renown",
+        "Leda": "・Part I Chapter 5\n・Support Lv 3\n・7 Renown"
+      },
+      "source": "Characters!A6:AB6"
+    },
+    {
+      "name": "Bertrand",
+      "personal": {
+        "inherent": "Requiem Style",
+        "equippable": "Go No Sen\nSen No Sen"
+      },
+      "recruitment": {
+        "Cai": "- Part 3 First Section\n- Bertrand's paralogue",
+        "Dietrich": "- Part 3 First Section\n- Bertrand's paralogue",
+        "Theodora": "- Part 3 First Section\n- Bertrand's paralogue",
+        "Leda": "- Part 3 First Section\n- Bertrand's paralogue"
+      },
+      "source": "Characters!A7:AB7"
+    },
+    {
+      "name": "Bonaventure",
+      "personal": {
+        "inherent": "Sage Advice",
+        "equippable": "Additional Intel"
+      },
+      "recruitment": {
+        "Cai": "-",
+        "Dietrich": "-",
+        "Theodora": "・Part I Chapter 1",
+        "Leda": "-"
+      },
+      "source": "Characters!A8:AB8"
+    },
+    {
+      "name": "Buccar",
+      "personal": {
+        "inherent": "Guardian’s Duty",
+        "equippable": "Retaliatory Blow"
+      },
+      "recruitment": {
+        "Cai": "-",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Clear Leda's Paralogue",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・8 Renown\n・Clear Leda's Paralogue",
+        "Leda": "・Part I Chapter 1"
+      },
+      "source": "Characters!A9:AB9"
+    },
+    {
+      "name": "Cai",
+      "personal": {
+        "inherent": "Brio",
+        "equippable": "Flamekeeper"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 1",
+        "Dietrich": "-",
+        "Theodora": "-",
+        "Leda": "-"
+      },
+      "source": "Characters!A10:AB10"
+    },
+    {
+      "name": "Catania",
+      "personal": {
+        "inherent": "Punishing Squall",
+        "equippable": "Wind My Friend"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 3\n・10 Renown",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 1\n・8 Renown",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・7 Renown",
+        "Leda": "・Part I Chapter 4\n・Support Lv 1\n・2 Renown"
+      },
+      "source": "Characters!A11:AB11"
+    },
+    {
+      "name": "Centurio",
+      "personal": {
+        "inherent": "Sturdy Corundum",
+        "equippable": ""
+      },
+      "recruitment": {
+        "Cai": "- Part 3 Second Section\n- Clear Rescue Centurio Subquest then talk in Dagsion",
+        "Dietrich": "- Part 3 Second Section\n- Clear Rescue Centurio Subquest then talk in Dagsion",
+        "Theodora": "- Part 3 Second Section\n- Clear Rescue Centurio Subquest then talk in Dagsion",
+        "Leda": "- Part 3 Second Section\n- Clear Rescue Centurio Subquest then talk in Dagsion"
+      },
+      "source": "Characters!A12:AB12"
+    },
+    {
+      "name": "Creek",
+      "personal": {
+        "inherent": "Steady Hands",
+        "equippable": ""
+      },
+      "recruitment": {
+        "Cai": "-",
+        "Dietrich": "- Part 2 Chapter 2\n- Clear My Late Sister's Accessory Subquest then defeat during the chapter.",
+        "Theodora": "-",
+        "Leda": "- Part 2 Chapter 2\n- Clear My Late Sister's Accessory Subquest then defeat during the chapter."
+      },
+      "source": "Characters!A13:AB13"
+    },
+    {
+      "name": "Dadao",
+      "personal": {
+        "inherent": "One Chance",
+        "equippable": "Full Strength"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 5\n・Support Lv 3\n・7 Renown\n・Give 2 Kothar Gar to Dadao.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Give 2 Kothar Gar to Dadao.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 2\n・5 Renown\n・Give 2 Kothar Gar to Dadao.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 2\n・5 Renown\n・Give 2 Kothar Gar to Dadao."
+      },
+      "source": "Characters!A14:AB14"
+    },
+    {
+      "name": "Dante",
+      "personal": {
+        "inherent": "Stage Direction",
+        "equippable": "Dramatic Effect"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 5\n・Support Lv 3\n・10 Renown\n・Give 8000 Gold to Dante.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 2\n・8 Renown\n・Give 8000 Gold to Dante.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・6 Renown\n・Give 8000 Gold to Dante.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Give 8000 Gold to Dante."
+      },
+      "source": "Characters!A15:AB15"
+    },
+    {
+      "name": "Diego",
+      "personal": {
+        "inherent": "Caretaker",
+        "equippable": "No Mercy"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 3\n・10 Renown\n・Clear Orchel's Regret Paralogue",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Clear Orchel's Regret Paralogue",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 2\n・8 Renown\n・Clear Orchel's Regret Paralogue",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Clear Orchel's Regret Paralogue"
+      },
+      "source": "Characters!A16:AB16"
+    },
+    {
+      "name": "Dietrich",
+      "personal": {
+        "inherent": "Murderous Intent",
+        "equippable": "Bestial Impulse"
+      },
+      "recruitment": {
+        "Cai": "-",
+        "Dietrich": "・Part I Chapter 1",
+        "Theodora": "-",
+        "Leda": "-"
+      },
+      "source": "Characters!A17:AB17"
+    },
+    {
+      "name": "Eshmel",
+      "personal": {
+        "inherent": "Light of Salvation",
+        "equippable": "Scorching Sun"
+      },
+      "recruitment": {
+        "Cai": "Prologue: Descent Chapter 1",
+        "Dietrich": "Prologue: Descent Chapter 1",
+        "Theodora": "Prologue: Descent Chapter 1",
+        "Leda": "Prologue: Descent Chapter 1"
+      },
+      "source": "Characters!A18:AB18"
+    },
+    {
+      "name": "Esmeralda",
+      "personal": {
+        "inherent": "Brawn",
+        "equippable": "Throwing Arm"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 5\n・Support Lv 2\n・7 Renown\n・Complete Esmeralda's Request",
+        "Dietrich": "・Part I Chapter 2",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・9 Renown\n・Complete Esmeralda's Request",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・6 Renown\n・Complete Esmeralda's Request"
+      },
+      "source": "Characters!A19:AB19"
+    },
+    {
+      "name": "Fabio",
+      "personal": {
+        "inherent": "Dark Calling",
+        "equippable": "Dark Secrets"
+      },
+      "recruitment": {
+        "Cai": "-",
+        "Dietrich": "・Part I Chapter 1",
+        "Theodora": "-",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Clear Dietrich's Paralogue and complete Fabio's request."
+      },
+      "source": "Characters!A20:AB20"
+    },
+    {
+      "name": "Fianna",
+      "personal": {
+        "inherent": "Graceful Light",
+        "equippable": "Gift of Faith"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Give 3000 Gold to Fianna.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・7 Renown\n・Give 3000 Gold to Fianna.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・9 Renown\n・Give 3000 Gold to Fianna.",
+        "Leda": "・Part I Chapter 5\n・Support Lv 3\n・5 Renown\n・Give 3000 Gold to Fianna."
+      },
+      "source": "Characters!A21:AB21"
+    },
+    {
+      "name": "Gaitz",
+      "personal": {
+        "inherent": "Brave Assist",
+        "equippable": "Flashing Fang"
+      },
+      "recruitment": {
+        "Cai": "-",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Clear Bertrand's Paralogue and reach Chapter 12.",
+        "Theodora": "-",
+        "Leda": "-"
+      },
+      "source": "Characters!A22:AB22"
+    },
+    {
+      "name": "Goliath",
+      "personal": {
+        "inherent": "Heavyweight Class",
+        "equippable": "Pin Down"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 4\n・Support Lv 3\n・7 Renown\n・Give 3 Giants' Meat to Goliath.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・6 Renown\n・Give 3 Giants' Meat to Goliath.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・9 Renown\n・Give 3 Giants' Meat to Goliath.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Give 3 Giants' Meat to Goliath."
+      },
+      "source": "Characters!A23:AB23"
+    },
+    {
+      "name": "Guzran",
+      "personal": {
+        "inherent": "Hot-Headed",
+        "equippable": "Top Form"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 1\n・2 Renown",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・8 Renown",
+        "Leda": "・Part I Chapter 4\n・Support Lv 1\n・3 Renown"
+      },
+      "source": "Characters!A24:AB24"
+    },
+    {
+      "name": "Halvin",
+      "personal": {
+        "inherent": "Adaptability",
+        "equippable": "Halt Advance"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 5\n・Support Lv 3\n・5 Renown\n・Give 10 Dates (Material) to Halvin.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Give 10 Dates (Material) to Halvin.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・7 Renown\n・Give 10 Dates (Material) to Halvin.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・7 Renown\n・Give 10 Dates (Material) to Halvin."
+      },
+      "source": "Characters!A25:AB25"
+    },
+    {
+      "name": "Hong Hua",
+      "personal": {
+        "inherent": "Zhu Ming",
+        "equippable": "Amplify Magic"
+      },
+      "recruitment": {
+        "Cai": "Prologue: Descent Chapter 1",
+        "Dietrich": "Prologue: Descent Chapter 1",
+        "Theodora": "Prologue: Descent Chapter 1",
+        "Leda": "Prologue: Descent Chapter 1"
+      },
+      "source": "Characters!A26:AB26"
+    },
+    {
+      "name": "Inyoni",
+      "personal": {
+        "inherent": "Heavy-Bow User",
+        "equippable": "Pierce"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 8\n・Support Lv 3\n・8 Renown\n・Give 6000 Gold to Inyoni.",
+        "Dietrich": "・Part I Chapter 8\n・Support Lv 3\n・8 Renown\n・Give 6000 Gold to Inyoni.",
+        "Theodora": "・Part I Chapter 9\n・Support Lv 1\n・9 Renown\n・Give 4000 Gold to Inyoni.",
+        "Leda": "・Part I Chapter 9\n・Support Lv 1\n・7 Renown\n・Give 3000 Gold to Inyoni."
+      },
+      "source": "Characters!A27:AB27"
+    },
+    {
+      "name": "Io",
+      "personal": {
+        "inherent": "With My Steed",
+        "equippable": "Mounted Push"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 3\n・10 Renown\n・Give 4000 Gold to Io.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 2\n・3 Renown\n・Give 800 Gold to Io.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・10 Renown\n・Give 4000 Gold to Io.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 1\n・6 Renown\n・Give 1500 Gold to Io."
+      },
+      "source": "Characters!A28:AB28"
+    },
+    {
+      "name": "Jasmine",
+      "personal": {
+        "inherent": "Expert Counter",
+        "equippable": "Raging Counter"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 6\n・Support Lv 1\n・8 Renown\n・Give 2000 Gold to Jasmine.",
+        "Dietrich": "・Part I Chapter 6\n・Support Lv 3\n・9 Renown\n・Give 5000 Gold to Jasmine.",
+        "Theodora": "・Part I Chapter 7\n・Support Lv 3\n・8 Renown\n・Give 5000 Gold to Jasmine.",
+        "Leda": "・Part I Chapter 6\n・Support Lv 2\n・4 Renown\n・Give 500 Gold to Jasmine."
+      },
+      "source": "Characters!A29:AB29"
+    },
+    {
+      "name": "Jester",
+      "personal": {
+        "inherent": "Blink of an Eye",
+        "equippable": "Flickering Edge"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Complete Jester's Three Combat Quests.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・6 Renown\n・Complete Jester's Three Combat Quests.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・9 Renown\n・Complete Jester's Three Combat Quests.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Complete Jester's Three Combat Quests."
+      },
+      "source": "Characters!A30:AB30"
+    },
+    {
+      "name": "Kiroc",
+      "personal": {
+        "inherent": "Tyranny",
+        "equippable": "Menace"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 6\n・Support Lv 3\n・8 Renown\n・Give 8 Pure Water to Kiroc.",
+        "Dietrich": "・Part I Chapter 6\n・Support Lv 1\n・4 Renown\n・Give 3 Pure Water to Kiroc.",
+        "Theodora": "・Part I Chapter 7\n・Support Lv 3\n・10 Renown\n・Give 8 Pure Water to Kiroc.",
+        "Leda": "・Part I Chapter 5\n・Support Lv 1\n・4 Renown\n・Give 3 Pure Water to Kiroc."
+      },
+      "source": "Characters!A31:AB31"
+    },
+    {
+      "name": "Klapka",
+      "personal": {
+        "inherent": "Spirit of Silver",
+        "equippable": ""
+      },
+      "recruitment": {
+        "Cai": "- Part 3 Fifth Section\n- Go to Dagsion if he survived \n- Theodora's Path must be cleared..",
+        "Dietrich": "- Part 3 Fifth Section\n- Go to Dagsion if he survived \n- Theodora's Path must be cleared..",
+        "Theodora": "- Part 3 Fifth Section\n- Go to Dagsion if he survived \n- Theodora's Path must be cleared..",
+        "Leda": "- Part 3 Fifth Section\n- Go to Dagsion if he survived \n- Theodora's Path must be cleared.."
+      },
+      "source": "Characters!A32:AB32"
+    },
+    {
+      "name": "Leda",
+      "personal": {
+        "inherent": "Blindside",
+        "equippable": "Improviso"
+      },
+      "recruitment": {
+        "Cai": "-",
+        "Dietrich": "-",
+        "Theodora": "-",
+        "Leda": "・Part I Chapter 1"
+      },
+      "source": "Characters!A33:AB33"
+    },
+    {
+      "name": "Lilian",
+      "personal": {
+        "inherent": "Safety First",
+        "equippable": "Upper Hand"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 4\n・Support Lv 2\n・8 Renown\n・Give 5000 Gold to Lilian.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 2\n・8 Renown\n・Give 5000 Gold to Lilian.",
+        "Theodora": "・Part I Chapter 4",
+        "Leda": "・Part I Chapter 4\n・Support Lv 2\n・7 Renown\n・Give 5000 Gold to Lilian."
+      },
+      "source": "Characters!A34:AB34"
+    },
+    {
+      "name": "Loretta",
+      "personal": {
+        "inherent": "Steadfast",
+        "equippable": "Peak Form"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 3\n・7 Renown\n・Give 3 Iron Swords to Loretta.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Give 3 Iron Swords to Loretta.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・5 Renown\n・Give 3 Iron Swords to Loretta.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・5 Renown\n・Give 3 Iron Swords to Loretta."
+      },
+      "source": "Characters!A35:AB35"
+    },
+    {
+      "name": "Ludia",
+      "personal": {
+        "inherent": "Falcon",
+        "equippable": "Perception"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Gather information at Callianeira Port and report back to Ludia",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Gather information at Callianeira Port and report back to Ludia",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・7 Renown\n・Gather information at Callianeira Port and report back to Ludia",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・7 Renown\n・Gather information at Callianeira Port and report back to Ludia"
+      },
+      "source": "Characters!A36:AB36"
+    },
+    {
+      "name": "Lysander",
+      "personal": {
+        "inherent": "Racing Attack",
+        "equippable": "Accelerate"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Give 5 Iron Spears to Lysander.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・6 Renown\n・Give 5 Iron Spears to Lysander.",
+        "Theodora": "・Part I Chapter 4",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・7 Renown\n・Give 5 Iron Spears to Lysander."
+      },
+      "source": "Characters!A37:AB37"
+    },
+    {
+      "name": "Majide",
+      "personal": {
+        "inherent": "Hellbent Axe",
+        "equippable": "Fear Nothing"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 5\n・Support Lv 2\n・5 Renown\n・Admit That You Need Majide Three Times.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Admit That You Need Majide Three Times.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・8 Renown\n・Admit That You Need Majide Three Times.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Admit That You Need Majide Three Times."
+      },
+      "source": "Characters!A38:AB38"
+    },
+    {
+      "name": "Mikaela",
+      "personal": {
+        "inherent": "Veteran’s Mettle",
+        "equippable": "Redblade’s Will"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 5\n・Support Lv 3\n・5 Renown\n・Give 3000 Gold to Mikaela.",
+        "Dietrich": "・Part I Chapter 4",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・8 Renown\n・Give 3000 Gold to Mikaela.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・6 Renown\n・Give 3000 Gold to Mikaela."
+      },
+      "source": "Characters!A39:AB39"
+    },
+    {
+      "name": "Mu",
+      "personal": {
+        "inherent": "Signs of Growth",
+        "equippable": "Warrior’s Blood"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Give Mu 3 Glirmosa",
+        "Dietrich": "・Part I Chapter 5\n・Support Lv 3\n・7 Renown\n・Give Mu 3 Glirmosa",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・9 Renown\n・Give Mu 3 Glirmosa",
+        "Leda": "・Part I Chapter 1"
+      },
+      "source": "Characters!A40:AB40"
+    },
+    {
+      "name": "Mu (with growth)",
+      "personal": {
+        "inherent": "Signs of Growth",
+        "equippable": "Warrior’s Blood"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Give Mu 3 Glirmosa",
+        "Dietrich": "・Part I Chapter 5\n・Support Lv 3\n・7 Renown\n・Give Mu 3 Glirmosa",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・9 Renown\n・Give Mu 3 Glirmosa",
+        "Leda": "・Part I Chapter 1"
+      },
+      "source": "Characters!A41:AB41"
+    },
+    {
+      "name": "Nathan",
+      "personal": {
+        "inherent": "Headlong Rush",
+        "equippable": ""
+      },
+      "recruitment": {
+        "Cai": "-",
+        "Dietrich": "- Part 2 Chapter 3\n- Defeat with Creek.",
+        "Theodora": "-",
+        "Leda": "- Part 2 Chapter 3\n- Defeat with Creek."
+      },
+      "source": "Characters!A43:AB43"
+    },
+    {
+      "name": "Nezha",
+      "personal": {
+        "inherent": "Quick Draw",
+        "equippable": "Never Stop"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 5\n・Support Lv 3\n・6 Renown\n・Give 3 Sandworm Meat to Nezha.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Give 3 Sandworm Meat to Nezha.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 2\n・6 Renown\n・Give 3 Sandworm Meat to Nezha.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Give 3 Sandworm Meat to Nezha."
+      },
+      "source": "Characters!A44:AB44"
+    },
+    {
+      "name": "Ninae",
+      "personal": {
+        "inherent": "Spirits’ Voice",
+        "equippable": "Spirits’ Guidance"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 3\n・6 Renown\n・Give 1 Paradise Fish to Ninae.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Give 1 Paradise Fish to Ninae.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・6 Renown\n・Give 1 Paradise Fish to Ninae.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Give 1 Paradise Fish to Ninae."
+      },
+      "source": "Characters!A45:AB45"
+    },
+    {
+      "name": "Noctula",
+      "personal": {
+        "inherent": "Warrior’s Clarity",
+        "equippable": "Attuned"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 1\n・4 Renown",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 1\n・6 Renown",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 1\n・3 Renown",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown"
+      },
+      "source": "Characters!A46:AB46"
+    },
+    {
+      "name": "Nuzzuo",
+      "personal": {
+        "inherent": "Har Hali Wisdom",
+        "equippable": "Precision Strike"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 6\n・Support Lv 2\n・6 Renown\n・Give 3 Iron Bows to Nuzzuo.",
+        "Dietrich": "・Part I Chapter 8\n・Support Lv 1\n・9 Renown\n・Give 2 Iron Bows to Nuzzuo.",
+        "Theodora": "・Part I Chapter 9\n・Support Lv 1\n・6 Renown\n・Give 3 Iron Bows to Nuzzuo.",
+        "Leda": "・Part I Chapter 8\n・Support Lv 3\n・9 Renown\n・Give 3 Iron Bows to Nuzzuo."
+      },
+      "source": "Characters!A47:AB47"
+    },
+    {
+      "name": "Nydine",
+      "personal": {
+        "inherent": "Barge Through",
+        "equippable": "At a Gallop"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 1\n・6 Renown\n・Give 2 Bronze Axes to Nydine.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 2\n・5 Renown\n・Give 2 Bronze Axes to Nydine.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・5 Renown\n・Give 3 Iron Axes to Nydine.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Give 3 Iron Axes to Nydine."
+      },
+      "source": "Characters!A48:AB48"
+    },
+    {
+      "name": "Olympia",
+      "personal": {
+        "inherent": "Competitive Zeal",
+        "equippable": "Ardent Nosferatu"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Clear all 3 of Olympia's Requests.",
+        "Dietrich": "・Part I Chapter 5\n・Support Lv 3\n・6 Renown\n・Clear all 3 of Olympia's Requests.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・9 Renown\n・Clear all 3 of Olympia's Requests.",
+        "Leda": "・Part I Chapter 3"
+      },
+      "source": "Characters!A49:AB49"
+    },
+    {
+      "name": "Orchel",
+      "personal": {
+        "inherent": "Solid and Sturdy",
+        "equippable": "Predictive Sense\nHarmonic Soul\nSelf-Repair"
+      },
+      "recruitment": {
+        "Cai": "- Part 3 First Section\n- Orchel's paralogue",
+        "Dietrich": "- Part 3 First Section\n- Orchel's paralogue",
+        "Theodora": "- Part 3 First Section\n- Orchel's paralogue",
+        "Leda": "- Part 3 First Section\n- Orchel's paralogue"
+      },
+      "source": "Characters!A50:AB50"
+    },
+    {
+      "name": "Peppe",
+      "personal": {
+        "inherent": "Hunter’s Snare",
+        "equippable": "King’s Majesty"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 1\n・9 Renown\n・Clear Bertrand's Paralogue.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Clear Bertrand's Paralogue.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 2\n・7 Renown\n・Clear Bertrand's Paralogue.",
+        "Leda": "-"
+      },
+      "source": "Characters!A51:AB51"
+    },
+    {
+      "name": "Peter",
+      "personal": {
+        "inherent": "Steady Aim",
+        "equippable": "Correct for Drift"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 1",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Give Peter 1 Phantom Ginji",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・7 Renown\n・Give Peter 1 Phantom Ginji",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Give Peter 1 Phantom Ginji"
+      },
+      "source": "Characters!A52:AB52"
+    },
+    {
+      "name": "Seteth",
+      "personal": {
+        "inherent": "Ready for Battle",
+        "equippable": "Pass Judgement"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 3\n・6 Renown\n・Complete Seteth's Request.",
+        "Dietrich": "-",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・6 Renown\n・Complete Seteth's Request.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Complete Seteth's Request."
+      },
+      "source": "Characters!A53:AB53"
+    },
+    {
+      "name": "Sha Lan",
+      "personal": {
+        "inherent": "Cooler Heads",
+        "equippable": "Watchfulness"
+      },
+      "recruitment": {
+        "Cai": "-",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Clear Anatolia's Paralogue and answer questions correctly.",
+        "Theodora": "-",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Clear Anatolia's Paralogue and answer questions correctly."
+      },
+      "source": "Characters!A54:AB54"
+    },
+    {
+      "name": "Simon",
+      "personal": {
+        "inherent": "Close Call",
+        "equippable": "Devil’s Luck"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 5\n・Support Lv 3\n・8 Renown\n・Pay 500 Gold and pick tails on coin toss.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・7 Renown\n・Pay 500 Gold and pick tails on coin toss.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・7 Renown\n・Pay 500 Gold and pick tails on coin toss.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・6 Renown\n・Pay 500 Gold and pick tails on coin toss."
+      },
+      "source": "Characters!A55:AB55"
+    },
+    {
+      "name": "Sirocco",
+      "personal": {
+        "inherent": "Goddess’s Favor",
+        "equippable": "Wind’s Caprice"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Give Sirocco a copy of the Monument Verse",
+        "Dietrich": "・Part I Chapter 5\n・Support Lv 3\n・9 Renown\n・Give Sirocco a copy of the Monument Verse",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 1\n・5 Renown\n・Give Sirocco a copy of the Monument Verse",
+        "Leda": "・Part I Chapter 1"
+      },
+      "source": "Characters!A56:AB56"
+    },
+    {
+      "name": "Sofia",
+      "personal": {
+        "inherent": "Healing Knowledge",
+        "equippable": "Distant Healing"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 3\n・9 Renown",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 1\n・2 Renown",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・7 Renown"
+      },
+      "source": "Characters!A57:AB57"
+    },
+    {
+      "name": "Tahonia",
+      "personal": {
+        "inherent": "Python Technique",
+        "equippable": ""
+      },
+      "recruitment": {
+        "Cai": "- Part 3 Fifth Section\n- Joins automatically if survived in Part 2.",
+        "Dietrich": "- Part 3 Fifth Section\n- Joins automatically if survived in Part 2.",
+        "Theodora": "- Part 3 Fifth Section\n- Joins automatically if survived in Part 2.",
+        "Leda": "- Part 3 Fifth Section\n- Joins automatically if survived in Part 2."
+      },
+      "source": "Characters!A58:AB58"
+    },
+    {
+      "name": "Talimun",
+      "personal": {
+        "inherent": "Swashbuckler’s Luck",
+        "equippable": "Cannoning Flair\nWinds of Victory"
+      },
+      "recruitment": {
+        "Cai": "- Part 3 First Section\n- Talimun's paralogue",
+        "Dietrich": "- Part 3 First Section\n- Talimun's paralogue",
+        "Theodora": "- Part 3 First Section\n- Talimun's paralogue",
+        "Leda": "- Part 3 First Section\n- Talimun's paralogue"
+      },
+      "source": "Characters!A59:AB59"
+    },
+    {
+      "name": "Theodora",
+      "personal": {
+        "inherent": "Royal Resolve",
+        "equippable": "Unstoppable Force\nDirect Hit"
+      },
+      "recruitment": {
+        "Cai": "-",
+        "Dietrich": "-",
+        "Theodora": "・Part I Chapter 1",
+        "Leda": "-"
+      },
+      "source": "Characters!A60:AB60"
+    },
+    {
+      "name": "Tialla",
+      "personal": {
+        "inherent": "Tactician’s Wit",
+        "equippable": "Tactician’s Insight"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 1",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・9 Renown\n・Clear Cai's Paralogue then give 3000 gold.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・10 Renown\n・Clear Cai's Paralogue then give 3000 gold.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Clear Cai's Paralogue then give 3000 gold."
+      },
+      "source": "Characters!A61:AB61"
+    },
+    {
+      "name": "Tobias",
+      "personal": {
+        "inherent": "Power Arts",
+        "equippable": "All-Out Attack"
+      },
+      "recruitment": {
+        "Cai": "-",
+        "Dietrich": "-",
+        "Theodora": "・Part I Chapter 1",
+        "Leda": "-"
+      },
+      "source": "Characters!A62:AB62"
+    },
+    {
+      "name": "Troy",
+      "personal": {
+        "inherent": "Yun Shou",
+        "equippable": "Modified Weapon"
+      },
+      "recruitment": {
+        "Cai": "Prologue: Descent Chapter 2",
+        "Dietrich": "Prologue: Descent Chapter 2",
+        "Theodora": "Prologue: Descent Chapter 2",
+        "Leda": "Prologue: Descent Chapter 2"
+      },
+      "source": "Characters!A63:AB63"
+    },
+    {
+      "name": "Ultand",
+      "personal": {
+        "inherent": "Patch Up",
+        "equippable": "Pray for Safety"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 6",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・5 Renown\n・Give Ultand Her Mother's Gift",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・6 Renown\n・Give Ultand Her Mother's Gift",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Give Ultand Her Mother's Gift"
+      },
+      "source": "Characters!A64:AB64"
+    },
+    {
+      "name": "Ursula",
+      "personal": {
+        "inherent": "Management Skills",
+        "equippable": "Seize the Chance"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 4\n・Support Lv 3\n・10 Renown\n・Complete Talimun's Paralogue then select Agree 3 times",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・7 Renown\n・Complete Talimun's Paralogue then select Agree 3 times",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・9 Renown\n・Complete Talimun's Paralogue then select Agree 3 times",
+        "Leda": "-"
+      },
+      "source": "Characters!A65:AB65"
+    },
+    {
+      "name": "Yang Jie",
+      "personal": {
+        "inherent": "Monkly Havoc",
+        "equippable": "Robust Health"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 3\n・Support Lv 2\n・3 Renown\n・Answer Yang Jie’s 3 Questions Correctly.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 1\n・2 Renown",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 3\n・9 Renown\n・Answer Yang Jie’s 3 Questions Correctly.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 3\n・8 Renown\n・Answer Yang Jie’s 3 Questions Correctly."
+      },
+      "source": "Characters!A66:AB66"
+    },
+    {
+      "name": "Zarcone",
+      "personal": {
+        "inherent": "Hatchet Man",
+        "equippable": "Vulgar Conduct"
+      },
+      "recruitment": {
+        "Cai": "・Part I Chapter 5\n・Support Lv 3\n・8 Renown\n・Refuse to pay thrice then pay Zarcone 10 Gold.",
+        "Dietrich": "・Part I Chapter 4\n・Support Lv 3\n・7 Renown\n・Refuse to pay thrice then pay Zarcone 10 Gold.",
+        "Theodora": "・Part I Chapter 5\n・Support Lv 1\n・4 Renown\n・Refuse to pay thrice then pay Zarcone 10 Gold.",
+        "Leda": "・Part I Chapter 4\n・Support Lv 2\n・5 Renown\n・Refuse to pay thrice then pay Zarcone 10 Gold."
+      },
+      "source": "Characters!A67:AB67"
+    }
+  ]
+}

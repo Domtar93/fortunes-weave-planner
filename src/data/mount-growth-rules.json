@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "4983c89549294cc309423486e48811e4df8b90d4feb34caed6a3eef43e6a4254",
+  "status": "unverified-workbook-calculation",
+  "normalMultiplier": 1,
+  "classLookupLastRow": 62,
+  "doubledClass": "Charioteer",
+  "doubledMultiplier": 2,
+  "sources": [
+    {
+      "source": "Character Learnsets!D5",
+      "formula": "=INDEX(Classes!$A$2:$BA$62,MATCH($D$4,Classes!$A$2:$A$62,0),MATCH(\"Mount\",Classes!$A$2:$BA$2,0))"
+    },
+    {
+      "source": "Character Learnsets!D7",
+      "formula": "=vlookup(D6,Mounts!A:B,2,0)"
+    },
+    {
+      "source": "Character Learnsets!F7",
+      "formula": "=D7=D5"
+    },
+    {
+      "source": "Character Learnsets!D28",
+      "formula": "=suM(D26:D27)"
+    },
+    {
+      "source": "Character Learnsets!D30",
+      "formula": "=if($D$4&$F$7=\"CharioteerTRUE\",sumif(Mounts!$A:$A,$D$6,Mounts!H:H)*2,if($F$7=TRUE,sumif(Mounts!$A:$A,$D$6,Mounts!H:H),0))"
+    },
+    {
+      "source": "Character Learnsets!D31",
+      "formula": "=D28+D30"
+    },
+    {
+      "source": "Character Learnsets!E28",
+      "formula": "=suM(E26:E27)"
+    },
+    {
+      "source": "Character Learnsets!E30",
+      "formula": "=if($D$4&$F$7=\"CharioteerTRUE\",sumif(Mounts!$A:$A,$D$6,Mounts!I:I)*2,if($F$7=TRUE,sumif(Mounts!$A:$A,$D$6,Mounts!I:I),0))"
+    },
+    {
+      "source": "Character Learnsets!E31",
+      "formula": "=E28+E30"
+    },
+    {
+      "source": "Character Learnsets!F28",
+      "formula": "=suM(F26:F27)"
+    },
+    {
+      "source": "Character Learnsets!F30",
+      "formula": "=if($D$4&$F$7=\"CharioteerTRUE\",sumif(Mounts!$A:$A,$D$6,Mounts!J:J)*2,if($F$7=TRUE,sumif(Mounts!$A:$A,$D$6,Mounts!J:J),0))"
+    },
+    {
+      "source": "Character Learnsets!F31",
+      "formula": "=F28+F30"
+    },
+    {
+      "source": "Character Learnsets!G28",
+      "formula": "=suM(G26:G27)"
+    },
+    {
+      "source": "Character Learnsets!G30",
+      "formula": "=if($D$4&$F$7=\"CharioteerTRUE\",sumif(Mounts!$A:$A,$D$6,Mounts!K:K)*2,if($F$7=TRUE,sumif(Mounts!$A:$A,$D$6,Mounts!K:K),0))"
+    },
+    {
+      "source": "Character Learnsets!G31",
+      "formula": "=G28+G30"
+    },
+    {
+      "source": "Character Learnsets!H28",
+      "formula": "=suM(H26:H27)"
+    },
+    {
+      "source": "Character Learnsets!H30",
+      "formula": "=if($D$4&$F$7=\"CharioteerTRUE\",sumif(Mounts!$A:$A,$D$6,Mounts!L:L)*2,if($F$7=TRUE,sumif(Mounts!$A:$A,$D$6,Mounts!L:L),0))"
+    },
+    {
+      "source": "Character Learnsets!H31",
+      "formula": "=H28+H30"
+    },
+    {
+      "source": "Character Learnsets!I28",
+      "formula": "=suM(I26:I27)"
+    },
+    {
+      "source": "Character Learnsets!I30",
+      "formula": "=if($D$4&$F$7=\"CharioteerTRUE\",sumif(Mounts!$A:$A,$D$6,Mounts!M:M)*2,if($F$7=TRUE,sumif(Mounts!$A:$A,$D$6,Mounts!M:M),0))"
+    },
+    {
+      "source": "Character Learnsets!I31",
+      "formula": "=I28+I30"
+    },
+    {
+      "source": "Character Learnsets!J28",
+      "formula": "=suM(J26:J27)"
+    },
+    {
+      "source": "Character Learnsets!J30",
+      "formula": "=if($D$4&$F$7=\"CharioteerTRUE\",sumif(Mounts!$A:$A,$D$6,Mounts!N:N)*2,if($F$7=TRUE,sumif(Mounts!$A:$A,$D$6,Mounts!N:N),0))"
+    },
+    {
+      "source": "Character Learnsets!J31",
+      "formula": "=J28+J30"
+    },
+    {
+      "source": "Character Learnsets!K28",
+      "formula": "=suM(K26:K27)"
+    },
+    {
+      "source": "Character Learnsets!K30",
+      "formula": "=if($D$4&$F$7=\"CharioteerTRUE\",sumif(Mounts!$A:$A,$D$6,Mounts!O:O)*2,if($F$7=TRUE,sumif(Mounts!$A:$A,$D$6,Mounts!O:O),0))"
+    },
+    {
+      "source": "Character Learnsets!K31",
+      "formula": "=K28+K30"
+    },
+    {
+      "source": "Character Learnsets!L28",
+      "formula": "=suM(L26:L27)"
+    },
+    {
+      "source": "Character Learnsets!L30",
+      "formula": "=if($D$4&$F$7=\"CharioteerTRUE\",sumif(Mounts!$A:$A,$D$6,Mounts!P:P)*2,if($F$7=TRUE,sumif(Mounts!$A:$A,$D$6,Mounts!P:P),0))"
+    },
+    {
+      "source": "Character Learnsets!L31",
+      "formula": "=L28+L30"
+    }
+  ],
+  "missingValuePolicy": "Unknown, never zero. Conflicting written/numeric records are not selected for calculations."
+}

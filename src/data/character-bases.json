@@ -1,0 +1,1782 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-12",
+  "basis": "Published level-1 base stats; not recruitment stats or an autolevel simulation.",
+  "credits": "u/averysillyman; level-up data by Aggro Incarnate; supplemental tables from Serenes Forest.",
+  "counts": {
+    "profiles": 64,
+    "uniqueCharacters": 63,
+    "researchCharacters": 54,
+    "repeatedHeadersExcluded": 3
+  },
+  "referenceOnlyCharacters": [],
+  "characters": [
+    {
+      "name": "Alexandra",
+      "sourceCharacter": "Alexandra",
+      "level": 1,
+      "stats": {
+        "HP": 24,
+        "Str": 7,
+        "Mag": 5,
+        "Spd": 9,
+        "Dex": 7,
+        "Def": 5,
+        "Res": 8,
+        "Lck": 9,
+        "Cha": 10
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A2:K2"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Alexandra · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Anatolia",
+      "sourceCharacter": "Anatolia",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 6,
+        "Mag": 11,
+        "Spd": 10,
+        "Dex": 8,
+        "Def": 6,
+        "Res": 6,
+        "Lck": 6,
+        "Cha": 8
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A3:K3"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Anatolia · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Aswan",
+      "sourceCharacter": "Aswan",
+      "level": 1,
+      "stats": {
+        "HP": 23,
+        "Str": 10,
+        "Mag": 2,
+        "Spd": 6,
+        "Dex": 10,
+        "Def": 6,
+        "Res": 3,
+        "Lck": 5,
+        "Cha": 6
+      },
+      "sources": [
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Aswan · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Benditz",
+      "sourceCharacter": "Benditz",
+      "level": 1,
+      "stats": {
+        "HP": 27,
+        "Str": 9,
+        "Mag": 4,
+        "Spd": 6,
+        "Dex": 9,
+        "Def": 6,
+        "Res": 4,
+        "Lck": 6,
+        "Cha": 4
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A4:K4"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Benditz · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Bertrand",
+      "sourceCharacter": "Bertrand",
+      "level": 1,
+      "stats": {
+        "HP": 28,
+        "Str": 11,
+        "Mag": 4,
+        "Spd": 7,
+        "Dex": 10,
+        "Def": 7,
+        "Res": 3,
+        "Lck": 4,
+        "Cha": 9
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A5:K5"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Bertrand · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Bonaventure",
+      "sourceCharacter": "Bonaventure",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 7,
+        "Mag": 10,
+        "Spd": 7,
+        "Dex": 8,
+        "Def": 6,
+        "Res": 8,
+        "Lck": 5,
+        "Cha": 7
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A6:K6"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Bonaventure · level-1 table"
+        }
+      ],
+      "conflicts": [
+        {
+          "stat": "Spd",
+          "used": 7,
+          "alternative": 6,
+          "alternativeUrl": "https://serenesforest.net/fortunes-weave/characters/base-stats/"
+        }
+      ],
+      "profileNote": null
+    },
+    {
+      "name": "Buccar",
+      "sourceCharacter": "Buccar",
+      "level": 1,
+      "stats": {
+        "HP": 29,
+        "Str": 12,
+        "Mag": 4,
+        "Spd": 5,
+        "Dex": 6,
+        "Def": 8,
+        "Res": 3,
+        "Lck": 6,
+        "Cha": 6
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A7:K7"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Buccar · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Cai",
+      "sourceCharacter": "Cai",
+      "level": 1,
+      "stats": {
+        "HP": 27,
+        "Str": 10,
+        "Mag": 7,
+        "Spd": 8,
+        "Dex": 8,
+        "Def": 6,
+        "Res": 5,
+        "Lck": 6,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A8:K8"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Cai · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Catania",
+      "sourceCharacter": "Catania",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 8,
+        "Mag": 6,
+        "Spd": 9,
+        "Dex": 9,
+        "Def": 5,
+        "Res": 7,
+        "Lck": 6,
+        "Cha": 8
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A9:K9"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Catania · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Centurio",
+      "sourceCharacter": "Centurio",
+      "level": 1,
+      "stats": {
+        "HP": 27,
+        "Str": 10,
+        "Mag": 3,
+        "Spd": 7,
+        "Dex": 7,
+        "Def": 10,
+        "Res": 4,
+        "Lck": 6,
+        "Cha": 8
+      },
+      "sources": [
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Centurio · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Creek",
+      "sourceCharacter": "Creek",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 9,
+        "Mag": 3,
+        "Spd": 10,
+        "Dex": 6,
+        "Def": 6,
+        "Res": 7,
+        "Lck": 6,
+        "Cha": 7
+      },
+      "sources": [
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Creek · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Dadao",
+      "sourceCharacter": "Dadao",
+      "level": 1,
+      "stats": {
+        "HP": 28,
+        "Str": 13,
+        "Mag": 4,
+        "Spd": 5,
+        "Dex": 5,
+        "Def": 9,
+        "Res": 4,
+        "Lck": 8,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A10:K10"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Dadao · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Dante",
+      "sourceCharacter": "Dante",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 5,
+        "Mag": 9,
+        "Spd": 9,
+        "Dex": 6,
+        "Def": 5,
+        "Res": 8,
+        "Lck": 7,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A11:K11"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Dante · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Diego",
+      "sourceCharacter": "Diego",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 9,
+        "Mag": 4,
+        "Spd": 8,
+        "Dex": 9,
+        "Def": 5,
+        "Res": 3,
+        "Lck": 7,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A12:K12"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Diego · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Dietrich",
+      "sourceCharacter": "Dietrich",
+      "level": 1,
+      "stats": {
+        "HP": 27,
+        "Str": 11,
+        "Mag": 6,
+        "Spd": 10,
+        "Dex": 11,
+        "Def": 6,
+        "Res": 4,
+        "Lck": 9,
+        "Cha": 10
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A13:K13"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Dietrich · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Eshmel",
+      "sourceCharacter": "Eshmel",
+      "level": 1,
+      "stats": {
+        "HP": 27,
+        "Str": 12,
+        "Mag": 8,
+        "Spd": 9,
+        "Dex": 9,
+        "Def": 6,
+        "Res": 6,
+        "Lck": 8,
+        "Cha": 8
+      },
+      "sources": [
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Eshmel · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Esmeralda",
+      "sourceCharacter": "Esmeralda",
+      "level": 1,
+      "stats": {
+        "HP": 28,
+        "Str": 12,
+        "Mag": 4,
+        "Spd": 6,
+        "Dex": 5,
+        "Def": 7,
+        "Res": 3,
+        "Lck": 7,
+        "Cha": 6
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A14:K14"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Esmeralda · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Fabio",
+      "sourceCharacter": "Fabio",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 6,
+        "Mag": 10,
+        "Spd": 7,
+        "Dex": 6,
+        "Def": 4,
+        "Res": 8,
+        "Lck": 6,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A15:K15"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Fabio · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Fianna",
+      "sourceCharacter": "Fianna",
+      "level": 1,
+      "stats": {
+        "HP": 22,
+        "Str": 4,
+        "Mag": 11,
+        "Spd": 5,
+        "Dex": 6,
+        "Def": 4,
+        "Res": 8,
+        "Lck": 4,
+        "Cha": 7
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A16:K16"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Fianna · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Gaitz",
+      "sourceCharacter": "Gaitz",
+      "level": 1,
+      "stats": {
+        "HP": 27,
+        "Str": 10,
+        "Mag": 3,
+        "Spd": 7,
+        "Dex": 7,
+        "Def": 6,
+        "Res": 3,
+        "Lck": 5,
+        "Cha": 7
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A17:K17"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Gaitz · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Goliath",
+      "sourceCharacter": "Goliath",
+      "level": 1,
+      "stats": {
+        "HP": 32,
+        "Str": 14,
+        "Mag": 2,
+        "Spd": 5,
+        "Dex": 4,
+        "Def": 8,
+        "Res": 2,
+        "Lck": 5,
+        "Cha": 4
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A18:K18"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Goliath · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Guzran",
+      "sourceCharacter": "Guzran",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 11,
+        "Mag": 4,
+        "Spd": 9,
+        "Dex": 7,
+        "Def": 6,
+        "Res": 3,
+        "Lck": 9,
+        "Cha": 6
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A19:K19"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Guzran · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Halvin",
+      "sourceCharacter": "Halvin",
+      "level": 1,
+      "stats": {
+        "HP": 24,
+        "Str": 7,
+        "Mag": 5,
+        "Spd": 8,
+        "Dex": 9,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 7,
+        "Cha": 6
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A20:K20"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Halvin · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Hong Hua",
+      "sourceCharacter": "Hong Hua",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 6,
+        "Mag": 9,
+        "Spd": 7,
+        "Dex": 7,
+        "Def": 14,
+        "Res": 7,
+        "Lck": 5,
+        "Cha": 7
+      },
+      "sources": [
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Hong Hua · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Inyoni",
+      "sourceCharacter": "Inyoni",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 12,
+        "Mag": 6,
+        "Spd": 6,
+        "Dex": 5,
+        "Def": 6,
+        "Res": 4,
+        "Lck": 6,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A21:K21"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Inyoni · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Io",
+      "sourceCharacter": "Io",
+      "level": 1,
+      "stats": {
+        "HP": 27,
+        "Str": 9,
+        "Mag": 4,
+        "Spd": 6,
+        "Dex": 7,
+        "Def": 7,
+        "Res": 5,
+        "Lck": 8,
+        "Cha": 6
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A22:K22"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Io · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Jasmine",
+      "sourceCharacter": "Jasmine",
+      "level": 1,
+      "stats": {
+        "HP": 28,
+        "Str": 9,
+        "Mag": 4,
+        "Spd": 5,
+        "Dex": 7,
+        "Def": 8,
+        "Res": 3,
+        "Lck": 7,
+        "Cha": 7
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A23:K23"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Jasmine · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Jester",
+      "sourceCharacter": "Jester",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 8,
+        "Mag": 5,
+        "Spd": 10,
+        "Dex": 9,
+        "Def": 4,
+        "Res": 4,
+        "Lck": 6,
+        "Cha": 8
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A24:K24"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Jester · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Kiroc",
+      "sourceCharacter": "Kiroc",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 8,
+        "Mag": 3,
+        "Spd": 10,
+        "Dex": 10,
+        "Def": 6,
+        "Res": 4,
+        "Lck": 7,
+        "Cha": 4
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A25:K25"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Kiroc · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Klapka",
+      "sourceCharacter": "Klapka",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 7,
+        "Mag": 1,
+        "Spd": 4,
+        "Dex": 5,
+        "Def": 8,
+        "Res": 4,
+        "Lck": 3,
+        "Cha": 2
+      },
+      "sources": [
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Klapka · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Leda",
+      "sourceCharacter": "Leda",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 8,
+        "Mag": 6,
+        "Spd": 12,
+        "Dex": 8,
+        "Def": 6,
+        "Res": 6,
+        "Lck": 5,
+        "Cha": 10
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A26:K26"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Leda · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Lilian",
+      "sourceCharacter": "Lilian",
+      "level": 1,
+      "stats": {
+        "HP": 24,
+        "Str": 7,
+        "Mag": 5,
+        "Spd": 8,
+        "Dex": 8,
+        "Def": 5,
+        "Res": 4,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A27:K27"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Lilian · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Loretta",
+      "sourceCharacter": "Loretta",
+      "level": 1,
+      "stats": {
+        "HP": 23,
+        "Str": 7,
+        "Mag": 6,
+        "Spd": 9,
+        "Dex": 6,
+        "Def": 5,
+        "Res": 4,
+        "Lck": 6,
+        "Cha": 4
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A28:K28"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Loretta · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Ludia",
+      "sourceCharacter": "Ludia",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 7,
+        "Mag": 4,
+        "Spd": 12,
+        "Dex": 7,
+        "Def": 6,
+        "Res": 3,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A29:K29"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Ludia · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Lysander",
+      "sourceCharacter": "Lysander",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 8,
+        "Mag": 5,
+        "Spd": 6,
+        "Dex": 7,
+        "Def": 7,
+        "Res": 5,
+        "Lck": 7,
+        "Cha": 6
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A30:K30"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Lysander · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Majide",
+      "sourceCharacter": "Majide",
+      "level": 1,
+      "stats": {
+        "HP": 30,
+        "Str": 12,
+        "Mag": 3,
+        "Spd": 6,
+        "Dex": 5,
+        "Def": 7,
+        "Res": 3,
+        "Lck": 5,
+        "Cha": 3
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A31:K31"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Majide · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Mikaela",
+      "sourceCharacter": "Mikaela",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 10,
+        "Mag": 3,
+        "Spd": 6,
+        "Dex": 7,
+        "Def": 6,
+        "Res": 4,
+        "Lck": 6,
+        "Cha": 8
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A32:K32"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Mikaela · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Mu",
+      "sourceCharacter": "Mu",
+      "level": 1,
+      "stats": {
+        "HP": 23,
+        "Str": 7,
+        "Mag": 3,
+        "Spd": 7,
+        "Dex": 8,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 4,
+        "Cha": 4
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A33:K33"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Mu · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Mu (with growth)",
+      "sourceCharacter": "Mu",
+      "level": 1,
+      "stats": {
+        "HP": 23,
+        "Str": 7,
+        "Mag": 3,
+        "Spd": 7,
+        "Dex": 8,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 4,
+        "Cha": 4
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A33:K33"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Mu · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": "Uses Mu’s same level-1 bases; this separate profile changes level-up growth only."
+    },
+    {
+      "name": "Nathan",
+      "sourceCharacter": "Nathan",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 10,
+        "Mag": 4,
+        "Spd": 6,
+        "Dex": 10,
+        "Def": 8,
+        "Res": 4,
+        "Lck": 6,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Nathan · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Nezha",
+      "sourceCharacter": "Nezha",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 8,
+        "Mag": 5,
+        "Spd": 12,
+        "Dex": 6,
+        "Def": 7,
+        "Res": 5,
+        "Lck": 7,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A34:K34"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Nezha · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Ninae",
+      "sourceCharacter": "Ninae",
+      "level": 1,
+      "stats": {
+        "HP": 28,
+        "Str": 8,
+        "Mag": 5,
+        "Spd": 6,
+        "Dex": 8,
+        "Def": 6,
+        "Res": 9,
+        "Lck": 7,
+        "Cha": 6
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A35:K35"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Ninae · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Noctula",
+      "sourceCharacter": "Noctula",
+      "level": 1,
+      "stats": {
+        "HP": 27,
+        "Str": 9,
+        "Mag": 3,
+        "Spd": 8,
+        "Dex": 6,
+        "Def": 7,
+        "Res": 4,
+        "Lck": 6,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A36:K36"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Noctula · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Nuzzuo",
+      "sourceCharacter": "Nuzzuo",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 9,
+        "Mag": 3,
+        "Spd": 10,
+        "Dex": 8,
+        "Def": 6,
+        "Res": 5,
+        "Lck": 6,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A37:K37"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Nuzzuo · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Nydine",
+      "sourceCharacter": "Nydine",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 8,
+        "Mag": 7,
+        "Spd": 9,
+        "Dex": 7,
+        "Def": 5,
+        "Res": 6,
+        "Lck": 6,
+        "Cha": 6
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A38:K38"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Nydine · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Olympia",
+      "sourceCharacter": "Olympia",
+      "level": 1,
+      "stats": {
+        "HP": 24,
+        "Str": 5,
+        "Mag": 11,
+        "Spd": 7,
+        "Dex": 6,
+        "Def": 5,
+        "Res": 6,
+        "Lck": 6,
+        "Cha": 8
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A39:K39"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Olympia · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Orchel",
+      "sourceCharacter": "Orchel",
+      "level": 1,
+      "stats": {
+        "HP": 22,
+        "Str": 15,
+        "Mag": 9,
+        "Spd": 4,
+        "Dex": 3,
+        "Def": 12,
+        "Res": 12,
+        "Lck": 5,
+        "Cha": 10
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A40:K40"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Orchel · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Peppe",
+      "sourceCharacter": "Peppe",
+      "level": 1,
+      "stats": {
+        "HP": 23,
+        "Str": 6,
+        "Mag": 5,
+        "Spd": 10,
+        "Dex": 8,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 7,
+        "Cha": 4
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A41:K41"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Peppe · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Peter",
+      "sourceCharacter": "Peter",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 9,
+        "Mag": 3,
+        "Spd": 6,
+        "Dex": 10,
+        "Def": 5,
+        "Res": 4,
+        "Lck": 5,
+        "Cha": 4
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A42:K42"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Peter · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Seteth",
+      "sourceCharacter": "Seteth",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 10,
+        "Mag": 7,
+        "Spd": 8,
+        "Dex": 7,
+        "Def": 6,
+        "Res": 6,
+        "Lck": 6,
+        "Cha": 8
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A43:K43"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Seteth · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Sha Lan",
+      "sourceCharacter": "Sha Lan",
+      "level": 1,
+      "stats": {
+        "HP": 23,
+        "Str": 6,
+        "Mag": 9,
+        "Spd": 5,
+        "Dex": 6,
+        "Def": 6,
+        "Res": 8,
+        "Lck": 8,
+        "Cha": 7
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A44:K44"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Sha Lan · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Simon",
+      "sourceCharacter": "Simon",
+      "level": 1,
+      "stats": {
+        "HP": 28,
+        "Str": 11,
+        "Mag": 4,
+        "Spd": 6,
+        "Dex": 7,
+        "Def": 7,
+        "Res": 3,
+        "Lck": 10,
+        "Cha": 4
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A45:K45"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Simon · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Sirocco",
+      "sourceCharacter": "Sirocco",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 8,
+        "Mag": 8,
+        "Spd": 9,
+        "Dex": 8,
+        "Def": 6,
+        "Res": 7,
+        "Lck": 8,
+        "Cha": 8
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A46:K46"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Sirocco · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Sofia",
+      "sourceCharacter": "Sofia",
+      "level": 1,
+      "stats": {
+        "HP": 23,
+        "Str": 5,
+        "Mag": 11,
+        "Spd": 5,
+        "Dex": 6,
+        "Def": 5,
+        "Res": 9,
+        "Lck": 6,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A47:K47"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Sofia · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Tahonia",
+      "sourceCharacter": "Tahonia",
+      "level": 1,
+      "stats": {
+        "HP": 25,
+        "Str": 7,
+        "Mag": 1,
+        "Spd": 7,
+        "Dex": 7,
+        "Def": 7,
+        "Res": 3,
+        "Lck": 4,
+        "Cha": 4
+      },
+      "sources": [
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Tahonia · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Talimun",
+      "sourceCharacter": "Talimun",
+      "level": 1,
+      "stats": {
+        "HP": 27,
+        "Str": 9,
+        "Mag": 11,
+        "Spd": 9,
+        "Dex": 8,
+        "Def": 6,
+        "Res": 7,
+        "Lck": 12,
+        "Cha": 9
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A48:K48"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Talimun · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Theodora",
+      "sourceCharacter": "Theodora",
+      "level": 1,
+      "stats": {
+        "HP": 30,
+        "Str": 6,
+        "Mag": 6,
+        "Spd": 6,
+        "Dex": 6,
+        "Def": 7,
+        "Res": 5,
+        "Lck": 6,
+        "Cha": 8
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A49:K49"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Theodora · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Tialla",
+      "sourceCharacter": "Tialla",
+      "level": 1,
+      "stats": {
+        "HP": 24,
+        "Str": 5,
+        "Mag": 8,
+        "Spd": 6,
+        "Dex": 6,
+        "Def": 4,
+        "Res": 6,
+        "Lck": 7,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A50:K50"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Tialla · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Tobias",
+      "sourceCharacter": "Tobias",
+      "level": 1,
+      "stats": {
+        "HP": 28,
+        "Str": 14,
+        "Mag": 4,
+        "Spd": 5,
+        "Dex": 5,
+        "Def": 8,
+        "Res": 3,
+        "Lck": 6,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A51:K51"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Tobias · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Troy",
+      "sourceCharacter": "Troy",
+      "level": 1,
+      "stats": {
+        "HP": 30,
+        "Str": 14,
+        "Mag": 6,
+        "Spd": 11,
+        "Dex": 9,
+        "Def": 15,
+        "Res": 8,
+        "Lck": 7,
+        "Cha": 6
+      },
+      "sources": [
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Troy · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Ultand",
+      "sourceCharacter": "Ultand",
+      "level": 1,
+      "stats": {
+        "HP": 24,
+        "Str": 7,
+        "Mag": 9,
+        "Spd": 6,
+        "Dex": 5,
+        "Def": 6,
+        "Res": 5,
+        "Lck": 8,
+        "Cha": 9
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A52:K52"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Ultand · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Ursula",
+      "sourceCharacter": "Ursula",
+      "level": 1,
+      "stats": {
+        "HP": 24,
+        "Str": 8,
+        "Mag": 7,
+        "Spd": 8,
+        "Dex": 10,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 7,
+        "Cha": 8
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A53:K53"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Ursula · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Yang Jie",
+      "sourceCharacter": "Yang Jie",
+      "level": 1,
+      "stats": {
+        "HP": 24,
+        "Str": 6,
+        "Mag": 10,
+        "Spd": 5,
+        "Dex": 6,
+        "Def": 5,
+        "Res": 7,
+        "Lck": 6,
+        "Cha": 5
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A54:K54"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Yang Jie · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    },
+    {
+      "name": "Zarcone",
+      "sourceCharacter": "Zarcone",
+      "level": 1,
+      "stats": {
+        "HP": 26,
+        "Str": 7,
+        "Mag": 3,
+        "Spd": 8,
+        "Dex": 10,
+        "Def": 5,
+        "Res": 4,
+        "Lck": 6,
+        "Cha": 4
+      },
+      "sources": [
+        {
+          "url": "https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/edit?gid=0",
+          "location": "'Base Stats'!A55:K55"
+        },
+        {
+          "url": "https://serenesforest.net/fortunes-weave/characters/base-stats/",
+          "location": "Zarcone · level-1 table"
+        }
+      ],
+      "conflicts": [],
+      "profileNote": null
+    }
+  ],
+  "sourceHashes": {
+    "data/base-stats/research-sheet.json": "eb22d1737cc205ca6a5794b3821a6ac68ac51f5c45acdee59df80263f069d43b",
+    "data/base-stats/serenes-base-stats.html": "b42da71b4265322299cccb0fb2f420fd9bc6fedf57f3bd71bd8ce4c3634ac8fe"
+  }
+}

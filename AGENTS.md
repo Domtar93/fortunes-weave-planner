@@ -1,6 +1,6 @@
 # Working on the Fortune's Weave Build Planner
 
-React 19 + TypeScript + Vite 6, tested with Vitest (jsdom), Node's test runner and Python unittest. Windows, PowerShell. This folder is not a git repository. A backup is at `..\fortune-weave-planner-backup-2026-11-21`; do not edit or delete it.
+React 19 + TypeScript + Vite 6, tested with Vitest (jsdom), Node's test runner and Python unittest. Windows, PowerShell. This folder is a git repository (Git is at `C:\Program Files\Git\cmd\git.exe`, GitHub CLI at `C:\Program Files\GitHub CLI\gh.exe`). A backup is at `..\fortune-weave-planner-backup-2026-11-21`; do not edit or delete it.
 
 ## Tools are not on the default PATH
 
@@ -37,6 +37,7 @@ A timeout is not a real failure. Rerun that file alone with the long timeout bef
 - Easy-to-read results come first. Source details can sit behind a `<details>`, but a conflict between sources must never be hidden.
 - Do not rename the tab labels or ids in `src/App.tsx` (Build, Abilities, Compare & saves, Reference); tests match them.
 - Existing tests count exactly 9 `article` elements in the app (the Build tab stat tiles). Do not add new `<article>` elements; use `div role="group"` or a `section` instead.
-- Windows file names are case-insensitive: never create two files whose names differ only by case.
+- Windows file names are case-insensitive: never create two files whose names differ only by case. Also never give two source files in one folder the same name apart from case and extension (such as `foo.test.ts` and `Foo.test.tsx`): on Windows TypeScript silently skips one of them, so its type errors only show up in the Linux deploy build.
+- The site deploys from GitHub (`Domtar93/fortunes-weave-planner`, `main` branch) through `.github/workflows/deploy.yml`. Pushing to `main` publishes, so get the user's go-ahead before pushing.
 - Layouts must work at 390px and 320px wide with no horizontal scrolling.
 - Do not modify Guardian Tactics or any project outside this folder.

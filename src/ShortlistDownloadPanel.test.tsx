@@ -19,8 +19,8 @@ const muPlan = (name: string, rank: string) => resolvePlanningEntry(name, 'Sword
 const flier = () => resolvePlanningEntry('Alexandra', 'Flying', 'C+', "'Flying'!C2")!
 const panel = () => plannerRole('region', { name: 'Ability planning shortlist' })
 const area = () => withinPlanner(panel()).getByRole('group', { name: 'Copy ability shortlist' })
-const download = () => withinPlanner(plannerRole('group', { name: 'Copy ability shortlist' })).getByRole('button', { name: 'Download .txt', exact: true })
-const copy = () => plannerRole('button', { name: 'Copy Shortlist', exact: true })
+const download = () => withinPlanner(plannerRole('group', { name: 'Copy ability shortlist' })).getByRole('button', { name: 'Download .txt' })
+const copy = () => plannerRole('button', { name: 'Copy Shortlist' })
 const readBlob = (blob: Blob) => new Promise<string>((resolve, reject) => {
   const reader = new FileReader(); reader.onload = () => resolve(reader.result as string); reader.onerror = reject; reader.readAsText(blob, 'utf-8')
 })
@@ -41,7 +41,7 @@ async function start() {
   return { user, view }
 }
 async function add(user: ReturnType<typeof userEvent.setup>, path: string) {
-  await user.click(plannerRole('button', { name: `Add to shortlist: ${path}`, exact: true }))
+  await user.click(plannerRole('button', { name: `Add to shortlist: ${path}` }))
 }
 afterEach(() => {
   cleanup(); vi.restoreAllMocks(); localStorage.clear(); sessionStorage.clear()
@@ -55,7 +55,7 @@ describe('Download .txt shortlist action', () => {
   it('downloads Alexandra’s actual three records using exactly the Copy formatter and preserves reordering', async () => {
     const { user } = await start(), { create, filenames, write } = browser()
     await add(user, 'Haze Slice · Sword D'); await add(user, 'Rend Armor · Sword C')
-    await user.click(withinPlanner(plannerRole('group', { name: 'Proficiency categories' })).getByRole('button', { name: 'Flying', exact: true }))
+    await user.click(withinPlanner(plannerRole('group', { name: 'Proficiency categories' })).getByRole('button', { name: 'Flying' }))
     await add(user, 'Flitting Flier · Flying C+')
     const records = [sword('D'), sword('C'), flier()], expected = formatShortlistText(profile, records, source)
     const ids = () => [...panel().querySelectorAll<HTMLElement>('[data-source-record-id]')].map(card => card.dataset.sourceRecordId)
@@ -142,8 +142,8 @@ describe('Download .txt shortlist action', () => {
     await user.click(plannerRole('button', { name: 'Return to Shortlist' }))
     const card = panel().querySelector<HTMLElement>('[data-source-record-id]')!
     await waitFor(() => expect(document.activeElement).toBe(card))
-    expect(values()).toEqual(before); expect((plannerRole('combobox', { name: 'Character', exact: true }) as HTMLSelectElement).value).toBe('Alexandra')
-    expect((plannerRole('combobox', { name: 'Class', exact: true }) as HTMLSelectElement).value).toBe('Gladiator')
+    expect(values()).toEqual(before); expect((plannerRole('combobox', { name: 'Character' }) as HTMLSelectElement).value).toBe('Alexandra')
+    expect((plannerRole('combobox', { name: 'Class' }) as HTMLSelectElement).value).toBe('Gladiator')
     expect(create).toHaveBeenCalledTimes(1); expect(store).not.toHaveBeenCalled(); expect(remove).not.toHaveBeenCalled(); expect(clear).not.toHaveBeenCalled()
     expect(localStorage.getItem(PRESET_KEY)).toBe(payload); expect(sessionStorage.getItem('unrelated')).toBe('keep')
     view.unmount(); render(<App />); await openPlannerPanel(user, 'Ability Planning Shortlist'); await screen.findByRole('region', { name: 'Ability planning shortlist' })

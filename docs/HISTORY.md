@@ -2,6 +2,14 @@
 
 This is the planner's former README, kept as a development log. Relative links start with `../` so they resolve from the `docs/` folder. On November 22, 2026 the old reports, screenshots and `work/` history moved to the sibling `fortune-weave-planner-archive` folder (links to them now name the archived file), and local machine paths in commands were shortened to `python` / `pnpm`. Counts, dates and commands below describe the state at the time each section was written. For the current overview, see the [README](../README.md).
 
+## Class path — November 25, 2026
+
+- **Class path** on the Build tab: up to four earlier classes, each held until a chosen level, before the main Class. Each class gets its own share of the level-ups: the level-up into level L uses the class held at level L−1, so after changing class at level 10 the level-up to 11 uses the new class. The 0% growth floor applies to each class separately, and nothing is rounded between classes.
+- The averages, Stats by level chart (with dotted lines at each change), Compare with, Find the best class and Suggested builds all use the path; Compare with swaps only the main class.
+- The path is session-only and never saved with builds or presets. Share links carry it in an optional `p` field, so links made before this change still open. Saved-build, preset, backup and export formats are unchanged.
+- Not modelled: fixed class stat bonuses, mounts and certification exams.
+- Deploy fix (November 22, 2026): `ShortlistDownload.test.tsx` and `LoadoutBackup.test.tsx` were renamed to `…Panel.test.tsx`, because on Windows TypeScript skipped them next to same-stem `.ts` files, so their type errors only appeared in the Linux build.
+
 ## Launch features — November 21–22, 2026
 
 - Character portraits (official art, credited in the footer and README) in the unit card, character reference, Current build bar, comparison slots and saved builds; Eshmel shows initials.

@@ -29,7 +29,7 @@ import QuickMountPicker from './QuickMountPicker'
 import CommunityReferenceBrowser from './CommunityReferenceBrowser'
 import type {CommunityReferenceRequest} from './community'
 import { calculateBuild, type BuildSelection } from './comparison'
-import {validLevel} from './expectedStats'
+import {validLevel,type ClassStage} from './expectedStats'
 import LevelControl from './LevelControl'
 import CharacterSheet from './CharacterSheet'
 import Portrait from './Portrait'
@@ -95,6 +95,10 @@ export default function App() {
   // A character you haven't set a level for opens at the last level you chose (level 1 at first),
   // so switching characters keeps the comparison at the same point in the game.
   const [lastLevel,setLastLevel]=useState(1)
+  // Session-only class path per character (never saved with builds).
+  const [classPaths,setClassPaths]=useState<Record<string,ClassStage[]>>({})
+  const classPath=Object.hasOwn(classPaths,characterName)?classPaths[characterName]:[]
+  const setClassPath=(path:ClassStage[])=>setClassPaths(current=>({...current,[characterName]:path}))
   const targetLevel=Object.hasOwn(targetLevels,characterName)?targetLevels[characterName]:lastLevel
   const setTargetLevel=(level:number)=>{if(validLevel(level)){setTargetLevels(current=>({...current,[characterName]:level}));setLastLevel(level)}}
   const [proficiencyNavigation, setProficiencyNavigation] = useState<{ sequence: number; request?: ProficiencyRequest; error?: ProficiencyNavigationError; returnRequest?: ShortlistReturnRequest }>({ sequence: 0 })
@@ -149,6 +153,8 @@ export default function App() {
     // Resolve every source reference before the first state update. No partial load on stale data.
     resolveLoadout(selection)
     openWorkspace('build')
+    // Saved builds carry no class path, so loading one starts from the main class alone.
+    setClassPaths(current => ({...current, [selection.characterName]: []}))
     setCharacterName(selection.characterName); setClassName(selection.className)
     dispatchWeaponSelection({ characterName: selection.characterName, weaponId: selection.weaponId })
     dispatchMountSelection({ characterName: selection.characterName, mountId: selection.mountId })
@@ -169,8 +175,9 @@ export default function App() {
       const value = sharedValueFromHash(window.location.hash)
       if (value === null) return
       try {
-        const {selection, level} = decodeSharedBuild(value)
+        const {selection, level, classPath: sharedPath} = decodeSharedBuild(value)
         loadFullBuildRef.current(selection)
+        setClassPaths(current => ({...current, [selection.characterName]: sharedPath ?? []}))
         setTargetLevels(current => ({...current, [selection.characterName]: level})); setLastLevel(level)
         setShareNotice({error: false, text: `Opened a shared build: ${selection.characterName} / ${selection.className}, level ${level}.`})
       } catch (error) {
@@ -204,6 +211,7 @@ export default function App() {
 
       <section id="planner-build" className="planner-area" aria-label="Build workspace" hidden={area !== 'build'}>
       <CharacterSheet character={character} selectedClass={selectedClass} targetLevel={targetLevel} onSelectClass={setClassName}
+        classPath={classPath} onClassPathChange={setClassPath}
         controls={<div className="sheet-controls">
           <div className="selection-field">
             <label htmlFor="character">Character</label>
@@ -226,7 +234,7 @@ export default function App() {
           <span>{overview.entries.length} planned {overview.entries.length === 1 ? 'ability' : 'abilities'}</span>
           <button type="button" onClick={() => openWorkspace('abilities')}>Plan abilities</button>
           <button type="button" className="primary" onClick={() => openWorkspace('compare')}>Save this build</button>
-          <ShareBuildLink build={{selection: fullSelection, level: targetLevel}} />
+          <ShareBuildLink build={{selection: fullSelection, level: targetLevel, ...(classPath.length > 0 ? {classPath} : {})}} />
         </div>}
         notes={notes.length > 0 && <div className="selection-notes" role="note"><span className="note-icon" aria-hidden="true">i</span><div><strong>Data note</strong>{notes.map(note => <p key={note}>{note}</p>)}</div></div>} />
       <CharacterFinder currentCharacter={characterName} selectedClass={selectedClass} onSelect={setCharacterName} />

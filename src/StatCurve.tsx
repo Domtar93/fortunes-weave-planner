@@ -44,6 +44,8 @@ export default function StatCurve({ character, selectedClass, compareClass, obse
   const target = observations.targetLevel
   const shown = inspect ?? target
   const start = primary?.start ?? 1
+  // Class path: mark each class change that falls inside the drawn levels.
+  const changes = (observations.classPath ?? []).filter(stage => stage.untilLevel > start && stage.untilLevel < 99)
   const span = Math.max(1, 99 - start)
   const x = (level: number) => LEFT + (level - start) / span * (W - LEFT - RIGHT)
   const levelAt = (event: PointerEvent<SVGSVGElement>) => {
@@ -62,6 +64,7 @@ export default function StatCurve({ character, selectedClass, compareClass, obse
         <div className="curve-legend">
           <span><svg width="22" height="8" aria-hidden="true"><line x1="1" y1="4" x2="21" y2="4" className="radar-key-primary" /></svg>{selectedClass.name}</span>
           {compareClass && <span><svg width="22" height="8" aria-hidden="true"><line x1="1" y1="4" x2="21" y2="4" className="radar-key-compare" /></svg>{compareClass.name}</span>}
+          {changes.length > 0 && <span className="curve-change-key"><svg width="10" height="12" aria-hidden="true"><line x1="5" y1="0" x2="5" y2="12" className="curve-change" /></svg>Class changes at level {changes.map(stage => stage.untilLevel).join(', ')}</span>}
           <span className="curve-level" role="status">{inspect === null ? `Level ${target} (your level)` : `Level ${inspect}`}</span>
         </div>
         {!compareClass && <p className="curve-hint">Pick a class in “Compare with” above to add a second line.</p>}
@@ -78,6 +81,7 @@ export default function StatCurve({ character, selectedClass, compareClass, obse
                 <line className="curve-grid-line" x1={LEFT} x2={W - RIGHT} y1={y(top)} y2={y(top)} />
                 <line className="curve-grid-line" x1={LEFT} x2={W - RIGHT} y1={y(top / 2)} y2={y(top / 2)} />
                 <line className="curve-axis" x1={LEFT} x2={W - RIGHT} y1={y(0)} y2={y(0)} />
+                {changes.map(stage => <line key={stage.untilLevel} className="curve-change" x1={x(stage.untilLevel)} x2={x(stage.untilLevel)} y1={TOP - 2} y2={H - BOTTOM} />)}
                 {compared && <path className="curve-line compare" d={path(compared.values[index], i => x(compared.levels[i]), y)} />}
                 <path className="curve-line primary" d={path(primary.values[index], i => x(primary.levels[i]), y)} />
                 <line className="curve-cursor" x1={hx} x2={hx} y1={TOP - 2} y2={H - BOTTOM} />

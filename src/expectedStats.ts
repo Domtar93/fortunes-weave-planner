@@ -10,7 +10,14 @@ export interface ExpectedStatsInput {
  classGrowth:OptionalStats
  checkpointStats?:OptionalStats
  actualStats?:OptionalStats
+ /** Earlier classes, in order. Each covers the level-ups up to and including its untilLevel. */
+ earlierClasses?:EarlierClassInput[]
+ /** Name of the final class, for the per-class breakdown. */
+ finalLabel?:string
 }
+export interface EarlierClassInput { label:string; classGrowth:OptionalStats; untilLevel:number }
+/** How many of the projected level-ups each class receives. */
+export interface ClassSegment { label:string|null; fromLevel:number; toLevel:number; levelUps:number }
 export type ComparisonLabel = 'Above simplified expectation'|'Below simplified expectation'|'Matches simplified expectation'
 export interface ExpectedStatRow {
  stat:Stat; personal:number|null; classModifier:number|null; effective:number|null
@@ -19,6 +26,8 @@ export interface ExpectedStatRow {
 }
 export interface ExpectedStatsResult {
  intervalStart:number|null; levelUps:number|null; explicitCheckpoint:boolean; error:string|null; rows:ExpectedStatRow[]
+ /** Level-ups per class, in order, skipping classes that receive none. Empty when there is an error. */
+ segments:ClassSegment[]
 }
 export function validLevel(value:unknown):value is number {
  return typeof value==='number'&&Number.isInteger(value)&&value>=1&&value<=99
@@ -34,16 +43,39 @@ export function projectExpectedStats(input:ExpectedStatsInput):ExpectedStatsResu
  const error=!validLevel(input.targetLevel)?'Target level must be a whole number from 1 to 99.'
   :!validLevel(start)?'Reference checkpoint level must be a whole number from 1 to 99.'
   :input.targetLevel<start?'Target level is below the checkpoint. Choose a target at or above the checkpoint; backward projection is not supported.':null
- const levelUps=error?null:input.targetLevel-start
+ const earlier=input.earlierClasses??[]
+ const pathError=error?null:earlier.some(stage=>!validLevel(stage.untilLevel)||stage.untilLevel<2)?'Each class change needs a level from 2 to 99.'
+  :earlier.some((stage,index)=>index>0&&stage.untilLevel<=earlier[index-1].untilLevel)?'Class changes must be at increasing levels.'
+  :earlier.length>0&&earlier.at(-1)!.untilLevel>=99?'The last class change must be below level 99, so the main class gets a turn.':null
+ const finalError=error??pathError
+ const levelUps=finalError?null:input.targetLevel-start
+ // Class path (November 25, 2026): the level-up into level L uses the class held at level L−1,
+ // so a class held "until level 10" receives the level-ups into levels 2–10 and the next class
+ // starts with the level-up into 11. Segments before the starting point receive nothing.
+ const segments:(ClassSegment&{growth:OptionalStats})[]=[]
+ if(levelUps!==null){
+  let from=start
+  for(const stage of earlier){
+   const to=Math.min(stage.untilLevel,input.targetLevel)
+   if(to>from){segments.push({label:stage.label,fromLevel:from,toLevel:to,levelUps:to-from,growth:stage.classGrowth});from=to}
+  }
+  if(input.targetLevel>from)segments.push({label:input.finalLabel??null,fromLevel:from,toLevel:input.targetLevel,levelUps:input.targetLevel-from,growth:input.classGrowth})
+ }
  const rows=STATS.map((stat):ExpectedStatRow=>{
   const personal=input.personalGrowth[stat],modifier=input.classGrowth[stat]
+  const growthFor=(classGrowth:OptionalStats)=>{
+   const classValue=classGrowth[stat]
+   return !finite(personal)||!finite(classValue)?null:Math.max(0,personal+classValue)
+  }
   let unsupported=!finite(personal)||!finite(modifier)?'Required growth data is missing or malformed.'
    :personal<0?'Personal growth is negative; this source case is unsupported.'
-   :personal===0?'Zero personal growth needs a separate class base-growth value, which is unavailable.':null
+   :personal===0?'Zero personal growth needs a separate class base-growth value, which is unavailable.'
+   :segments.some(segment=>growthFor(segment.growth)===null)?'Growth data for an earlier class is missing or malformed.':null
   // The documented lower floor applies after addition. No upper cap is used.
   let effective=unsupported?null:Math.max(0,personal!+modifier!)
   if(effective!==null&&!Number.isFinite(effective)){unsupported='Growth calculation exceeds the supported numeric range.';effective=null}
-  let expectedGains=levelUps===0?0:levelUps!==null&&effective!==null?levelUps*effective/100:null
+  // Each class contributes its own level-ups × its own growth; nothing is rounded between classes.
+  let expectedGains=levelUps===0?0:levelUps!==null&&effective!==null?segments.reduce((sum,segment)=>sum+segment.levelUps*growthFor(segment.growth)!/100,0):null
   if(expectedGains!==null&&!Number.isFinite(expectedGains)){unsupported='Growth calculation exceeds the supported numeric range.';expectedGains=null}
   const rawCheckpoint=input.checkpointStats?.[stat],rawActual=input.actualStats?.[stat]
   const checkpoint=finite(rawCheckpoint)&&rawCheckpoint>=0?rawCheckpoint:null
@@ -60,13 +92,19 @@ export function projectExpectedStats(input:ExpectedStatsInput):ExpectedStatsResu
   const comparison=difference===null?null:difference>0?'Above simplified expectation':difference<0?'Below simplified expectation':'Matches simplified expectation'
   return {stat,personal:finite(personal)?personal:null,classModifier:finite(modifier)?modifier:null,effective,expectedGains,checkpoint,projected,actual,difference,comparison,unsupported,inputErrors}
  })
- return {intervalStart:validLevel(start)?start:null,levelUps,explicitCheckpoint,error,rows}
+ return {intervalStart:validLevel(start)?start:null,levelUps,explicitCheckpoint,error:finalError,rows,
+  segments:segments.map(({label,fromLevel,toLevel,levelUps})=>({label,fromLevel,toLevel,levelUps}))}
 }
 
 export interface StatObservations {
  targetLevel:number;checkpointLevel:string;checkpointStats:Record<Stat,string>;actualStats:Record<Stat,string>
  startingPoint?:'published'|'custom'
+ /** Session-only earlier classes before the main class. Never saved with builds. */
+ classPath?:ClassStage[]
 }
+export const MAX_EARLIER_CLASSES=4
+/** "Class held until this level", in order; the main Class covers the rest. */
+export interface ClassStage { className:string; untilLevel:number }
 export function emptyObservations():StatObservations {
  const blanks=()=>Object.fromEntries(STATS.map(stat=>[stat,''])) as Record<Stat,string>
  return {targetLevel:1,checkpointLevel:'',checkpointStats:blanks(),actualStats:blanks(),startingPoint:'published'}

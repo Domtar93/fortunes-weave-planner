@@ -1,12 +1,13 @@
-import { PROFICIENCIES, type Proficiency } from './growths'
-import { validLevel } from './expectedStats'
+import { growthData, PROFICIENCIES, type Proficiency } from './growths'
+import { MAX_EARLIER_CLASSES, validLevel, type ClassStage } from './expectedStats'
 import { resolveLoadout, type AbilityReference, type FullBuildSelection } from './loadouts'
 
 // Shareable build links (November 22, 2026). The whole build lives in the URL hash only:
 // nothing is read from or written to storage, and saved-build schemas are untouched.
-// Format: #build=<base64url of JSON {v:1,c,k,l,w,m,b,a:[[proficiency,rank,source]]}>
+// Format: #build=<base64url of JSON {v:1,c,k,l,w,m,b,a:[[proficiency,rank,source]],p?:[[class,untilLevel]]}>
+// The optional p (class path, November 25, 2026) is left out when empty, so older links still open.
 export const SHARE_PARAM = 'build'
-export interface SharedBuild { selection: FullBuildSelection; level: number }
+export interface SharedBuild { selection: FullBuildSelection; level: number; classPath?: ClassStage[] }
 
 const toBase64Url = (text: string) => {
   const bytes = new TextEncoder().encode(text)
@@ -20,10 +21,11 @@ const fromBase64Url = (value: string) => {
   return new TextDecoder('utf-8', { fatal: true }).decode(Uint8Array.from(binary, char => char.charCodeAt(0)))
 }
 
-export function encodeSharedBuild({ selection, level }: SharedBuild): string {
+export function encodeSharedBuild({ selection, level, classPath }: SharedBuild): string {
   const payload = { v: 1, c: selection.characterName, k: selection.className, l: level,
     w: selection.weaponId, m: selection.mountId, b: selection.battalionId,
-    a: selection.abilities.map(reference => [reference.proficiency, reference.rank, reference.source]) }
+    a: selection.abilities.map(reference => [reference.proficiency, reference.rank, reference.source]),
+    ...(classPath?.length ? { p: classPath.map(stage => [stage.className, stage.untilLevel]) } : {}) }
   return toBase64Url(JSON.stringify(payload))
 }
 
@@ -55,7 +57,18 @@ export function decodeSharedBuild(value: string): SharedBuild {
     return { proficiency: item[0] as Proficiency, rank: item[1], source: item[2] }
   })
   const selection: FullBuildSelection = { characterName: data.c, className: data.k, weaponId: data.w, mountId: data.m, battalionId: data.b, abilities }
+  const classPath = data.p === undefined ? undefined : decodeClassPath(data.p)
   // Same all-or-nothing resolution as loading a saved full build.
   resolveLoadout(selection)
-  return { selection, level: data.l }
+  return { selection, level: data.l, ...(classPath ? { classPath } : {}) }
+}
+
+function decodeClassPath(value: unknown): ClassStage[] {
+  if (!Array.isArray(value) || value.length > MAX_EARLIER_CLASSES) throw new Error('The link has a damaged class path.')
+  return value.map(item => {
+    if (!Array.isArray(item) || item.length !== 2 || !text(item[0]) || !validLevel(item[1]))
+      throw new Error('The link has a damaged class path.')
+    if (!growthData.classes.some(profile => profile.name === item[0])) throw new Error(`The link names an unknown class: ${item[0]}.`)
+    return { className: item[0], untilLevel: item[1] }
+  })
 }

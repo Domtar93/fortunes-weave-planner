@@ -1,6 +1,6 @@
 import imported from './data/character-bases.json'
-import {type CharacterProfile,type ClassProfile,type Growths} from './growths'
-import {numericObservations,parseObservation,projectExpectedStats,type StatObservations} from './expectedStats'
+import {growthData,type CharacterProfile,type ClassProfile,type Growths} from './growths'
+import {numericObservations,parseObservation,projectExpectedStats,type ClassStage,type EarlierClassInput,type StatObservations} from './expectedStats'
 
 export interface CharacterBase {
  name:string;sourceCharacter:string;level:number;stats:Growths
@@ -23,6 +23,13 @@ export function projectCharacterAverage(character:CharacterProfile,selectedClass
   checkpointLevel:custom?parseObservation(observations.checkpointLevel):base?.level,
   checkpointStats:custom?numericObservations(observations.checkpointStats):base?.stats,
   actualStats:numericObservations(observations.actualStats),
-  personalGrowth:character.growths,classGrowth:selectedClass.growths})
+  personalGrowth:character.growths,classGrowth:selectedClass.growths,
+  earlierClasses:earlierClassInputs(observations.classPath),finalLabel:selectedClass.name})
  return {base,custom,result}
+}
+// Unknown class names resolve to missing growth, which marks the stats unsupported rather than guessing.
+function earlierClassInputs(path:readonly ClassStage[]|undefined):EarlierClassInput[]|undefined {
+ if(!path?.length)return undefined
+ return path.map(stage=>({label:stage.className,untilLevel:stage.untilLevel,
+  classGrowth:growthData.classes.find(profile=>profile.name===stage.className)?.growths??{}}))
 }

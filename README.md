@@ -9,6 +9,7 @@ The planner has four tabs.
 ### Build
 
 - Choose any of the 64 character profiles and 59 classes, set a level, and see all nine stats as average totals for that level. A character you haven’t set a level for opens at the last level you chose, so switching characters compares them at the same point.
+- **Class path** handles class changes along the way: add up to four earlier classes, each held until a level you choose, before your main class. Each class’s growth applies to its own level-ups, and the averages and charts follow the path. It lasts for the current session and is included in share links.
 - **Copy share link** puts the whole build (character, class, level, equipment and ability plan) into a link. Opening the link loads that build; nothing is saved until you choose to save it.
 - **Stats by level** draws each stat from the starting level to 99, with the “Compare with” class as a dashed second line. Hover or tap to read any level; a table view is included.
 - **Find a character** filters all 64 characters by growth rate (for example Speed ≥ 50% and Magic ≥ 40%), using their own growth or growth with the current class. Characters with no recorded rate are listed as unknown, not dropped.

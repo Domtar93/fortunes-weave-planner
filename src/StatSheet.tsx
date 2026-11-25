@@ -32,9 +32,14 @@ export default function StatSheet({character,selectedClass,observations,compareC
  },[character,selectedClass])
  const level=observations.targetLevel
  const conflicts=new Map((base?.conflicts??[]).map(conflict=>[conflict.stat as Stat,conflict]))
+ // With a class path, name each class's share of the level-ups: "9 level-ups as Commoner, 30 as Cavalier".
+ const pathActive=(observations.classPath?.length??0)>0
+ const levelUpText=pathActive&&result.segments.length>0
+  ?result.segments.map((segment,index)=>`${segment.levelUps}${index===0?` ${segment.levelUps===1?'level-up':'level-ups'}`:''} as ${segment.label}`).join(', ')
+  :`${result.levelUps} ${result.levelUps===1?'level-up':'level-ups'} as ${selectedClass.name}`
  const basis=result.error?null:custom
-  ?result.explicitCheckpoint?`From your level ${result.intervalStart} stats · ${result.levelUps} level-ups as ${selectedClass.name}`:'Enter your starting level and stats in Compare with your game'
-  :base?`From level-1 base stats · ${result.levelUps} ${result.levelUps===1?'level-up':'level-ups'} as ${selectedClass.name}`:'Base stats are not available for this character'
+  ?result.explicitCheckpoint?`From your level ${result.intervalStart} stats · ${pathActive?levelUpText:`${result.levelUps} level-ups as ${selectedClass.name}`}`:'Enter your starting level and stats in Compare with your game'
+  :base?`From level-1 base stats · ${levelUpText}`:'Base stats are not available for this character'
 
  // Strongest growths: every stat at or above the third-highest effective rate (ties included).
  const ranked=result.rows.filter(row=>finite(row.effective)&&row.effective>0).sort((a,b)=>b.effective!-a.effective!)
